@@ -8,4 +8,4 @@ ADD toLoad /data/toLoad
 
 RUN sh /scripts/setup.sh
 
-CMD virtuoso-t +wait +foreground
+CMD sh /scripts/start.sh

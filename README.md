@@ -16,3 +16,9 @@ http://localhost:8890/sparql/ でクエリを投げたり出来ます
 ```sparql
 select ?uri ?label { ?uri rdfs:label ?label }
 ```
+
+## デプロイまわり
+
+master にコミットすると Virtuoso が以下 URL で立ち上がります．
+
+https://foobar-moezsesd6a-an.a.run.app/

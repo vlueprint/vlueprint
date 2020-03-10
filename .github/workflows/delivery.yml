@@ -43,4 +43,5 @@ jobs:
               --region $GCP_REGION \
               --platform managed \
               --memory 512Mi \
+              --allow-unauthenticated \
               --quiet

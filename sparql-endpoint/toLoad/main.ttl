@@ -7,17 +7,20 @@
 # プロパティ定義
 
 vlueprint:youtube a rdf:Property ;
-	rdfs:label "YoutubeチャンネルID".
-    rdfs:comment "チャンネルURLに関しては省略します".
+	rdfs:label "YoutubeチャンネルID";
+    rdfs:comment "チャンネルURLに関しては省略します";
+    .
 
 vlueprint:twitter a rdf:Property ;
-	rdfs:label "Twitterアカウント".
+	rdfs:label "Twitterアカウント";
+    .
 
 # クラス定義
 
 vlueprint:VirtualBeing a rdfs:Class>;
-    rdfs:label "Virtual Being".
-    rdfs:comment "一般的にVTuberとされる人物をこのクラスに当てはめます".
+    rdfs:label "Virtual Being";
+    rdfs:comment "一般的にVTuberとされる人物をこのクラスに当てはめます";
+    .
 
 # URI 
 

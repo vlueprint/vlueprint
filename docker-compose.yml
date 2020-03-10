@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  sparql-endpoint:
+    ports:
+        - "8890:8890"
+    build: ./sparql-endpoint

@@ -5,4 +5,6 @@ ADD toLoad /data/toLoad
 
 RUN sh /scripts/setup.sh
 
+ENV PORT 8890
+
 CMD virtuoso-t +wait +foreground

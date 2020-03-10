@@ -12,9 +12,16 @@ $ docker-compose up
 
 http://localhost:8890/sparql/ でクエリを投げたり出来ます
 
-例えば
+例えば，これで VTuber 一覧が取得できます
+
 ```sparql
-select ?uri ?label { ?uri rdfs:label ?label }
+prefix vlueprint: <https://vlueprint.org/schema#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select ?label {
+  ?uri a vlueprint:VirtualBeing ;
+    rdfs:label ?label.
+}
 ```
 
 ## デプロイまわり

@@ -1,2 +1,47 @@
-<https://vlueprint.org/rdfs/kizuna_ai>
-    <http://www.w3.org/2000/01/rdf-schema#label> "キズナアイ";
+@base <https://vlueprint.org/rdfs/> .
+@prefix vlueprint: <https://vlueprint.org/schema#> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# プロパティ定義
+
+vlueprint:youtube a rdf:Property ;
+	rdfs:label "YoutubeチャンネルID".
+    rdfs:comment "チャンネルURLに関しては省略します".
+
+vlueprint:twitter a rdf:Property ;
+	rdfs:label "Twitterアカウント".
+
+# クラス定義
+
+vlueprint:VirtualBeing a rdfs:Class>;
+    rdfs:label "Virtual Being".
+    rdfs:comment "一般的にVTuberとされる人物をこのクラスに当てはめます".
+
+# URI 
+
+<#kizuna_ai> a vlueprint:VirtualBeing;
+    rdfs:label "キズナアイ";
+    vlueprint:youtube "UC4YaOt1yT-ZeyB0OmxHgolA";
+    vlueprint:youtube "UCbFwe3COkDrbNsbMyGNCsDg";
+    vlueprint:twitter "aichan_nel";
+    .
+
+<#kaguya_luna> a vlueprint:VirtualBeing;
+    rdfs:label "輝夜 月";
+    vlueprint:youtube "UCQYADFw7xEJ9oZSM5ZbqyBw";
+    vlueprint:twitter "_kaguyaluna";
+    .
+
+<#siro> a vlueprint:VirtualBeing;
+    rdfs:label "電脳少女シロ";
+    vlueprint:youtube "UCLhUvJ_wO9hOvv_yYENu4fQ";
+    vlueprint:twitter "SIROyoutuber";
+    .
+
+<#mirai_akari> a vlueprint:VirtualBeing;
+    rdfs:label "ミライアカリ";
+    vlueprint:youtube "UCMYtONm441rBogWK_xPH9HA";
+    vlueprint:twitter "MiraiAkari_prj";
+    .

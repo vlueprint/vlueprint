@@ -30,7 +30,7 @@ jobs:
         run: gcloud auth configure-docker --quiet
 
       - name: Build a docker image
-        run: docker build . -t $IMAGE
+        run: docker build sparql-endpoint -t $IMAGE
 
       - name: Push the docker image
         run: docker push $IMAGE

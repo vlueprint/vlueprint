@@ -1,5 +1,6 @@
-# vtuber-lod
-VTuber の LOD です (リポジトリ名やORG名は仮のものであり，変更される可能性があります)
+<h1 align="center">vlueprint</h1>
+
+![logo](./logos/facebook_cover_photo_2.png)
 
 ## develop
 

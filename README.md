@@ -16,12 +16,12 @@ http://localhost:8080/sparql/ でクエリを投げたり出来ます
 例えば，これで VTuber 一覧が取得できます
 
 ```sparql
-prefix vlueprint: <https://vlueprint.org/schema#>
+prefix vlueprint: <https://vlueprint.org/schema/>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 select ?label {
   ?uri a vlueprint:VirtualBeing ;
-    rdfs:label ?label.
+       rdfs:label ?label.
 }
 ```
 

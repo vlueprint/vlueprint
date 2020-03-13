@@ -1,4 +1,4 @@
-name: Delivery
+name: Delivery Web Container
 
 on: 
   push:
@@ -8,7 +8,8 @@ on:
 env:
   GCP_PROJECT: ${{ secrets.GCP_PROJECT }}
   GCP_REGION: ${{ secrets.GCP_REGION }}
-  IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/foobar:${{ github.sha }}
+  IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/web:${{ github.sha }}
+  SERVICE_NAME: web
 
 jobs:
   delivery:
@@ -30,14 +31,14 @@ jobs:
         run: gcloud auth configure-docker --quiet
 
       - name: Build a docker image
-        run: docker build sparql-endpoint -t $IMAGE
+        run: docker build $SERVICE_NAME -t $IMAGE
 
       - name: Push the docker image
         run: docker push $IMAGE
 
       - name: Deploy to Cloud Run
         run: |
-            gcloud run deploy foobar \
+            gcloud run deploy $SERVICE_NAME \
               --image $IMAGE \
               --project $GCP_PROJECT \
               --region $GCP_REGION \

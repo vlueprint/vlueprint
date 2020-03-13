@@ -1,4 +1,4 @@
-name: Delivery SparqleEndpoint Container
+name: Delivery Containers
 
 on: 
   push:
@@ -8,13 +8,18 @@ on:
 env:
   GCP_PROJECT: ${{ secrets.GCP_PROJECT }}
   GCP_REGION: ${{ secrets.GCP_REGION }}
-  IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/sparql-endpoint:${{ github.sha }}
-  SERVICE_NAME: sparql-endpoint
 
 jobs:
   delivery:
 
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        SERVICE_NAME: [web, sparql-endpoint]
+
+    env:
+      IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/web:${{ github.sha }}
 
     steps:
       - name: Checkout the repository

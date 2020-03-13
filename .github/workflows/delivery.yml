@@ -33,14 +33,14 @@ jobs:
         run: gcloud auth configure-docker --quiet
 
       - name: Build a docker image
-        run: docker build $SERVICE_NAME -t $IMAGE
+        run: docker build ${{ marrix.SERVICE_NAME }} -t $IMAGE
 
       - name: Push the docker image
         run: docker push $IMAGE
 
       - name: Deploy to Cloud Run
         run: |
-            gcloud run deploy $SERVICE_NAME \
+            gcloud run deploy ${{ marrix.SERVICE_NAME }} \
               --image $IMAGE \
               --project $GCP_PROJECT \
               --region $GCP_REGION \

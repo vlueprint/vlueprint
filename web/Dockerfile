@@ -8,7 +8,7 @@ RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
 
-RUN npm ci
+RUN npm i
 RUN npm run build
 
 CMD ["npm", "start"]

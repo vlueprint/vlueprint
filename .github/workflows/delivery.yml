@@ -16,7 +16,7 @@ jobs:
         SERVICE_NAME: [web, sparql-endpoint]
 
     env:
-      IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/web:${{ github.sha }}
+      IMAGE: asia.gcr.io/${{ secrets.GCP_PROJECT }}/${{ matrix.SERVICE_NAME }}:${{ github.sha }}
 
     steps:
       - name: Checkout the repository

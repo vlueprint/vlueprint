@@ -1,9 +1,6 @@
 name: Delivery Containers
 
-on: 
-  push:
-    branches:
-      - master
+on: [pull_request]
 
 env:
   GCP_PROJECT: ${{ secrets.GCP_PROJECT }}

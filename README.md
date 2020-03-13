@@ -4,14 +4,16 @@
 
 ## develop
 
-http://localhost:8080 に Virtuoso を立ち上げます
+### Virtuoso オンリー
+
+http://localhost:3001/ に Virtuoso を立ち上げます
 
 ```bash
-$ docker-compose build
-$ docker-compose up
+$ docker-compose build sparql-endpoint
+$ docker-compose up sparql-endpoint
 ```
 
-http://localhost:8080/sparql/ でクエリを投げたり出来ます
+http://localhost:3001/sparql/ でクエリを投げたり出来ます
 
 例えば，これで VTuber 一覧が取得できます
 
@@ -23,6 +25,15 @@ select ?label {
   ?uri a vlueprint:VirtualBeing ;
        rdfs:label ?label.
 }
+```
+
+### Nuxt + Virtuoso
+
+http://localhost:3000/ に Nuxt を立ち上げます
+
+```bash
+$ docker-compose build
+$ docker-compose up 
 ```
 
 ## デプロイまわり

@@ -4,11 +4,11 @@ services:
     environment: 
       PORT: 1234
     ports:
-      - "8081:1234"
+      - "3001:1234"
     build: ./sparql-endpoint
   web:
     environment: 
       PORT: 1234
     ports:
-      - "8080:1234"
+      - "3000:1234"
     build: ./web

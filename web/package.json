@@ -1,0 +1,21 @@
+{
+  "name": "vlueprint-web",
+  "version": "1.0.0",
+  "description": "My legendary Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.11.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0"
+  }
+}

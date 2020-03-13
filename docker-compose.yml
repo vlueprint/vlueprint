@@ -1,6 +1,14 @@
 version: "3.7"
 services:
   sparql-endpoint:
+    environment: 
+      PORT: 1234
     ports:
-        - "8080:8080"
+      - "8081:1234"
     build: ./sparql-endpoint
+  web:
+    environment: 
+      PORT: 1234
+    ports:
+      - "8080:1234"
+    build: ./web

@@ -27,6 +27,7 @@ select ?label {
 
 ## デプロイまわり
 
-master にコミットすると Virtuoso が以下 URL で立ち上がります．
+master にコミットすると それぞれのサービスが以下 URL で立ち上がります．
 
-https://foobar-moezsesd6a-an.a.run.app/
+- sparqle-endpoint : https://sparql-endpoint-moezsesd6a-an.a.run.app
+- web : https://web-moezsesd6a-an.a.run.app

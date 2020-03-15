@@ -40,6 +40,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/proxy',
   ],
   /*
   ** Axios module configuration
@@ -57,5 +58,8 @@ export default {
     extend (config, ctx) {
     }
   },
-  buildModules: ['@nuxt/typescript-build']
+  buildModules: ['@nuxt/typescript-build'],
+  proxy: {
+    '/sparql': process.env.SPARQL_ENDPOINT_URL,
+  },
 }

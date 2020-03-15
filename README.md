@@ -40,7 +40,6 @@ $ docker-compose up
 
 ## デプロイまわり
 
-master にコミットすると それぞれのサービスが以下 URL で立ち上がります．
+master にコミットすると サービスが以下 URL で立ち上がります．
 
-- sparqle-endpoint : https://sparql-endpoint-moezsesd6a-an.a.run.app
-- web : https://web-moezsesd6a-an.a.run.app
+https://vlueprint.org/

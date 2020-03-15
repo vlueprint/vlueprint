@@ -43,3 +43,11 @@ $ docker-compose up
 master にコミットすると サービスが以下 URL で立ち上がります．
 
 https://vlueprint.org/
+
+## contributors
+
+<a href="https://github.com/vlueprint/vlueprint/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=vlueprint/vlueprint" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).

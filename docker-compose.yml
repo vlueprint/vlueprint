@@ -9,6 +9,7 @@ services:
   web:
     environment: 
       PORT: 1234
+      SPARQL_ENDPOINT_URL: http://sparql-endpoint:1234/sparql
     ports:
       - "3000:1234"
     build: ./web

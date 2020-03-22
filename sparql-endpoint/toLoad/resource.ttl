@@ -7274,7 +7274,7 @@
     vlueprint:youtubeChannelId "UCNs3YHAyoXMw4WFJyhB-GuA";
     vlueprint:youtubeChannelName "藤納戸めのう";
     vlueprint:twitterAccount "anemone_rose_".
-<https://vlueprint.org/resource/くれみぃー\\_kuremyi_\\鉄道系バーチャルYouTuber> a vlueprint:VirtualBeing;
+<https://vlueprint.org/resource/くれみぃー__kuremyi__鉄道系バーチャルYouTuber> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelId "UCvKoQQfEJYJJqPW5yPWOvTg";
     vlueprint:youtubeChannelName "くれみぃー\\ kuremyi \\鉄道系バーチャルYouTuber";

@@ -26,7 +26,7 @@ const json = JSON.parse(fs.readFileSync(`./output/output_all.json`, 'utf8')) as 
 json.forEach( data => {
   console.log(data.channelName)
   const key = (data.name.length!=0)? data.name : data.channelName
-  const uri = `https://vlueprint.org/resource/${ key.normalize("NFKC").replace(/ /g,"_").replace(/　/g,"_").replace(/\//g,"_") }`
+  const uri = `https://vlueprint.org/resource/${ key.normalize("NFKC").replace(/ /g,"_").replace(/　/g,"_").replace(/\//g,"_").replace(/\\/g,"_") }`
   writer.addQuad(
     namedNode(uri),
     namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),

@@ -27,6 +27,11 @@ const json = JSON.parse(fs.readFileSync(`./output_all.json`, 'utf8')) as VtuberD
 
 json.forEach( data => {
   console.log(data.channelName)
+  data.channelId = data.channelId.trim()
+  data.channelName = data.channelName.trim()
+  data.name = data.name.trim()
+  data.office = data.office.trim()
+  data.twitter = data.twitter.trim()
   let key = (data.name.length!=0)? data.name : data.channelName
   const badCharas = [
     '\\', '\'', '|', '`', '^', '"', '<', '>', '}', '{', ']', '[',

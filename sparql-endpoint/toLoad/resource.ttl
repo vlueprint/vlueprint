@@ -628,8 +628,8 @@
     vlueprint:youtubeChannelName "VTuber Channel Account Girl 會計妹";
     vlueprint:twitterAccount "";
     vlueprint:office "転生組".
-<https://vlueprint.org/resource/ニュイ・ソシエール_> a vlueprint:VirtualBeing;
-    rdfs:label "ニュイ・ソシエール ";
+<https://vlueprint.org/resource/ニュイ・ソシエール> a vlueprint:VirtualBeing;
+    rdfs:label "ニュイ・ソシエール";
     vlueprint:youtubeChannelId "UCUc8GZfFxtmk7ZwSO7ccQ0g";
     vlueprint:youtubeChannelName "ニュイ・ソシエール //[Nui Sociere]";
     vlueprint:twitterAccount "Nui_Sociere";
@@ -1966,7 +1966,7 @@
     rdfs:label "柊彩香 朝倉日向";
     vlueprint:youtubeChannelId "UCjR1q4ab0fcg6cPomnjUgHg";
     vlueprint:youtubeChannelName "あやひなチャンネル";
-    vlueprint:twitterAccount "Hinata_Asakura    ";
+    vlueprint:twitterAccount "Hinata_Asakura";
     vlueprint:office "Unlimited".
 <https://vlueprint.org/resource/源元気> a vlueprint:VirtualBeing;
     rdfs:label "源元気";
@@ -3813,8 +3813,8 @@
     vlueprint:youtubeChannelId "UC_KmO_1xVEBS1FVDDEwp99g";
     vlueprint:youtubeChannelName "大正義なおきちゃんねる";
     vlueprint:twitterAccount "Naoki_Ch".
-<https://vlueprint.org/resource/乙女おと_> a vlueprint:VirtualBeing;
-    rdfs:label "乙女おと ";
+<https://vlueprint.org/resource/乙女おと> a vlueprint:VirtualBeing;
+    rdfs:label "乙女おと";
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
     vlueprint:youtubeChannelName "乙女おと / Otome Oto";
     vlueprint:twitterAccount "0tome0to";

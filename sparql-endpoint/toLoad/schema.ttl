@@ -6,13 +6,21 @@
 
 # プロパティ定義
 
-vlueprint:youtubeChannel a rdf:Property;
+vlueprint:youtubeChannelId a rdf:Property;
     rdfs:label "YoutubeチャンネルID";
     rdfs:comment "チャンネルURLに関しては省略します";
     .
 
+vlueprint:youtubeChannelName a rdf:Property;
+    rdfs:label "Youtubeチャンネル名";
+    .
+
 vlueprint:twitterAccount a rdf:Property;
     rdfs:label "Twitterアカウント";
+    .
+
+vlueprint:office a rdf:Property;
+    rdfs:label "所属事務所";
     .
 
 # クラス定義

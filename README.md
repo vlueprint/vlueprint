@@ -62,3 +62,9 @@ https://vlueprint.org/
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).
+
+## 貢献について
+
+Issue や PullRequest を歓迎します！
+不明点があれば遠慮なく @takanakahiko までお尋ねください．
+VTuber 関連の創作の支えになるよう，ぜひとも協力よろしくお願いいたします．

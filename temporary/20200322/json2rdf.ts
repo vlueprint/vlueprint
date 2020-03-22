@@ -2,6 +2,8 @@ import fs from 'fs'
 import crypto from 'crypto'
 import * as N3 from 'n3'
 import { DataFactory } from 'n3'
+const urlSlug = require('url-slug')
+
 
 const { namedNode, literal, defaultGraph, quad } = DataFactory;
 
@@ -21,12 +23,23 @@ interface VtuberData {
   twitter: string
 }
 
-const json = JSON.parse(fs.readFileSync(`./output/output_all.json`, 'utf8')) as VtuberData[];
+const json = JSON.parse(fs.readFileSync(`./output_all.json`, 'utf8')) as VtuberData[];
 
 json.forEach( data => {
   console.log(data.channelName)
-  const key = (data.name.length!=0)? data.name : data.channelName
-  const uri = `https://vlueprint.org/resource/${ key.normalize("NFKC").replace(/ /g,"_").replace(/　/g,"_").replace(/\//g,"_") }`
+  data.channelId = data.channelId.trim()
+  data.channelName = data.channelName.trim()
+  data.name = data.name.trim()
+  data.office = data.office.trim()
+  data.twitter = data.twitter.trim()
+  let key = (data.name.length!=0)? data.name : data.channelName
+  const badCharas = [
+    '\\', '\'', '|', '`', '^', '"', '<', '>', '}', '{', ']', '[',
+    ' ', '　', '/', ';', '/', '?', ':', '@', '&', '=', '+', '$', ',', '%', '#'
+    //これは抜いた ')', '(',
+  ]
+  badCharas.forEach( c => { key = key.replace( new RegExp('\\'+c, 'g'), '_') })
+  const uri = `https://vlueprint.org/resource/${ key.normalize("NFKC") }`
   writer.addQuad(
     namedNode(uri),
     namedNode('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'),
@@ -87,4 +100,4 @@ const write = async(writer:N3.N3Writer, path: string):Promise<void> => {
   })
 }
 
-write(writer, 'resource.turtle')
+write(writer, '../../sparql-endpoint/toLoad/resource.ttl')

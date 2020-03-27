@@ -35,8 +35,14 @@ jobs:
       - name: Configure docker to use the gcloud cli
         run: gcloud auth configure-docker --quiet
 
+      - if: matrix.SERVICE_NAME == 'web'
+        run: export BUILD_ARGS='--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}'
+
+      - if: matrix.SERVICE_NAME == 'sparql-endpoint'
+        run: export BUILD_ARGS='--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}'
+
       - name: Build a docker image
-        run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE
+        run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE $BUILD_ARGS
 
       - name: Push the docker image
         run: docker push $IMAGE
@@ -50,4 +56,5 @@ jobs:
               --platform managed \
               --memory 512Mi \
               --allow-unauthenticated \
-              --quiet
+              --quiet \
+              $DEPLOY_ARGS

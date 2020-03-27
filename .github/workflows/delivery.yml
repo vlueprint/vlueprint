@@ -36,10 +36,10 @@ jobs:
         run: gcloud auth configure-docker --quiet
 
       - if: matrix.SERVICE_NAME == 'web'
-        run: export BUILD_ARGS='--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}'
+        run: echo ::set-env name=BUILD_ARGS::'--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}'
 
       - if: matrix.SERVICE_NAME == 'sparql-endpoint'
-        run: export BUILD_ARGS='--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}'
+        run: echo ::set-env name=BUILD_ARGS::'--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}'
 
       - name: Build a docker image
         run: docker build ${{ matrix.SERVICE_NAME }} -t $IMAGE $BUILD_ARGS

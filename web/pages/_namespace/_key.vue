@@ -52,8 +52,6 @@ export default Vue.extend<any, any, Computed, any>({
       if (response.data.results.bindings.length) {
         return {
           response: response.data,
-          key: params.key,
-          className: params.class
         }
       } else {
         error({ statusCode: 404, message: 'Data not found' })

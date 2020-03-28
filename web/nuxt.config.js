@@ -41,6 +41,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/proxy',
+    'nuxt-buefy',
   ],
   /*
   ** Axios module configuration

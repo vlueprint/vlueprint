@@ -3650,6 +3650,7 @@
     vlueprint:twitterAccount "KusanagiKaren".
 <VRoadCaster> a vlueprint:VirtualBeing;
     rdfs:label "VRoadCaster";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UC4NiGZqQQvpvNvwcJsm_EAg";
     vlueprint:youtubeChannelName "VRoadCaster";
     vlueprint:twitterAccount "vroadcaster".
@@ -3686,6 +3687,7 @@
     vlueprint:twitterAccount "cure_prere".
 <月夜ソラ_夜桜カノン> a vlueprint:VirtualBeing;
     rdfs:label "月夜ソラ 夜桜カノン";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCPwSREC85pZ3_ZW1MbEWf9Q";
     vlueprint:youtubeChannelName "月夜ソラ【ENTUM所属】";
     vlueprint:twitterAccount "Sora_Tsukiyo";
@@ -3903,6 +3905,7 @@
     vlueprint:twitterAccount "takajin_ch".
 <ルミナスタジオ_(Luminous_studio)> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCYpu7V31Si5rHUFkS9aNPpw";
     vlueprint:youtubeChannelName "ルミナスタジオ (Luminous=studio)";
     vlueprint:twitterAccount "terunari".
@@ -4040,6 +4043,7 @@
     vlueprint:twitterAccount "Toutomichannel".
 <ARP> a vlueprint:VirtualBeing;
     rdfs:label "ARP";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCUpiWnTmpzBtii8cSBoowUg";
     vlueprint:youtubeChannelName "official ARP";
     vlueprint:twitterAccount "arboys_official".

@@ -779,7 +779,7 @@
     vlueprint:office "にじさんじ(SEEDs出身)".
 <流石乃ルキ_流石乃ロキ> a vlueprint:VirtualBeing;
     rdfs:label "流石乃ルキ 流石乃ロキ";
-    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";l
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCf3DHSmd2DhZcoq2gwYXCIA";
     vlueprint:youtubeChannelName "ルキロキチャンネル - Ruki Roki Channel -";
     vlueprint:twitterAccount "RukiRoki_ch".
@@ -3638,7 +3638,7 @@
     vlueprint:youtubeChannelId "UCm_rSqgU2lFfjU1rn-uqbXA";
     vlueprint:youtubeChannelName "Channelパゲ美のバーチャルオカマ";
     vlueprint:twitterAccount "pagemi_v".
-<福岡バーチャルぶらり旅よかとプロジェクトR> a vlueprint:VirtualBeing;
+<福岡バーチャルぶらり旅よか����プロジェクトR> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelId "UC66DRsVkzrPAp6hZV7-HBGw";
     vlueprint:youtubeChannelName "福岡バーチャルぶらり旅よかとプロジェクトR";
@@ -4175,6 +4175,7 @@
     vlueprint:twitterAccount "KodamaAru".
 <upd8チャンネル> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCBsrAA8Z_6Ot3my0vM8dlvg";
     vlueprint:youtubeChannelName "upd8チャンネル";
     vlueprint:twitterAccount "project_upd8";
@@ -4485,6 +4486,7 @@
     vlueprint:office "バ美肉".
 <由縁ミナ_由縁アヤ> a vlueprint:VirtualBeing;
     rdfs:label "由縁ミナ 由縁アヤ";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCrSpZbNNao8YQ5aj2Jr2exw";
     vlueprint:youtubeChannelName "AyaMina Games";
     vlueprint:twitterAccount "ayamina_Aya";
@@ -4563,6 +4565,7 @@
     vlueprint:twitterAccount "AGITO777".
 <シアシスターズ(シア・ビビ_シア・ラミ)> a vlueprint:VirtualBeing;
     rdfs:label "シアシスターズ(シア・ビビ シア・ラミ)";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCmRME7uShTDEPfcqcu9bWvg";
     vlueprint:youtubeChannelName "シアシスターズ *Shia Sisters";
     vlueprint:twitterAccount "tsukaima_shia".
@@ -4843,6 +4846,7 @@
     vlueprint:office "IRIAM".
 <温泉むすめ公式> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCMNlamFhTZK6qbgtQnoXkfQ";
     vlueprint:youtubeChannelName "温泉むすめ公式";
     vlueprint:twitterAccount "onsen_musume_jp".
@@ -4989,6 +4993,7 @@
     vlueprint:twitterAccount "".
 <WHITEHOLE> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UC8vkhYTFz4WGuR8k4qmuX9Q";
     vlueprint:youtubeChannelName "WHITEHOLE";
     vlueprint:twitterAccount "nano_whitehole".
@@ -5006,6 +5011,7 @@
     vlueprint:office "Lupinus Virtual Games".
 <LIPLIP_(Yujiro__Aizo_CV__Uchiyama_Kouki__Shimazaki_Nobunaga)_-_Topic> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelName "LIPLIP (Yujiro, Aizo/CV: Uchiyama Kouki, Shimazaki Nobunaga) - Topic";
     vlueprint:twitterAccount "".
 <ちゃらんぽらん隊> a vlueprint:VirtualBeing;
@@ -5051,12 +5057,14 @@
     vlueprint:twitterAccount "0polygon1".
 <にじさんじID公式> a vlueprint:VirtualBeing;
     rdfs:label "にじさんじID公式";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCbLgcjfsUaCUgJh9SVit8kw";
     vlueprint:youtubeChannelName "NIJISANJI ID Official";
     vlueprint:twitterAccount "NIJISANJI_ID";
     vlueprint:office "NIJISANJI ID".
 <チェリ高帰宅部> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCBnJcqkJofBN26VELPXSB5A";
     vlueprint:youtubeChannelName "チェリ高帰宅部";
     vlueprint:twitterAccount "ren_cheriko";
@@ -5090,6 +5098,7 @@
     vlueprint:twitterAccount "yoshida_saki".
 <模型娘もち子_amp_餅もちお_Hobby系Vtuber> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCbF5xOeqwFJuiV5YIBohqtw";
     vlueprint:youtubeChannelName "模型娘もち子&amp;餅もちお Hobby系Vtuber";
     vlueprint:twitterAccount "vtuber_mochio".
@@ -5274,6 +5283,7 @@
     vlueprint:twitterAccount "yukimarusen".
 <肯定ちゃんと否定ちゃん。Vtuber_channel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCbDdx6Tb9ZZNNt4dpG3UKzA";
     vlueprint:youtubeChannelName "肯定ちゃんと否定ちゃん。Vtuber channel";
     vlueprint:twitterAccount "foLo1AdAMllmXja".
@@ -6505,6 +6515,7 @@
     vlueprint:office "ViViD".
 <バーコードチャンネル> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCt1khDGMCaUKZtuc-Yfjt9g";
     vlueprint:youtubeChannelName "バーコードチャンネル";
     vlueprint:twitterAccount "barcode_liver".
@@ -6673,11 +6684,13 @@
     vlueprint:twitterAccount "mohumohuyukkuri".
 <cacalianz> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UChRPvM7zlG0-KBeY4EeC-rg";
     vlueprint:youtubeChannelName "cacalianz";
     vlueprint:twitterAccount "".
 <69on(音無むおん_音無くおん)> a vlueprint:VirtualBeing;
     rdfs:label "69on(音無むおん 音無くおん)";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCx9sSKp4rNsHonHYMNjTv_g";
     vlueprint:youtubeChannelName "69on Channel【音無むおん くおん】";
     vlueprint:twitterAccount "69onch".
@@ -6704,6 +6717,7 @@
     vlueprint:twitterAccount "denpachannel".
 <ちょこまかちゃんねる-_Choco_Maca_Channel_-> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCWpKtqCQOrpLgwLJpjc94kg";
     vlueprint:youtubeChannelName "ちょこまかちゃんねる- Choco Maca Channel -";
     vlueprint:twitterAccount "ChocoMacaron_Ai".
@@ -6867,6 +6881,7 @@
     vlueprint:twitterAccount "youtaso_taso".
 <バララとカレン> a vlueprint:VirtualBeing;
     rdfs:label "バララとカレン";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCpAcI-1ZUZVBNXzAd7pTMAA";
     vlueprint:youtubeChannelName "バララとカレン";
     vlueprint:twitterAccount "potapota_ramen".
@@ -6892,6 +6907,7 @@
     vlueprint:office "OPEN BETA".
 <Re_AcT公式> a vlueprint:VirtualBeing;
     rdfs:label "Re:AcT公式";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UC90vyzmRgWCE17-uWNsKW2Q";
     vlueprint:youtubeChannelName "Re:AcT / リアクト";
     vlueprint:twitterAccount "kagayaki_stars";
@@ -6922,6 +6938,7 @@
     vlueprint:twitterAccount "much00".
 <ホロスターズ公式> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCWsfcksUUpoEvhia0_ut0bA";
     vlueprint:youtubeChannelName "ホロスターズ公式";
     vlueprint:twitterAccount "holostarstv";
@@ -6978,6 +6995,7 @@
     vlueprint:twitterAccount "RoamingTuna".
 <黒瀬ミサ_黒瀬サバト> a vlueprint:VirtualBeing;
     rdfs:label "黒瀬ミサ 黒瀬サバト";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCxU9F9sZJdzectps34GuSyA";
     vlueprint:youtubeChannelName "黒瀬家";
     vlueprint:twitterAccount "B2xmisa";
@@ -7090,6 +7108,7 @@
     vlueprint:office "夢見坂学院".
 <NoWorld_Official> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelName "NoWorld Official";
     vlueprint:twitterAccount "No_iR88".
 <早乙女ぽえむ> a vlueprint:VirtualBeing;
@@ -7196,6 +7215,7 @@
     vlueprint:twitterAccount "".
 <memex> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCkZyAM-aPVPD8XduEtvGBoA";
     vlueprint:youtubeChannelName "memex";
     vlueprint:twitterAccount "memex_am".
@@ -7420,11 +7440,13 @@
     vlueprint:twitterAccount "taniya001".
 <EIGHT_OF_TRIANGLE> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCbQgVIXhpL6TcC8KxsOuunQ";
     vlueprint:youtubeChannelName "EIGHT OF TRIANGLE";
     vlueprint:twitterAccount "eightoftriangle".
 <ナツモモchannel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCbXxjPQKPjytlHWvAQZR7eQ";
     vlueprint:youtubeChannelName "ナツモモchannel";
     vlueprint:twitterAccount "".
@@ -7504,6 +7526,7 @@
     vlueprint:twitterAccount "RioRio_paradise".
 <紅芋さつま_十六穀米子> a vlueprint:VirtualBeing;
     rdfs:label "紅芋さつま 十六穀米子";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
     vlueprint:youtubeChannelName "SatsuMai Channel";
     vlueprint:twitterAccount "SatsuMai_chan".
@@ -7618,6 +7641,7 @@
     vlueprint:twitterAccount "Cutoluruhu_migo".
 <ノリシャイちゃんねる> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCFtl_km1mSRPV4CEFrN68jA";
     vlueprint:youtubeChannelName "ノリシャイちゃんねる";
     vlueprint:twitterAccount "asano_nori".
@@ -7664,6 +7688,7 @@
     vlueprint:twitterAccount "ine_iris".
 <NANARIKA_Channel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelName "NANARIKA Channel";
     vlueprint:twitterAccount "NANARIKA_Vtuber".
 <暇人U新人Vtuber【Vtuber準備中】> a vlueprint:VirtualBeing;
@@ -7718,6 +7743,7 @@
     vlueprint:twitterAccount "Murata_Jinro".
 <音楽少女チャンネル> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCQu8_gz-VFFeciE-57eusJQ";
     vlueprint:youtubeChannelName "音楽少女チャンネル";
     vlueprint:twitterAccount "ongaku_shoujo_v".
@@ -7796,6 +7822,7 @@
     vlueprint:twitterAccount "KatzianX".
 <SHARPNELSOUND> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UC6Y5MwAYMkH33bdrTHOlJKg";
     vlueprint:youtubeChannelName "SHARPNELSOUND";
     vlueprint:twitterAccount "sharpnelsound".
@@ -8052,11 +8079,13 @@
     vlueprint:twitterAccount "YukaMaoMaomi".
 <ヱクシーズ_project_Channel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCKlb4du1kXvGCCQc9A4df8w";
     vlueprint:youtubeChannelName "ヱクシーズ project Channel";
     vlueprint:twitterAccount "ekkusu_MMD".
 <秘密結社シュヴァルツシルト> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelName "秘密結社シュヴァルツシルト";
     vlueprint:twitterAccount "SchwarzOrder".
 <core_mulk> a vlueprint:VirtualBeing;
@@ -8184,6 +8213,7 @@
     vlueprint:office "WINKS".
 <私立いちご女学院> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCyX3bTlgorR5qMojtyZbaVg";
     vlueprint:youtubeChannelName "私立いちご女学院";
     vlueprint:twitterAccount "natsukawaaki".
@@ -8209,6 +8239,7 @@
     vlueprint:twitterAccount "julchilliMMD".
 <おとりざ〜みらくる☆とりとりっぷ〜> a vlueprint:VirtualBeing;
     rdfs:label "おとりざ〜みらくる☆とりとりっぷ〜";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCcU3RpZy8O4ta3tgrUVnaUw";
     vlueprint:youtubeChannelName "おとりざ〜みらくるとりっぷ〜";
     vlueprint:twitterAccount "otrz_official";
@@ -8219,6 +8250,7 @@
     vlueprint:twitterAccount "konatsu_4444".
 <お茶の間Tボーイズ> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UClenqj9y-Lxed2DDI1ol77A";
     vlueprint:youtubeChannelName "お茶の間Tボーイズ";
     vlueprint:twitterAccount "ochatboys".
@@ -8433,6 +8465,7 @@
     vlueprint:twitterAccount "zalwa13".
 <くろかわ由理としらかわ由理> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCMsiWFEylMbDJ0gZfV61sow";
     vlueprint:youtubeChannelName "くろかわ由理としらかわ由理";
     vlueprint:twitterAccount "VtuberactorYuri".
@@ -8583,6 +8616,7 @@
     vlueprint:office "転生組".
 <はまの姉妹_hamano-sis_> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCYQBpBa7WxmYmZqxujNC39g";
     vlueprint:youtubeChannelName "はまの姉妹[hamano-sis]";
     vlueprint:twitterAccount "hamano_channel".
@@ -8729,6 +8763,7 @@
     vlueprint:twitterAccount "majo5meme".
 <胡蝶由芽_小鳥遊酔> a vlueprint:VirtualBeing;
     rdfs:label "胡蝶由芽 小鳥遊酔";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCdqR8MqwdotQXsWnBzj76tA";
     vlueprint:youtubeChannelName "バーチャルFM 【 終末RADIO 】";
     vlueprint:twitterAccount "vfm_owrd";
@@ -9215,6 +9250,7 @@
     vlueprint:twitterAccount "marumilion_ad".
 <PROJECT_VARTH> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCBXUs2-9yoasNLvNkvdhd_g";
     vlueprint:youtubeChannelName "PROJECT:VARTH";
     vlueprint:twitterAccount "".
@@ -9735,6 +9771,7 @@
     vlueprint:twitterAccount "origamimasamune".
 <言霊少女プロジェクト> a vlueprint:VirtualBeing;
     rdfs:label "言霊少女プロジェクト";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCp6CNzOtACuUHVV8-piSmtA";
     vlueprint:youtubeChannelName "言霊少女プロジェクト【公式】";
     vlueprint:twitterAccount "".
@@ -10032,6 +10069,7 @@
     vlueprint:twitterAccount "amane_charlotte".
 <バチャカリ_【_大鳥一姫、前田花奈、風見舞子_】> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCJlPcoY1_JdtbAFyydp5Y-w";
     vlueprint:youtubeChannelName "バチャカリ 【 大鳥一姫、前田花奈、風見舞子 】";
     vlueprint:twitterAccount "Itsuki_Otori";
@@ -10143,11 +10181,13 @@
     vlueprint:twitterAccount "xmoa_channel".
 <でじみる*ショコラCH> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCNACyRC_KrIvN_KheE69HEg";
     vlueprint:youtubeChannelName "でじみる*ショコラCH";
     vlueprint:twitterAccount "".
 <chせんせいとおにく> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    rdfs:comment "[TODO]vlueprint:PerformingGroup への移行が必要だと思われます";
     vlueprint:youtubeChannelId "UCmPvX0Go5as_ZC_WeMhLqKw";
     vlueprint:youtubeChannelName "chせんせいとおにく";
     vlueprint:twitterAccount "senseitooniku".

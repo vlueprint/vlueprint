@@ -9,7 +9,7 @@
         <a
           v-if="props.row[col].type == 'uri'"
           :href="
-            props.row[col].value.replace('https://vlueprint.org/', '')
+            props.row[col].value.replace('https://vlueprint.org', '')
           "
         >{{ props.row[col].value
           .replace('https://vlueprint.org/resource/', '')

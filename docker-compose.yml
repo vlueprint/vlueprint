@@ -5,11 +5,17 @@ services:
       PORT: 1234
     ports:
       - "3001:1234"
-    build: ./sparql-endpoint
+    build:
+      context: ./sparql-endpoint
+      args:
+        DBA_PASSWORD: abcd
   web:
     environment: 
       PORT: 1234
-      SPARQL_ENDPOINT_URL: http://sparql-endpoint:1234/sparql
     ports:
       - "3000:1234"
-    build: ./web
+    build:
+      context: ./web
+      args:
+        SPARQL_ENDPOINT_URL: http://sparql-endpoint:1234/sparql
+

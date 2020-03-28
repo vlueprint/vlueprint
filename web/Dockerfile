@@ -1,6 +1,7 @@
 FROM node:12.16.1
 
-ENV SPARQL_ENDPOINT_URL https://sparql-endpoint-moezsesd6a-an.a.run.app/sparql
+ARG SPARQL_ENDPOINT_URL
+ENV SPARQL_ENDPOINT_URL=${SPARQL_ENDPOINT_URL}
 
 RUN mkdir -p /app
 COPY . /app

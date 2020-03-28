@@ -15,17 +15,13 @@ import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
 
 import { SparqleResponse } from '~/types/SparqleResponse.d.ts'
 
-interface Computed {
-  label: string;
-}
-
-export default Vue.extend<any, any, Computed, any>({
+export default Vue.extend({
   components: { SparqlResponseTable },
   head () {
     return {
-      title: `${this.label} - vlueprint`,
+      title: `${(this as any).label} - vlueprint`,
       meta: [
-        { hid: 'description', name: 'description', content: `vlueprint の「${this.label}」のページです。` }
+        { hid: 'description', name: 'description', content: `vlueprint の「${(this as any).label}」のページです。` }
       ]
     }
   },

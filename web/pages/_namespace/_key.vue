@@ -24,7 +24,6 @@ export default Vue.extend<any, any, Computed, any>({
   head () {
     return {
       title: `${this.label} - vlueprint`,
-      //title: ` - vlueprint`,
       meta: [
         { hid: 'description', name: 'description', content: `vlueprint の「${this.label}」のページです。` }
       ]

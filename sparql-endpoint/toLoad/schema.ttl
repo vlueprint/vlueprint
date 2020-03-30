@@ -23,9 +23,19 @@ vlueprint:office a rdf:Property;
     rdfs:label "所属事務所";
     .
 
+vlueprint:member a rdf:Property;
+    rdfs:label "メンバー";
+    .
+
 # クラス定義
 
 vlueprint:VirtualBeing a rdfs:Class;
     rdfs:label "Virtual Being";
     rdfs:comment "一般的にVTuberとされる人物をこのクラスに当てはめます";
+    .
+
+
+vlueprint:PerformingGroup a rdfs:Class;
+    rdfs:label "Virtual Being";
+    rdfs:comment "Virtual Being がチャンネル等を複数人で使っている際にグループとします";
     .

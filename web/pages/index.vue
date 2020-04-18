@@ -4,7 +4,7 @@
       <Logo />
     </section>
     <section class="content">
-      <p class="concept">「 Vtuber の創作をもっと身近に」</p>
+      <p class="concept">「Virtual Worldに共通のスキーマを」</p>
       <div class="concept-details">
         <p>Vlueprint は Virtual 世界の人やモノに関するオープンデータプラットフォームです．</p>
         <p>様々なデータを共通のスキーマにして管理，提供することが目的です．</p>
@@ -58,7 +58,7 @@ export default {
 
 .content {
   margin: 80px auto;
-  width: 80%;
+  width: 90%;
   max-width: 1100px;
   text-align: center;
 }
@@ -82,6 +82,17 @@ export default {
   margin-top: 20px;
   text-align: center;
   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .concept {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  .concept-details {
+    font-size: 1rem;
+  }
 }
 
 .points {

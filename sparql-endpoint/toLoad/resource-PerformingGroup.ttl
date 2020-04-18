@@ -218,9 +218,8 @@
 
 <月夜ソラwith夜桜カノン> a vlueprint:PerformingGroup;
     rdfs:label "月夜ソラwith夜桜カノン";
-    vlueprint:member <44(YOYO)>;
-    vlueprint:member <CHOCO>;
-    vlueprint:member <RIO>;
+    vlueprint:member <月夜ソラ>;
+    vlueprint:member <夜桜カノン>;
     vlueprint:youtubeChannelId "UCPwSREC85pZ3_ZW1MbEWf9Q";
     vlueprint:youtubeChannelName "月夜ソラwith夜桜カノン";
     vlueprint:twitterAccount "Sora_Tsukiyo";

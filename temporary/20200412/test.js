@@ -12,14 +12,14 @@ const parse = (path) => {
   }
 }
 
-const write = async(path, options) => {
+const write = async (path, options) => {
   const { quads, base, prefixes } = options
   const writer = new N3.Writer({ prefixes: prefixes })
 
   // 書き出すときの書式を弄っているが複雑なので気にしなくていいです
   const replaceFunction = (proxied) => {
-    writer._writeQuad = function(subject, predicate, object, graph, done) {
-      if(!subject.equals(this._subject)){
+    writer._writeQuad = function (subject, predicate, object, graph, done) {
+      if (!subject.equals(this._subject)) {
         this._write(this._subject === null ? '' : '.\n\n')
         this._subject = null
       }
@@ -29,10 +29,10 @@ const write = async(path, options) => {
   replaceFunction(writer._writeQuad)
 
   writer.addQuads(quads)
-  const baseReg = new RegExp(base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),'g')
+  const baseReg = new RegExp(base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')
   new Promise((resolve, reject) => {
     writer.end((error, result) => {
-      if(error) reject()
+      if (error) reject()
       const result2 = result.replace(baseReg, '')
       fs.writeFileSync(path, `@base <${base}> .\n\n` + result2)
       resolve()
@@ -47,11 +47,11 @@ const replace = (quads, sub, pred, oldObj, newObj) => {
   return store.getQuads()
 }
 
-const main = async()=>{ 
+const main = async () => {
 
   // ファイルパスを指定する
   const path = '../../sparql-endpoint/toLoad/resource-PerformingGroup.ttl'
-  
+
   // ttlファイルからデータを読み込む
   // parseRet.quads に実際に読み込んだデータ
   // parseRet.base に @base で指定されている URI
@@ -64,11 +64,11 @@ const main = async()=>{
   const sub = parseRet.base + 'ヒメヒナ'
   const pred = 'https://vlueprint.org/schema/member'
   const oldObj = parseRet.base + '田中ヒメ'
-  const newObj = parseRet.base + '田中ヒメ（かわいい）'
+  const newObj = parseRet.base + '田中ヒメ(かわいい)'
   parseRet.quads = replace(parseRet.quads, sub, pred, oldObj, newObj)
 
   // データをファイルに書き出す
   await write(path, parseRet)
 }
 
-(async() => await main())()
+(async () => await main())()

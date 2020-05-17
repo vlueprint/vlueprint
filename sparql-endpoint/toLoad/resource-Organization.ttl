@@ -1,0 +1,221 @@
+@base <https://vlueprint.org/resource/> .
+
+@prefix vlueprint: <https://vlueprint.org/schema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<upd8> a vlueprint:Organization;
+    rdfs:label "upd8".
+
+<VIC> a vlueprint:Organization;
+    rdfs:label "VIC".
+
+<元ENTUM> a vlueprint:Organization;
+    rdfs:label "元ENTUM".
+
+<.LIVE> a vlueprint:Organization;
+    rdfs:label ".LIVE".
+
+<にじさんじ(1・2期生)> a vlueprint:Organization;
+    rdfs:label "にじさんじ(1・2期生)".
+
+<ホロライブ> a vlueprint:Organization;
+    rdfs:label "ホロライブ".
+
+<エイレーン一家> a vlueprint:Organization;
+    rdfs:label "エイレーン一家".
+
+<にじさんじ(ゲーマーズ出身)> a vlueprint:Organization;
+    rdfs:label "にじさんじ(ゲーマーズ出身)".
+
+<Unlimited> a vlueprint:Organization;
+    rdfs:label "Unlimited".
+
+<にじさんじ(統合後)> a vlueprint:Organization;
+    rdfs:label "にじさんじ(統合後)".
+
+<神椿> a vlueprint:Organization;
+    rdfs:label "神椿".
+
+<Smarprise> a vlueprint:Organization;
+    rdfs:label "Smarprise".
+
+<にじさんじ(SEEDs出身)> a vlueprint:Organization;
+    rdfs:label "にじさんじ(SEEDs出身)".
+
+<サンリオ> a vlueprint:Organization;
+    rdfs:label "サンリオ".
+
+<ハニーストラップ> a vlueprint:Organization;
+    rdfs:label "ハニーストラップ".
+
+<転生組> a vlueprint:Organization;
+    rdfs:label "転生組".
+
+<Re_AcT> a vlueprint:Organization;
+    rdfs:label "Re:AcT".
+
+<ぱりぷろ> a vlueprint:Organization;
+    rdfs:label "ぱりぷろ".
+
+<あにまーれ> a vlueprint:Organization;
+    rdfs:label "あにまーれ".
+
+<フェレット女学院> a vlueprint:Organization;
+    rdfs:label "フェレット女学院".
+
+<VEEMusic> a vlueprint:Organization;
+    rdfs:label "VEEMusic".
+
+<バ美肉> a vlueprint:Organization;
+    rdfs:label "バ美肉".
+
+<Pictoria> a vlueprint:Organization;
+    rdfs:label "Pictoria".
+
+<夢見坂学院> a vlueprint:Organization;
+    rdfs:label "夢見坂学院".
+
+<Ficty> a vlueprint:Organization;
+    rdfs:label "Ficty".
+
+<Balus> a vlueprint:Organization;
+    rdfs:label "Balus".
+
+<WFLE> a vlueprint:Organization;
+    rdfs:label "WFLE".
+
+<ViViD> a vlueprint:Organization;
+    rdfs:label "ViViD".
+
+<花寄女子寮> a vlueprint:Organization;
+    rdfs:label "花寄女子寮".
+
+<もちぷろ> a vlueprint:Organization;
+    rdfs:label "もちぷろ".
+
+<ぶいめん> a vlueprint:Organization;
+    rdfs:label "ぶいめん".
+
+<あふたーしーくれっと> a vlueprint:Organization;
+    rdfs:label "あふたーしーくれっと".
+
+<22_7> a vlueprint:Organization;
+    rdfs:label "22/7".
+
+<ブイアパ> a vlueprint:Organization;
+    rdfs:label "ブイアパ".
+
+<NIJISANJI_ID> a vlueprint:Organization;
+    rdfs:label "NIJISANJI ID".
+
+<Lupinus_Virtual_Games> a vlueprint:Organization;
+    rdfs:label "Lupinus Virtual Games".
+
+<OPEN_BETA> a vlueprint:Organization;
+    rdfs:label "OPEN BETA".
+
+<Gugenka> a vlueprint:Organization;
+    rdfs:label "Gugenka".
+
+<岩本町芸能社> a vlueprint:Organization;
+    rdfs:label "岩本町芸能社".
+
+<UUUM> a vlueprint:Organization;
+    rdfs:label "UUUM".
+
+<GEMS_COMPANY> a vlueprint:Organization;
+    rdfs:label "GEMS COMPANY".
+
+<WACTOR> a vlueprint:Organization;
+    rdfs:label "WACTOR".
+
+<あいすらぼ> a vlueprint:Organization;
+    rdfs:label "あいすらぼ".
+
+<Akihabara_Lab> a vlueprint:Organization;
+    rdfs:label "Akihabara Lab".
+
+<NIJISANJI_IN> a vlueprint:Organization;
+    rdfs:label "NIJISANJI IN".
+
+<セガ> a vlueprint:Organization;
+    rdfs:label "セガ".
+
+<VGaming> a vlueprint:Organization;
+    rdfs:label "VGaming".
+
+<PinkPunkPro> a vlueprint:Organization;
+    rdfs:label "PinkPunkPro".
+
+<Re_AcT男性部門> a vlueprint:Organization;
+    rdfs:label "Re:AcT男性部門".
+
+<IRIAM> a vlueprint:Organization;
+    rdfs:label "IRIAM".
+
+<元おとりざ> a vlueprint:Organization;
+    rdfs:label "元おとりざ".
+
+<空想コード_> a vlueprint:Organization;
+    rdfs:label "空想コード+".
+
+<アマリリス組> a vlueprint:Organization;
+    rdfs:label "アマリリス組".
+
+<ホロスターズ> a vlueprint:Organization;
+    rdfs:label "ホロスターズ".
+
+<AVATAR2.0> a vlueprint:Organization;
+    rdfs:label "AVATAR2.0".
+
+<めるぷら> a vlueprint:Organization;
+    rdfs:label "めるぷら".
+
+<NIJISANJI_KR> a vlueprint:Organization;
+    rdfs:label "NIJISANJI KR".
+
+<よんしー> a vlueprint:Organization;
+    rdfs:label "よんしー".
+
+<VEgo> a vlueprint:Organization;
+    rdfs:label "VEgo".
+
+<ぶいらいぶ> a vlueprint:Organization;
+    rdfs:label "ぶいらいぶ".
+
+<ZERO_Project> a vlueprint:Organization;
+    rdfs:label "ZERO Project".
+
+<元ぴぐまりおん。> a vlueprint:Organization;
+    rdfs:label "元ぴぐまりおん。".
+
+<Date_Links!> a vlueprint:Organization;
+    rdfs:label "Date+Links!".
+
+<勇者ズム!> a vlueprint:Organization;
+    rdfs:label "勇者ズム！".
+
+<サークルみらん> a vlueprint:Organization;
+    rdfs:label "サークルみらん".
+
+<cluster> a vlueprint:Organization;
+    rdfs:label "cluster".
+
+<ShoveL> a vlueprint:Organization;
+    rdfs:label "ShoveL".
+
+<ズーミング> a vlueprint:Organization;
+    rdfs:label "ズーミング".
+
+<ユメノグラフィア> a vlueprint:Organization;
+    rdfs:label "ユメノグラフィア".
+
+<WINKS> a vlueprint:Organization;
+    rdfs:label "WINKS".
+
+<ジャスト_プロ> a vlueprint:Organization;
+    rdfs:label "ジャスト プロ".
+
+<i-LIVE> a vlueprint:Organization;
+    rdfs:label "i-LIVE".

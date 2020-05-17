@@ -46,6 +46,16 @@ const write = async (path:string, options:any) => {
   })
 }
 
+const validNode = (base:string, key:string) => {
+  const badCharas = [
+    '\\', '\'', '|', '`', '^', '"', '<', '>', '}', '{', ']', '[',
+    ' ', '　', '/', ';', '/', '?', ':', '@', '&', '=', '+', '$', ',', '%', '#'
+    //これは抜いた ')', '(',
+  ]
+  badCharas.forEach( c => { key = key.replace( new RegExp('\\'+c, 'g'), '_') })
+  return namedNode(base + key.normalize("NFKC"))
+}
+
 const main = async () => {
 
   // ファイルパスを指定する
@@ -60,6 +70,7 @@ const main = async () => {
 
   const base = parseretPerformingGroup.base
 
+  // `member` to `belongTo`
   const memberTriples = storePerformingGroup.getQuads(null, 'https://vlueprint.org/schema/member', null, null)
   const convertedTriples = memberTriples.map(value => {
     return quad(
@@ -69,14 +80,53 @@ const main = async () => {
       undefined
     )
   })
-  storePerformingGroup.removeQuads(memberTriples);
+  storePerformingGroup.removeQuads(memberTriples)
   storeVirtualBeing.addQuads(convertedTriples)
+  
+  // `office` to `Organization`
+  const officeTriplesInVirtualBeing = storeVirtualBeing.getQuads(null, 'https://vlueprint.org/schema/office', null, null)
+  const officeTriplesInPerformingGroup = storePerformingGroup.getQuads(null, 'https://vlueprint.org/schema/office', null, null)
+  const officeTriples = officeTriplesInVirtualBeing.concat(officeTriplesInPerformingGroup);
+  const officeOrganizaytionTriplesStore =  new N3.Store();
+  officeTriples.forEach(value => {
+    const subject = validNode(base, value.object.value);
+    if(officeOrganizaytionTriplesStore.getQuads(subject,null,null,null).length!=0) return;
+    officeOrganizaytionTriplesStore.addQuad(quad(
+      subject,
+      namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
+      namedNode("https://vlueprint.org/schema/Organization"),
+      undefined
+    )) 
+    officeOrganizaytionTriplesStore.addQuad(quad(
+      subject,
+      namedNode('http://www.w3.org/2000/01/rdf-schema#label'),
+      literal(value.object.value),
+      undefined
+    )) 
+  })
+  const offeci2belontto = (value:N3.Quad) => {
+    return quad(
+      namedNode(value.subject.value),
+      namedNode('https://vlueprint.org/schema/belongTo'),
+      validNode(base, value.object.value),
+      undefined
+    )
+  }
+  storeVirtualBeing.removeQuads(officeTriplesInVirtualBeing)
+  storePerformingGroup.removeQuads(officeTriplesInPerformingGroup)
+  storeVirtualBeing.addQuads(officeTriplesInVirtualBeing.map(offeci2belontto))
+  storePerformingGroup.addQuads(officeTriplesInPerformingGroup.map(offeci2belontto))
 
   parseretPerformingGroup.quads = storePerformingGroup.getQuads(null,null,null,null)
   parseretVirtualBeing.quads = storeVirtualBeing.getQuads(null,null,null,null)
-
+  
   await write(pathPerformingGroup, parseretPerformingGroup)
   await write(pathVirtualBeing, parseretVirtualBeing)
+
+  const organizationWriteSetting = Object.assign({}, parseretVirtualBeing);
+  organizationWriteSetting.quads = officeOrganizaytionTriplesStore.getQuads(null,null,null,null);
+  const pathOrganization = '../../sparql-endpoint/toLoad/resource-Organization.ttl'
+  await write(pathOrganization, organizationWriteSetting)
 }
 
 (async () => await main())()

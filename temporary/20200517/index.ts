@@ -67,14 +67,17 @@ const main = async () => {
 
   // ここで書き換えをする
   // 例: 「ヒメヒナ」の「メンバー」内の「田中ヒメ」を「田中ヒメ（かわいい）」に置き換える
-  const sub = parseRet.base + 'ヒメヒナ'
-  const pred = 'https://vlueprint.org/schema/member'
-  const oldObj = parseRet.base + '田中ヒメ'
-  const newObj = parseRet.base + '田中ヒメ(かわいい)'
-  parseRet.quads = replace(parseRet.quads, sub, pred, oldObj, newObj)
+  // const sub = parseRet.base + 'ヒメヒナ'
+  // const pred = 'https://vlueprint.org/schema/member'
+  // const oldObj = parseRet.base + '田中ヒメ'
+  // const newObj = parseRet.base + '田中ヒメ(かわいい)'
+  // parseRet.quads = replace(parseRet.quads, sub, pred, oldObj, newObj)
 
   // データをファイルに書き出す
   await write(path, parseRet)
+
+  const path2 = '../../sparql-endpoint/toLoad/resource-VirtualBeing.ttl'
+  await write(path2, parse(path2))
 }
 
 (async () => await main())()

@@ -6,8 +6,8 @@
 
 <ヒメヒナ> a vlueprint:PerformingGroup;
     rdfs:label "ヒメヒナ";
-    rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
-    vlueprint:youtubeChannelName "HIMEHINA Channel".
+    vlueprint:youtubeChannelName "HIMEHINA Channel";
+    vlueprint:youtubeChannelId "UCFv2z4iM5vHrS8bZPq4fHQQ".
 
 <萌実_ヨメミ_エトラ> a vlueprint:PerformingGroup;
     rdfs:label "萌実 ヨメミ エトラ";

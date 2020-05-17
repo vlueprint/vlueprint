@@ -19,12 +19,12 @@ vlueprint:twitterAccount a rdf:Property;
     rdfs:label "Twitterアカウント";
     .
 
-vlueprint:office a rdf:Property;
-    rdfs:label "所属事務所";
-    .
-
 vlueprint:member a rdf:Property;
     rdfs:label "メンバー";
+    .
+
+vlueprint:belongTo a rdf:Property;
+    rdfs:label "所属";
     .
 
 # クラス定義
@@ -35,7 +35,13 @@ vlueprint:VirtualBeing a rdfs:Class;
     .
 
 
+vlueprint:Organization a rdfs:Class;
+    rdfs:label "Organization";
+    rdfs:comment "VTuberが所属する企業やプロジェクト、ユニットです";
+    .
+
 vlueprint:PerformingGroup a rdfs:Class;
+    rdfs:subClassOf vlueprint:Organization;
     rdfs:label "Virtual Being";
     rdfs:comment "Virtual Being がチャンネル等を複数人で使っている際にグループとします";
     .

@@ -7,12 +7,10 @@
 <ヒメヒナ> a vlueprint:PerformingGroup;
     rdfs:label "ヒメヒナ";
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
-    vlueprint:member <田中ヒメ>, <鈴木ヒナ>;
     vlueprint:youtubeChannelName "HIMEHINA Channel".
 
 <萌実_ヨメミ_エトラ> a vlueprint:PerformingGroup;
     rdfs:label "萌実 ヨメミ エトラ";
-    vlueprint:member <萌実>, <ヨメミ>, <エトラ>;
     vlueprint:youtubeChannelName "ヨメミ V-AR チューバー -萌実-";
     vlueprint:youtubeChannelId "UCy5lOmEQoivK5XK7QCaRKug";
     vlueprint:office "エイレーン一家".
@@ -20,42 +18,36 @@
 <ゲーム部プロジェクト> a vlueprint:PerformingGroup;
     rdfs:label "ゲーム部プロジェクト";
     rdfs:comment "[TODO]以下2つはサブチャンネルなので対応が必要です";
-    vlueprint:member <夢咲楓>, <風見涼>, <桜樹みりあ>, <道明寺晴翔>;
     vlueprint:youtubeChannelName "ゲーム部プロジェクト", "放課後ゲーム部";
     vlueprint:youtubeChannelId "UC2ZVDmnoZAOdLt7kI7Uaqog", "UCBX00PjvFhTVnnDAR848O3A";
     vlueprint:office "Unlimited".
 
 <おめがシスターズ> a vlueprint:PerformingGroup;
     rdfs:label "おめがシスターズ";
-    vlueprint:member <おめがレイ>, <おめがリオ>;
     vlueprint:youtubeChannelName "おめがシスターズ [Ω Sisters]";
     vlueprint:youtubeChannelId "UCNjTjd2-PMC8Oo_-dCEss7A";
     vlueprint:office "upd8".
 
 <あおぎり高校> a vlueprint:PerformingGroup;
     rdfs:label "あおぎり高校";
-    vlueprint:member <音霊魂子>, <水菜月夏希>, <石狩あかり>;
     vlueprint:youtubeChannelName "あおぎり高校";
     vlueprint:youtubeChannelId "UCPLeqi7rIqS9uY4_TrSUOMg";
     vlueprint:office "Unlimited".
 
 <ルキロキ> a vlueprint:PerformingGroup;
     rdfs:label "ルキロキ";
-    vlueprint:member <流石乃ルキ>, <流石乃ロキ>;
     vlueprint:youtubeChannelName "ルキロキチャンネル - Ruki Roki Channel -";
     vlueprint:youtubeChannelId "UCf3DHSmd2DhZcoq2gwYXCIA";
     vlueprint:twitterAccount "RukiRoki_ch".
 
 <Project_A.I.D> a vlueprint:PerformingGroup;
     rdfs:label "Project A.I.D";
-    vlueprint:member <のあ>, <衣音>, <マナ>;
     vlueprint:youtubeChannelName "Project A.I.D 公式チャンネル";
     vlueprint:youtubeChannelId "UCoO6PIMIwatyMWRp7l6CvKQ";
     vlueprint:twitterAccount "Project_AID_".
 
 <MonsterZ_MATE> a vlueprint:PerformingGroup;
     rdfs:label "MonsterZ MATE";
-    vlueprint:member <アンジョー>, <コーサカ>;
     vlueprint:youtubeChannelName "MonsterZ MATE";
     vlueprint:youtubeChannelId "UCDG8K9g6qo8gX4jCjsqUVzA";
     vlueprint:office "Balus";
@@ -63,14 +55,12 @@
 
 <ココツキ> a vlueprint:PerformingGroup;
     rdfs:label "ココツキ";
-    vlueprint:member <鈴代ここね>, <鈴代つきね>, <響かさね>;
     vlueprint:youtubeChannelName "ココツキCocoTsuki Project";
     vlueprint:youtubeChannelId "UCH1B9AR8sfWJVf9zcu9rbGg";
     vlueprint:office "upd8".
 
 <カナメとハルキー> a vlueprint:PerformingGroup;
     rdfs:label "カナメとハルキー";
-    vlueprint:member <カナメ>, <ハルキー>;
     vlueprint:youtubeChannelName "カナメとハルキー";
     vlueprint:youtubeChannelId "UCG_CzdeNlcDnBCK8AbgiuVw".
 
@@ -83,14 +73,12 @@
 
 <まりなす> a vlueprint:PerformingGroup;
     rdfs:label "まりなす";
-    vlueprint:member <奏天まひろ>, <燈舞りん>, <音葉なほ>, <鈴鳴すばる>;
     vlueprint:youtubeChannelName "まりなすチャンネル【仮】";
     vlueprint:youtubeChannelId "UCDgH-CfHO85D0rxtXnXeN2w".
 
 <えのぐ> a vlueprint:PerformingGroup;
     rdfs:label "えのぐ";
     rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
-    vlueprint:member <鈴木あんず>, <白藤環>, <夏目ハル>, <日向奈央>;
     vlueprint:youtubeChannelName "【VRアイドル】えのぐチャンネル";
     vlueprint:youtubeChannelId "UCFI81W9F49a7GvimKF905eQ";
     vlueprint:office "岩本町芸能社";
@@ -98,7 +86,6 @@
 
 <まじかるどーる> a vlueprint:PerformingGroup;
     rdfs:label "まじかるどーる";
-    vlueprint:member <雅まつり>, <雅雪巴>, <雅さくら>, <雅紅羽>, <雅市華>;
     vlueprint:youtubeChannelName "まじかるどーる / Magical Doll";
     vlueprint:youtubeChannelId "UCzhwXcK9DTiY-VqYjwnjZhQ";
     vlueprint:office "UUUM";
@@ -106,41 +93,35 @@
 
 <Marpril> a vlueprint:PerformingGroup;
     rdfs:label "Marpril";
-    vlueprint:member <谷田透佳>, <立花鈴>;
     vlueprint:youtubeChannelName "Marprilチャンネル";
     vlueprint:youtubeChannelId "UCWhv732tk4DAQ7X32qHKrfA";
     vlueprint:office "岩本町芸能社".
 
 <小山内めい_小山内いちか> a vlueprint:PerformingGroup;
     rdfs:label "小山内めい 小山内いちか";
-    vlueprint:member <小山内めい>, <小山内いちか>;
     vlueprint:youtubeChannelName "バーチャル園児-めいちゃんねる";
     vlueprint:youtubeChannelId "UCZx7wgGNs2UFyRRtLoNur9Q";
     vlueprint:office "upd8".
 
 <エルセとさめのぽき> a vlueprint:PerformingGroup;
     rdfs:label "エルセとさめのぽき";
-    vlueprint:member <エルセ>, <さめのぽき>;
     vlueprint:youtubeChannelName "エルセとさめのぽき";
     vlueprint:youtubeChannelId "UCLMC54YctropOupFX8jyz9A".
 
 <Palette_Project> a vlueprint:PerformingGroup;
     rdfs:label "Palette Project";
-    vlueprint:member <七海ロナ>, <暁月クララ>, <遠坂ユラ>, <藤宮コトハ>, <常磐カナメ>, <神菜コハネ>, <雨ヶ崎笑虹>, <江波キョウカ>;
     vlueprint:youtubeChannelName "Palette Project Channel";
     vlueprint:youtubeChannelId "UC_cCW1xmXwRFp1tX-RD2X1Q";
     vlueprint:twitterAccount "Alt_Vtuber".
 
 <ReVdol!> a vlueprint:PerformingGroup;
     rdfs:label "ReVdol!";
-    vlueprint:member <イザベラ・ホリー>, <カティア・ヴラーノヴァ>, <モーシィ>, <神宮司_玉藻>, <李_清歌>, <ローズ・バレット>;
     vlueprint:youtubeChannelName "『ReVdol!』公式チャンネル";
     vlueprint:youtubeChannelId "UC1AYIkgyMfM0UT8xZnvzWGQ";
     vlueprint:twitterAccount "Re_Vdol".
 
 <GEMS_COMPANY> a vlueprint:PerformingGroup;
     rdfs:label "GEMS COMPANY";
-    vlueprint:member <珠根うた>, <星菜日向夏>, <奈日抽ねね>, <有栖川レイカ>, <音羽雫>, <城乃柚希>, <水科葵>, <長谷みこと>, <赤羽ユキノ>, <一文字マヤ>, <花菱撫子>, <桃丸ねくと>;
     vlueprint:youtubeChannelName "GEMS COMPANY公式チャンネル";
     vlueprint:youtubeChannelId "UCBvICYXxPK8PkoocBGnmeHA";
     vlueprint:office "GEMS COMPANY";
@@ -155,14 +136,12 @@
 
 <44SUPER> a vlueprint:PerformingGroup;
     rdfs:label "44SUPER";
-    vlueprint:member <44(YOYO)>, <CHOCO>, <RIO>;
     vlueprint:youtubeChannelName "44SUPER";
     vlueprint:youtubeChannelId "UCL5sBQj2R2Ym5aSMKyyix9g";
     vlueprint:twitterAccount "Y4SUP".
 
 <月夜ソラwith夜桜カノン> a vlueprint:PerformingGroup;
     rdfs:label "月夜ソラwith夜桜カノン";
-    vlueprint:member <月夜ソラ>, <夜桜カノン>;
     vlueprint:youtubeChannelName "月夜ソラwith夜桜カノン";
     vlueprint:youtubeChannelId "UCPwSREC85pZ3_ZW1MbEWf9Q";
     vlueprint:office "元ENTUM";
@@ -170,14 +149,12 @@
 
 <ARP> a vlueprint:PerformingGroup;
     rdfs:label "ARP";
-    vlueprint:member <シンジ>, <レオン>, <ダイヤ>, <レイジ>;
     vlueprint:youtubeChannelName "official ARP";
     vlueprint:youtubeChannelId "UCUpiWnTmpzBtii8cSBoowUg";
     vlueprint:twitterAccount "arboys_official".
 
 <アヤミナ> a vlueprint:PerformingGroup;
     rdfs:label "アヤミナ";
-    vlueprint:member <由縁ミナ>, <由縁アヤ>;
     vlueprint:youtubeChannelName "AyaMina Games";
     vlueprint:youtubeChannelId "UCrSpZbNNao8YQ5aj2Jr2exw";
     vlueprint:office "upd8";
@@ -185,21 +162,18 @@
 
 <シアシスターズ> a vlueprint:PerformingGroup;
     rdfs:label "シアシスターズ";
-    vlueprint:member <シア・ビビ>, <シア・ラミ>;
     vlueprint:youtubeChannelName "シアシスターズ *Shia Sisters";
     vlueprint:youtubeChannelId "UCmRME7uShTDEPfcqcu9bWvg";
     vlueprint:twitterAccount "tsukaima_shia".
 
 <WHITEHOLE> a vlueprint:PerformingGroup;
     rdfs:label "WHITEHOLE";
-    vlueprint:member <ナノ>, <アストロ>;
     vlueprint:youtubeChannelName "WHITEHOLE";
     vlueprint:youtubeChannelId "UC8vkhYTFz4WGuR8k4qmuX9Q";
     vlueprint:twitterAccount "nano_whitehole".
 
 <チェリ高帰宅部> a vlueprint:PerformingGroup;
     rdfs:label "WHITEHOLE";
-    vlueprint:member <南陽結城>, <花笠イリヤ>, <最上レン>, <錦山夢鷹>;
     vlueprint:youtubeChannelName "チェリ高帰宅部";
     vlueprint:youtubeChannelId "UCBnJcqkJofBN26VELPXSB5A";
     vlueprint:office "upd8";
@@ -207,114 +181,97 @@
 
 <肯定ちゃんと否定ちゃん> a vlueprint:PerformingGroup;
     rdfs:label "肯定ちゃんと否定ちゃん";
-    vlueprint:member <肯定ちゃん>, <否定ちゃん>;
     vlueprint:youtubeChannelName "肯定ちゃんと否定ちゃん。Vtuber channel";
     vlueprint:youtubeChannelId "UCbDdx6Tb9ZZNNt4dpG3UKzA";
     vlueprint:twitterAccount "foLo1AdAMllmXja".
 
 <カカリアンズ> a vlueprint:PerformingGroup;
     rdfs:label "カカリアンズ";
-    vlueprint:member <カリン>, <リアン>;
     vlueprint:youtubeChannelName "cacalianz";
     vlueprint:youtubeChannelId "UChRPvM7zlG0-KBeY4EeC-rg";
     vlueprint:twitterAccount "cacalianz".
 
 <69on> a vlueprint:PerformingGroup;
     rdfs:label "69on";
-    vlueprint:member <音無むおん>, <音無くおん>;
     vlueprint:youtubeChannelName "音無むおん";
     vlueprint:youtubeChannelId "UCx9sSKp4rNsHonHYMNjTv_g".
 
 <ちょこ☆まかろん> a vlueprint:PerformingGroup;
     rdfs:label "ちょこ☆まかろん";
-    vlueprint:member <ちょこ>, <まかろん>;
     vlueprint:youtubeChannelName "ちょこまかちゃんねる- Choco Maca Channel -";
     vlueprint:youtubeChannelId "UCWpKtqCQOrpLgwLJpjc94kg";
     vlueprint:twitterAccount "ChocoMacaron_Ai".
 
 <黒瀬家> a vlueprint:PerformingGroup;
     rdfs:label "黒瀬家";
-    vlueprint:member <黒瀬ミサ>, <黒瀬サバト>;
     vlueprint:youtubeChannelName "黒瀬家";
     vlueprint:youtubeChannelId "UCxU9F9sZJdzectps34GuSyA";
     vlueprint:office "空想コード+".
 
 <NoWorld> a vlueprint:PerformingGroup;
     rdfs:label "NoWorld";
-    vlueprint:member <NoiR>, <白黒黒白>;
     vlueprint:youtubeChannelName "NoWorld Official";
     vlueprint:youtubeChannelId "UC-3piUPtXhIu-KAdEs7fT8A";
     vlueprint:twitterAccount "No_iR88".
 
 <memex> a vlueprint:PerformingGroup;
     rdfs:label "memex";
-    vlueprint:member <ぴぼ>, <アラン>;
     vlueprint:youtubeChannelName "memex";
     vlueprint:youtubeChannelId "UCkZyAM-aPVPD8XduEtvGBoA";
     vlueprint:twitterAccount "memex_am".
 
 <EIGHT_OF_TRIANGLE> a vlueprint:PerformingGroup;
     rdfs:label "EIGHT OF TRIANGLE";
-    vlueprint:member <荒賀新音>, <君島零>, <遠藤和斗>;
     vlueprint:youtubeChannelName "EIGHT OF TRIANGLE";
     vlueprint:youtubeChannelId "UCbQgVIXhpL6TcC8KxsOuunQ";
     vlueprint:twitterAccount "eightoftriangle".
 
 <ナツモモchannel> a vlueprint:PerformingGroup;
     rdfs:label "EIGHT OF TRIANGLE";
-    vlueprint:member <天河ナツシ>, <逢坂モモ>;
     vlueprint:youtubeChannelName "ナツモモchannel";
     vlueprint:youtubeChannelId "UCbXxjPQKPjytlHWvAQZR7eQ".
 
 <さつまい> a vlueprint:PerformingGroup;
     rdfs:label "さつまい";
-    vlueprint:member <紅芋さつま>, <十六穀米子>;
     vlueprint:youtubeChannelName "SatsuMai Channel";
     vlueprint:youtubeChannelId "UCNzSw-wJq_dYtBxiDeOIdEA";
     vlueprint:twitterAccount "SatsuMai_chan".
 
 <NANARIKA_Channel> a vlueprint:PerformingGroup;
     rdfs:label "NANARIKA";
-    vlueprint:member <Nana>, <Rika>;
     vlueprint:youtubeChannelName "NANARIKA Channel";
     vlueprint:twitterAccount "NANARIKA_Vtuber".
 
 <ヱクシーズ> a vlueprint:PerformingGroup;
     rdfs:label "ヱクシーズ";
-    vlueprint:member <ヱックス>, <ヱクシィ>;
     vlueprint:youtubeChannelName "ヱックス-ヱクシーズProject-";
     vlueprint:youtubeChannelId "UCKlb4du1kXvGCCQc9A4df8w".
 
 <私立いちご女学院> a vlueprint:PerformingGroup;
     rdfs:label "私立いちご女学院";
-    vlueprint:member <夏川あき>, <冬乃サヤ>;
     vlueprint:youtubeChannelName "私立いちご女学院";
     vlueprint:youtubeChannelId "UCyX3bTlgorR5qMojtyZbaVg";
     vlueprint:twitterAccount "natsukawaaki".
 
 <お茶の間Tボーイズ> a vlueprint:PerformingGroup;
     rdfs:label "お茶の間Tボーイズ";
-    vlueprint:member <白石カイト>, <森山ソラ>;
     vlueprint:youtubeChannelName "お茶の間Tボーイズ";
     vlueprint:youtubeChannelId "UClenqj9y-Lxed2DDI1ol77A";
     vlueprint:twitterAccount "ochatboys".
 
 <くろかわ由理としらかわ由理> a vlueprint:PerformingGroup;
     rdfs:label "くろかわ由理としらかわ由理";
-    vlueprint:member <くろかわ由理>, <しらかわ由理>;
     vlueprint:youtubeChannelName "くろかわ由理としらかわ由理";
     vlueprint:youtubeChannelId "UCMsiWFEylMbDJ0gZfV61sow".
 
 <はまの姉妹> a vlueprint:PerformingGroup;
     rdfs:label "はまの姉妹";
-    vlueprint:member <あさり>, <たたみ>;
     vlueprint:youtubeChannelName "はまの姉妹[hamano-sis]";
     vlueprint:youtubeChannelId "UCYQBpBa7WxmYmZqxujNC39g";
     vlueprint:twitterAccount "hamano_channel".
 
 <終末RADIO> a vlueprint:PerformingGroup;
     rdfs:label "終末RADIO";
-    vlueprint:member <胡蝶由芽>, <小鳥遊酔>;
     vlueprint:youtubeChannelName "バーチャルFM 【 終末RADIO 】";
     vlueprint:youtubeChannelId "UCdqR8MqwdotQXsWnBzj76tA";
     vlueprint:office "Akihabara Lab";
@@ -322,27 +279,23 @@
 
 <VARTH> a vlueprint:PerformingGroup;
     rdfs:label "VARTH";
-    vlueprint:member <黒瀬迅>, <佐伯圭>, <一条澄玲>;
     vlueprint:youtubeChannelName "PROJECT:VARTH";
     vlueprint:youtubeChannelId "UCBXUs2-9yoasNLvNkvdhd_g";
     vlueprint:twitterAccount "projectvarth".
 
 <バチャカリ> a vlueprint:PerformingGroup;
     rdfs:label "バチャカリ";
-    vlueprint:member <大鳥一姫>, <前田花奈>, <風見舞子>;
     vlueprint:youtubeChannelName "バチャカリ 【 大鳥一姫、前田花奈、風見舞子 】";
     vlueprint:youtubeChannelId "UCJlPcoY1_JdtbAFyydp5Y-w";
     vlueprint:office "cluster".
 
 <でじみる*ショコラ> a vlueprint:PerformingGroup;
     rdfs:label "でじみる*ショコラ";
-    vlueprint:member <でじっこ*ショコラ>, <みるきー*ショコラ>;
     vlueprint:youtubeChannelName "でじみる*ショコラCH";
     vlueprint:youtubeChannelId "UCNACyRC_KrIvN_KheE69HEg".
 
 <せんせいとおにく> a vlueprint:PerformingGroup;
     rdfs:label "せんせいとおにく";
-    vlueprint:member <せんせい>, <おにく>;
     vlueprint:youtubeChannelName "chせんせいとおにく";
     vlueprint:youtubeChannelId "UCmPvX0Go5as_ZC_WeMhLqKw";
     vlueprint:twitterAccount "senseitooniku".

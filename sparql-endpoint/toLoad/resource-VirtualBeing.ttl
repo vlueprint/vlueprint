@@ -41,11 +41,13 @@
 
 <田中ヒメ> a vlueprint:VirtualBeing;
     rdfs:label "田中ヒメ";
-    vlueprint:twitterAccount "HimeTanaka_HH".
+    vlueprint:twitterAccount "HimeTanaka_HH";
+    vlueprint:belongTo <ヒメヒナ>.
 
 <鈴木ヒナ> a vlueprint:VirtualBeing;
     rdfs:label "鈴木ヒナ";
-    vlueprint:twitterAccount "HinaSuzuki_HH".
+    vlueprint:twitterAccount "HinaSuzuki_HH";
+    vlueprint:belongTo <ヒメヒナ>.
 
 <猫宮ひなた> a vlueprint:VirtualBeing;
     rdfs:label "猫宮ひなた";
@@ -71,17 +73,20 @@
 <萌実> a vlueprint:VirtualBeing;
     rdfs:label "萌実";
     vlueprint:twitterAccount "HimeTanaka_HH";
-    vlueprint:office "エイレーン一家".
+    vlueprint:office "エイレーン一家";
+    vlueprint:belongTo <萌実_ヨメミ_エトラ>.
 
 <ヨメミ> a vlueprint:VirtualBeing;
     rdfs:label "ヨメミ";
     vlueprint:twitterAccount "HinaSuzuki_HH";
-    vlueprint:office "エイレーン一家".
+    vlueprint:office "エイレーン一家";
+    vlueprint:belongTo <萌実_ヨメミ_エトラ>.
 
 <エトラ> a vlueprint:VirtualBeing;
     rdfs:label "エトラ";
     vlueprint:twitterAccount "HinaSuzuki_HH";
-    vlueprint:office "エイレーン一家".
+    vlueprint:office "エイレーン一家";
+    vlueprint:belongTo <萌実_ヨメミ_エトラ>.
 
 <本間ひまわり> a vlueprint:VirtualBeing;
     rdfs:label "本間ひまわり";
@@ -123,28 +128,32 @@
     vlueprint:youtubeChannelId "UCvi7XDiewenqdMvamLJNMGg";
     vlueprint:youtubeChannelName "夢咲楓-ゲーム部";
     vlueprint:twitterAccount "Kaede_gamebu";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <ゲーム部プロジェクト>.
 
 <風見涼> a vlueprint:VirtualBeing;
     rdfs:label "風見涼";
     vlueprint:youtubeChannelId "UCuAkSIfWmGJ1Mw8BtB_iZzA";
     vlueprint:youtubeChannelName "風見涼-ゲーム部";
     vlueprint:twitterAccount "Ryo_gamebu";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <ゲーム部プロジェクト>.
 
 <桜樹みりあ> a vlueprint:VirtualBeing;
     rdfs:label "桜樹みりあ";
     vlueprint:youtubeChannelId "UCWq6L3iY4hGK4LmylvQtj-g";
     vlueprint:youtubeChannelName "桜樹みりあ-ゲーム部";
     vlueprint:twitterAccount "Miria_gamebu";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <ゲーム部プロジェクト>.
 
 <道明寺晴翔> a vlueprint:VirtualBeing;
     rdfs:label "道明寺晴翔";
     vlueprint:youtubeChannelId "UCjhb6SKya3hvowPr1gtwfPw";
     vlueprint:youtubeChannelName "道明寺晴翔-ゲーム部";
     vlueprint:twitterAccount "haruto_gamebu", "Haruto_gamebu";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <ゲーム部プロジェクト>.
 
 <夏実萌恵> a vlueprint:VirtualBeing;
     rdfs:label "夏実萌恵";
@@ -455,12 +464,14 @@
 <おめがレイ> a vlueprint:VirtualBeing;
     rdfs:label "おめがレイ";
     vlueprint:twitterAccount "omesis_ray";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <おめがシスターズ>.
 
 <おめがリオ> a vlueprint:VirtualBeing;
     rdfs:label "おめがリオ";
     vlueprint:twitterAccount "omesis_rio";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <おめがシスターズ>.
 
 <花鋏キョウ> a vlueprint:VirtualBeing;
     rdfs:label "花鋏キョウ";
@@ -862,21 +873,24 @@
     vlueprint:youtubeChannelId "UCt7_srJeiw55kTcK7M9ID6g";
     vlueprint:youtubeChannelName "たまこ。Ch./あおぎり高校";
     vlueprint:twitterAccount "tamako_aogiri";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <あおぎり高校>.
 
 <水菜月夏希> a vlueprint:VirtualBeing;
     rdfs:label "水菜月夏希";
     vlueprint:youtubeChannelId "UCnBy6-RlccNksKDpM7oZ52w";
     vlueprint:youtubeChannelName "なつきちゃんねる*。/あおぎり高校";
     vlueprint:twitterAccount "natsuki_aogiri";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <あおぎり高校>.
 
 <石狩あかり> a vlueprint:VirtualBeing;
     rdfs:label "石狩あかり";
     vlueprint:youtubeChannelId "UC7wZb5INldbGweowOhBIs8Q";
     vlueprint:youtubeChannelName "石狩あかり/あおぎり高校";
     vlueprint:twitterAccount "ishikari_akari";
-    vlueprint:office "Unlimited".
+    vlueprint:office "Unlimited";
+    vlueprint:belongTo <あおぎり高校>.
 
 <天開司> a vlueprint:VirtualBeing;
     rdfs:label "天開司";
@@ -953,10 +967,12 @@
     vlueprint:office "にじさんじ(SEEDs出身)".
 
 <流石乃ルキ> a vlueprint:VirtualBeing;
-    rdfs:label "流石乃ルキ".
+    rdfs:label "流石乃ルキ";
+    vlueprint:belongTo <ルキロキ>.
 
 <流石乃ロキ> a vlueprint:VirtualBeing;
-    rdfs:label "流石乃ロキ".
+    rdfs:label "流石乃ロキ";
+    vlueprint:belongTo <ルキロキ>.
 
 <神田笑一> a vlueprint:VirtualBeing;
     rdfs:label "神田笑一";
@@ -1064,14 +1080,17 @@
 
 <のあ> a vlueprint:VirtualBeing;
     rdfs:label "のあ";
-    vlueprint:twitterAccount "ProjectAID_NoA".
+    vlueprint:twitterAccount "ProjectAID_NoA";
+    vlueprint:belongTo <Project_A.I.D>.
 
 <衣音> a vlueprint:VirtualBeing;
     rdfs:label "衣音";
-    vlueprint:twitterAccount "ProjectAID_Io".
+    vlueprint:twitterAccount "ProjectAID_Io";
+    vlueprint:belongTo <Project_A.I.D>.
 
 <マナ> a vlueprint:VirtualBeing;
-    rdfs:label "マナ".
+    rdfs:label "マナ";
+    vlueprint:belongTo <Project_A.I.D>.
 
 <天宮こころ> a vlueprint:VirtualBeing;
     rdfs:label "天宮こころ";
@@ -1456,12 +1475,14 @@
 <アンジョー> a vlueprint:VirtualBeing;
     rdfs:label "アンジョー";
     vlueprint:twitterAccount "mzm_anjo";
-    vlueprint:office "Balus".
+    vlueprint:office "Balus";
+    vlueprint:belongTo <MonsterZ_MATE>.
 
 <コーサカ> a vlueprint:VirtualBeing;
     rdfs:label "アンジョー コーサカ";
     vlueprint:twitterAccount "mzm_kosaka";
-    vlueprint:office "Balus".
+    vlueprint:office "Balus";
+    vlueprint:belongTo <MonsterZ_MATE>.
 
 <少年あしたくん> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCYc1gZWpeVFJf6hY-hjOX1A";
@@ -1491,17 +1512,20 @@
 <鈴代ここね> a vlueprint:VirtualBeing;
     rdfs:label "鈴代ここね";
     vlueprint:twitterAccount "CT_Cocone";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <ココツキ>.
 
 <鈴代つきね> a vlueprint:VirtualBeing;
     rdfs:label "鈴代つきね";
     vlueprint:twitterAccount "CT_Tsukine";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <ココツキ>.
 
 <響かさね> a vlueprint:VirtualBeing;
     rdfs:label "響かさね";
     vlueprint:twitterAccount "Kasane_CT";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <ココツキ>.
 
 <伏見ガク> a vlueprint:VirtualBeing;
     rdfs:label "伏見ガク";
@@ -1519,11 +1543,13 @@
 
 <カナメ> a vlueprint:VirtualBeing;
     rdfs:label "カナメ";
-    vlueprint:twitterAccount "caname2019".
+    vlueprint:twitterAccount "caname2019";
+    vlueprint:belongTo <カナメとハルキー>.
 
 <ハルキー> a vlueprint:VirtualBeing;
     rdfs:label "ハルキー";
-    vlueprint:twitterAccount "haruky2019".
+    vlueprint:twitterAccount "haruky2019";
+    vlueprint:belongTo <カナメとハルキー>.
 
 <リタ> a vlueprint:VirtualBeing;
     rdfs:label "リタ";
@@ -2228,19 +2254,23 @@
 <奏天まひろ> a vlueprint:VirtualBeing;
     rdfs:label "奏天まひろ";
     vlueprint:twitterAccount "KanameMahiro";
-    rdfs:comment "[TODO]TikTokのアカウントもあるようです".
+    rdfs:comment "[TODO]TikTokのアカウントもあるようです";
+    vlueprint:belongTo <まりなす>.
 
 <燈舞りん> a vlueprint:VirtualBeing;
     rdfs:label "燈舞りん";
-    vlueprint:twitterAccount "TomaRindesu".
+    vlueprint:twitterAccount "TomaRindesu";
+    vlueprint:belongTo <まりなす>.
 
 <音葉なほ> a vlueprint:VirtualBeing;
     rdfs:label "音葉なほ";
-    vlueprint:twitterAccount "OtonohaNaho".
+    vlueprint:twitterAccount "OtonohaNaho";
+    vlueprint:belongTo <まりなす>.
 
 <鈴鳴すばる> a vlueprint:VirtualBeing;
     rdfs:label "鈴鳴すばる";
-    vlueprint:twitterAccount "SuzunaSubaru".
+    vlueprint:twitterAccount "SuzunaSubaru";
+    vlueprint:belongTo <まりなす>.
 
 <杏戸ゆげ> a vlueprint:VirtualBeing;
     rdfs:label "杏戸ゆげ";
@@ -2363,22 +2393,26 @@
 <鈴木あんず> a vlueprint:VirtualBeing;
     rdfs:label "鈴木あんず";
     vlueprint:twitterAccount "anzu15_225";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <えのぐ>.
 
 <白藤環> a vlueprint:VirtualBeing;
     rdfs:label "白藤環";
     vlueprint:twitterAccount "erimakitamaki";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <えのぐ>.
 
 <夏目ハル> a vlueprint:VirtualBeing;
     rdfs:label "夏目ハル";
     vlueprint:twitterAccount "haru_neee";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <えのぐ>.
 
 <日向奈央> a vlueprint:VirtualBeing;
     rdfs:label "日向奈央";
     vlueprint:twitterAccount "hinao_23ku";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <えのぐ>.
 
 <焼まゆるのお絵かきちゃんねる> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCg7aL_drCGzlPCrV6Hys_-w";
@@ -2502,23 +2536,28 @@
 <雅まつり> a vlueprint:VirtualBeing;
     rdfs:label "雅まつり";
     vlueprint:twitterAccount "magical_matsuri";
-    vlueprint:office "UUUM".
+    vlueprint:office "UUUM";
+    vlueprint:belongTo <まじかるどーる>.
 
 <雅雪巴> a vlueprint:VirtualBeing;
     rdfs:label "雅雪巴";
-    vlueprint:office "UUUM".
+    vlueprint:office "UUUM";
+    vlueprint:belongTo <まじかるどーる>.
 
 <雅さくら> a vlueprint:VirtualBeing;
     rdfs:label "雅さくら";
-    vlueprint:office "UUUM".
+    vlueprint:office "UUUM";
+    vlueprint:belongTo <まじかるどーる>.
 
 <雅紅羽> a vlueprint:VirtualBeing;
     rdfs:label "雅紅羽";
-    vlueprint:office "UUUM".
+    vlueprint:office "UUUM";
+    vlueprint:belongTo <まじかるどーる>.
 
 <雅市華> a vlueprint:VirtualBeing;
     rdfs:label "雅市華";
-    vlueprint:office "UUUM".
+    vlueprint:office "UUUM";
+    vlueprint:belongTo <まじかるどーる>.
 
 <八朔ゆず> a vlueprint:VirtualBeing;
     rdfs:label "八朔ゆず";
@@ -2637,12 +2676,14 @@
 <谷田透佳> a vlueprint:VirtualBeing;
     rdfs:label "谷田透佳";
     vlueprint:twitterAccount "Touka03mar";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <Marpril>.
 
 <立花鈴> a vlueprint:VirtualBeing;
     rdfs:label "立花鈴";
     vlueprint:twitterAccount "Rin04ple";
-    vlueprint:office "岩本町芸能社".
+    vlueprint:office "岩本町芸能社";
+    vlueprint:belongTo <Marpril>.
 
 <はなつぐ___Hanatsugu> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelName "はなつぐ / Hanatsugu";
@@ -2858,12 +2899,14 @@
 <小山内めい> a vlueprint:VirtualBeing;
     rdfs:label "小山内めい";
     vlueprint:twitterAccount "osanai_mei";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <小山内めい_小山内いちか>.
 
 <小山内いちか> a vlueprint:VirtualBeing;
     rdfs:label "小山内いちか";
     vlueprint:twitterAccount "osanai_ichika";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <小山内めい_小山内いちか>.
 
 <ミディ> a vlueprint:VirtualBeing;
     rdfs:label "ミディ";
@@ -3001,11 +3044,13 @@
 
 <エルセ> a vlueprint:VirtualBeing;
     rdfs:label "エルセ";
-    vlueprint:twitterAccount "Else_PJblue".
+    vlueprint:twitterAccount "Else_PJblue";
+    vlueprint:belongTo <エルセとさめのぽき>.
 
 <さめのぽき> a vlueprint:VirtualBeing;
     rdfs:label "さめのぽき";
-    vlueprint:twitterAccount "samenopoki".
+    vlueprint:twitterAccount "samenopoki";
+    vlueprint:belongTo <エルセとさめのぽき>.
 
 <馬越健太郎> a vlueprint:VirtualBeing;
     rdfs:label "馬越健太郎";
@@ -3365,37 +3410,45 @@
 
 <七海ロナ> a vlueprint:VirtualBeing;
     rdfs:label "七海ロナ";
-    vlueprint:twitterAccount "nanamirona".
+    vlueprint:twitterAccount "nanamirona";
+    vlueprint:belongTo <Palette_Project>.
 
 <暁月クララ> a vlueprint:VirtualBeing;
     rdfs:label "暁月クララ";
-    vlueprint:twitterAccount "akatsukiclara".
+    vlueprint:twitterAccount "akatsukiclara";
+    vlueprint:belongTo <Palette_Project>.
 
 <遠坂ユラ> a vlueprint:VirtualBeing;
     rdfs:label "遠坂ユラ";
-    vlueprint:twitterAccount "tohsakayura".
+    vlueprint:twitterAccount "tohsakayura";
+    vlueprint:belongTo <Palette_Project>.
 
 <藤宮コトハ> a vlueprint:VirtualBeing;
     rdfs:label "藤宮コトハ";
-    vlueprint:twitterAccount "fujimiyakotoha".
+    vlueprint:twitterAccount "fujimiyakotoha";
+    vlueprint:belongTo <Palette_Project>.
 
 <常磐カナメ> a vlueprint:VirtualBeing;
     rdfs:label "常磐カナメ";
-    vlueprint:twitterAccount "tokiwakaname".
+    vlueprint:twitterAccount "tokiwakaname";
+    vlueprint:belongTo <Palette_Project>.
 
 <神菜コハネ> a vlueprint:VirtualBeing;
     rdfs:label "神菜コハネ";
-    vlueprint:twitterAccount "KaminaKohane".
+    vlueprint:twitterAccount "KaminaKohane";
+    vlueprint:belongTo <Palette_Project>.
 
 <雨ヶ崎笑虹> a vlueprint:VirtualBeing;
     rdfs:label "雨ヶ崎笑虹";
     vlueprint:youtubeChannelId "UCndN2c6Pp15EIPSf4jbhVDA";
     vlueprint:youtubeChannelName "雨ヶ崎 笑虹【あまがさき えこ】";
-    vlueprint:twitterAccount "eko_amagasaki".
+    vlueprint:twitterAccount "eko_amagasaki";
+    vlueprint:belongTo <Palette_Project>.
 
 <江波キョウカ> a vlueprint:VirtualBeing;
     rdfs:label "江波キョウカ";
-    vlueprint:twitterAccount "ebakyouka".
+    vlueprint:twitterAccount "ebakyouka";
+    vlueprint:belongTo <Palette_Project>.
 
 <しきぶTV> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCtRCF2NLRULCmf-oLAF455w";
@@ -3708,7 +3761,8 @@
     vlueprint:youtubeChannelId "UC-UmUsocuVAxsKog3QonhpA";
     vlueprint:youtubeChannelName "珠根うたChannel";
     vlueprint:twitterAccount "TamaneUta", "tamaneuta";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <KAMITSUBAKI_STUDIO> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCAOhUv73jM5iCpOhuJOQzxA";
@@ -3760,22 +3814,28 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
 <イザベラ・ホリー> a vlueprint:VirtualBeing;
-    rdfs:label "イザベラ・ホリー".
+    rdfs:label "イザベラ・ホリー";
+    vlueprint:belongTo <ReVdol!>.
 
 <カティア・ヴラーノヴァ> a vlueprint:VirtualBeing;
-    rdfs:label "カティア・ヴラーノヴァ".
+    rdfs:label "カティア・ヴラーノヴァ";
+    vlueprint:belongTo <ReVdol!>.
 
 <モーシィ> a vlueprint:VirtualBeing;
-    rdfs:label "モーシィ".
+    rdfs:label "モーシィ";
+    vlueprint:belongTo <ReVdol!>.
 
 <神宮司_玉藻> a vlueprint:VirtualBeing;
-    rdfs:label "神宮司_玉藻".
+    rdfs:label "神宮司_玉藻";
+    vlueprint:belongTo <ReVdol!>.
 
 <李_清歌> a vlueprint:VirtualBeing;
-    rdfs:label "李_清歌".
+    rdfs:label "李_清歌";
+    vlueprint:belongTo <ReVdol!>.
 
 <ローズ・バレット> a vlueprint:VirtualBeing;
-    rdfs:label "ローズ・バレット".
+    rdfs:label "ローズ・バレット";
+    vlueprint:belongTo <ReVdol!>.
 
 <河野都> a vlueprint:VirtualBeing;
     rdfs:label "河野都";
@@ -4146,65 +4206,76 @@
     vlueprint:youtubeChannelId "UCqKCfCEKed9wdmJhs1w1DAw";
     vlueprint:youtubeChannelName "星菜日向夏のゼロ時間目";
     vlueprint:twitterAccount "hoshinahinaka", "HoshinaHinaka";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <奈日抽ねね> a vlueprint:VirtualBeing;
     rdfs:label "奈日抽ねね";
     vlueprint:youtubeChannelId "UCpVR8pys_AS24V_gsPhGlmw";
     vlueprint:youtubeChannelName "ねねとゆかいな仲間たち";
     vlueprint:twitterAccount "nenenaninu";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <有栖川レイカ> a vlueprint:VirtualBeing;
     rdfs:label "有栖川レイカ";
     vlueprint:youtubeChannelId "UCfz1RFufH9MFsADnhAdXW7g";
     vlueprint:youtubeChannelName "レイカのひみつの部屋";
     vlueprint:twitterAccount "a_reikas2", "A_ReikaS2";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <音羽雫> a vlueprint:VirtualBeing;
     rdfs:label "音羽雫";
     vlueprint:youtubeChannelId "UCpvbUp_mMVJ1nUsRjoG-uAg";
     vlueprint:youtubeChannelName "音羽雫の「頑張りすぎない!ちゃんねる」";
     vlueprint:twitterAccount "OtowaShizuku";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <城乃柚希> a vlueprint:VirtualBeing;
     rdfs:label "城乃柚希";
-    vlueprint:twitterAccount "ShironoYuzuki".
+    vlueprint:twitterAccount "ShironoYuzuki";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <水科葵> a vlueprint:VirtualBeing;
     rdfs:label "水科葵";
-    vlueprint:twitterAccount "mizushina_aoi".
+    vlueprint:twitterAccount "mizushina_aoi";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <長谷みこと> a vlueprint:VirtualBeing;
     rdfs:label "長谷みこと";
-    vlueprint:twitterAccount "HaseMikoto".
+    vlueprint:twitterAccount "HaseMikoto";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <赤羽ユキノ> a vlueprint:VirtualBeing;
     rdfs:label "赤羽ユキノ";
     vlueprint:youtubeChannelId "UCS1knzJl5den7o-jeEOZuBQ";
     vlueprint:youtubeChannelName "実録!赤羽ユキノの生態";
     vlueprint:twitterAccount "akabayukino", "AkabaYukino";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <一文字マヤ> a vlueprint:VirtualBeing;
     rdfs:label "一文字マヤ";
     vlueprint:youtubeChannelId "UCoxRb4xKGwDUFKH8Ludjvfg";
     vlueprint:youtubeChannelName "マヤたそTV";
     vlueprint:twitterAccount "Maya_Ichimonji";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <花菱撫子> a vlueprint:VirtualBeing;
     rdfs:label "花菱撫子";
-    vlueprint:twitterAccount "nadehana_ggy".
+    vlueprint:twitterAccount "nadehana_ggy";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <桃丸ねくと> a vlueprint:VirtualBeing;
     rdfs:label "桃丸ねくと";
     vlueprint:youtubeChannelId "UCX_P_KGfAwqaBH3KdVI8smw";
     vlueprint:youtubeChannelName "桃丸ねくとのもも もももッ!!";
     vlueprint:twitterAccount "momomaru_nekuto";
-    vlueprint:office "GEMS COMPANY".
+    vlueprint:office "GEMS COMPANY";
+    vlueprint:belongTo <GEMS_COMPANY>.
 
 <鷹森ツヅル> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCTNqdmisGoH93iyTLDV1J5A";
@@ -4354,13 +4425,16 @@
     vlueprint:office "VGaming".
 
 <44(YOYO)> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド".
+    rdfs:label "白雪レイド";
+    vlueprint:belongTo <44SUPER>.
 
 <CHOCO> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド".
+    rdfs:label "白雪レイド";
+    vlueprint:belongTo <44SUPER>.
 
 <RIO> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド".
+    rdfs:label "白雪レイド";
+    vlueprint:belongTo <44SUPER>.
 
 <メエシカちゃんねる> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UC92P2SH7oQqGlJAwQCW5Riw";
@@ -4493,12 +4567,14 @@
 <月夜ソラ> a vlueprint:VirtualBeing;
     rdfs:label "月夜ソラ";
     vlueprint:twitterAccount "Sora_Tsukiyo";
-    vlueprint:office "元ENTUM".
+    vlueprint:office "元ENTUM";
+    vlueprint:belongTo <月夜ソラwith夜桜カノン>.
 
 <夜桜カノン> a vlueprint:VirtualBeing;
     rdfs:label "月夜ソラ 夜桜カノン";
     vlueprint:twitterAccount "KanonYozakula";
-    vlueprint:office "元ENTUM".
+    vlueprint:office "元ENTUM";
+    vlueprint:belongTo <月夜ソラwith夜桜カノン>.
 
 <デラ_ハドウ> a vlueprint:VirtualBeing;
     rdfs:label "デラ ハドウ";
@@ -4915,16 +4991,20 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
 <シンジ> a vlueprint:VirtualBeing;
-    rdfs:label "シンジ".
+    rdfs:label "シンジ";
+    vlueprint:belongTo <ARP>.
 
 <レオン> a vlueprint:VirtualBeing;
-    rdfs:label "レオン".
+    rdfs:label "レオン";
+    vlueprint:belongTo <ARP>.
 
 <ダイヤ> a vlueprint:VirtualBeing;
-    rdfs:label "ダイヤ".
+    rdfs:label "ダイヤ";
+    vlueprint:belongTo <ARP>.
 
 <レイジ> a vlueprint:VirtualBeing;
-    rdfs:label "レイジ".
+    rdfs:label "レイジ";
+    vlueprint:belongTo <ARP>.
 
 <葉邑ゆう> a vlueprint:VirtualBeing;
     rdfs:label "葉邑ゆう";
@@ -5434,12 +5514,14 @@
 <由縁ミナ> a vlueprint:VirtualBeing;
     rdfs:label "由縁ミナ";
     vlueprint:twitterAccount "ayamina_mina";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <アヤミナ>.
 
 <由縁アヤ> a vlueprint:VirtualBeing;
     rdfs:label "由縁アヤ";
     vlueprint:twitterAccount "ayamina_Aya";
-    vlueprint:office "upd8".
+    vlueprint:office "upd8";
+    vlueprint:belongTo <アヤミナ>.
 
 <花琴いぐさ【妖怪ちゃんねる】> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCaq_BEsIHLVvdU6lCKLtipQ";
@@ -5529,11 +5611,13 @@
 
 <シア・ビビ> a vlueprint:VirtualBeing;
     rdfs:label "シア・ビビ";
-    vlueprint:twitterAccount "vivi_shia".
+    vlueprint:twitterAccount "vivi_shia";
+    vlueprint:belongTo <シアシスターズ>.
 
 <シア・ラミ> a vlueprint:VirtualBeing;
     rdfs:label "シア・ラミ";
-    vlueprint:twitterAccount "lami_shia".
+    vlueprint:twitterAccount "lami_shia";
+    vlueprint:belongTo <シアシスターズ>.
 
 <本山らのチャンネル> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCwx6UL368Zb8ruqo8aeZexA";
@@ -6024,11 +6108,13 @@
 
 <ナノ> a vlueprint:VirtualBeing;
     rdfs:label "ナノ";
-    vlueprint:twitterAccount "nano_whitehole".
+    vlueprint:twitterAccount "nano_whitehole";
+    vlueprint:belongTo <WHITEHOLE>.
 
 <アストロ> a vlueprint:VirtualBeing;
     rdfs:label "ナノ";
-    vlueprint:twitterAccount "astro_whitehole".
+    vlueprint:twitterAccount "astro_whitehole";
+    vlueprint:belongTo <WHITEHOLE>.
 
 <彩音れおん> a vlueprint:VirtualBeing;
     rdfs:label "彩音れおん";
@@ -6108,27 +6194,31 @@
 
 <南陽結城> a vlueprint:VirtualBeing;
     rdfs:label "南陽結城";
-    vlueprint:twitterAccount "yuki_cheriko".
+    vlueprint:twitterAccount "yuki_cheriko";
+    vlueprint:belongTo <チェリ高帰宅部>.
 
 <花笠イリヤ> a vlueprint:VirtualBeing;
     rdfs:label "花笠イリヤ";
     vlueprint:youtubeChannelId "UCigpSsgPbdCxXtbfGksFIYQ";
     vlueprint:youtubeChannelName "Hanagasa Ilya花笠イリヤ チェリ高帰宅部 /";
-    vlueprint:twitterAccount "ilya_cheriko".
+    vlueprint:twitterAccount "ilya_cheriko";
+    vlueprint:belongTo <チェリ高帰宅部>.
 
 <最上レン> a vlueprint:VirtualBeing;
     rdfs:label "最上レン";
     vlueprint:youtubeChannelId "UCu2wqykWnJ3OSPzPKCL0isg";
     vlueprint:youtubeChannelName "最上レン";
     vlueprint:twitterAccount "ren_cheriko";
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
+    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    vlueprint:belongTo <チェリ高帰宅部>.
 
 <錦山夢鷹> a vlueprint:VirtualBeing;
     rdfs:label "錦山夢鷹";
     vlueprint:youtubeChannelId "UCil-nSDmDTgV9n4jjb95znw";
     vlueprint:youtubeChannelName "錦山夢鷹";
     vlueprint:twitterAccount "mutaka_cheriko";
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
+    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+    vlueprint:belongTo <チェリ高帰宅部>.
 
 <美波七海_Minami_Nami> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCrwJvtphcyux30pAgoX68jA";
@@ -6362,11 +6452,13 @@
 
 <肯定ちゃん> a vlueprint:VirtualBeing;
     rdfs:label "肯定ちゃん";
-    vlueprint:twitterAccount "foLo1AdAMllmXja".
+    vlueprint:twitterAccount "foLo1AdAMllmXja";
+    vlueprint:belongTo <肯定ちゃんと否定ちゃん>.
 
 <否定ちゃん> a vlueprint:VirtualBeing;
     rdfs:label "否定ちゃん";
-    vlueprint:twitterAccount "hiteityan".
+    vlueprint:twitterAccount "hiteityan";
+    vlueprint:belongTo <肯定ちゃんと否定ちゃん>.
 
 <リンリン_スマホ少女> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UC6V1ObPkD9n38Cdht4nvDng";
@@ -7984,17 +8076,21 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません".
 
 <カリン> a vlueprint:VirtualBeing;
-    rdfs:label "カリン".
+    rdfs:label "カリン";
+    vlueprint:belongTo <カカリアンズ>.
 
 <リアン> a vlueprint:VirtualBeing;
-    rdfs:label "リアン".
+    rdfs:label "リアン";
+    vlueprint:belongTo <カカリアンズ>.
 
 <音無むおん> a vlueprint:VirtualBeing;
     rdfs:label "音無むおん";
-    vlueprint:twitterAccount "otonashi6on".
+    vlueprint:twitterAccount "otonashi6on";
+    vlueprint:belongTo <69on>.
 
 <音無くおん> a vlueprint:VirtualBeing;
-    rdfs:label "音無くおん".
+    rdfs:label "音無くおん";
+    vlueprint:belongTo <69on>.
 
 <イリスミア> a vlueprint:VirtualBeing;
     rdfs:label "イリスミア";
@@ -8023,11 +8119,13 @@
 
 <ちょこ> a vlueprint:VirtualBeing;
     rdfs:label "ちょこ";
-    rdfs:comment "[TODO]SHOWROOMアカウントがあります".
+    rdfs:comment "[TODO]SHOWROOMアカウントがあります";
+    vlueprint:belongTo <ちょこ☆まかろん>.
 
 <まかろん> a vlueprint:VirtualBeing;
     rdfs:label "まかろん";
-    rdfs:comment "[TODO]SHOWROOMアカウントがあります".
+    rdfs:comment "[TODO]SHOWROOMアカウントがあります";
+    vlueprint:belongTo <ちょこ☆まかろん>.
 
 <バーチャル日本兵oozora> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCcjGRuOIhGjHktNC-iI37IA";
@@ -8356,12 +8454,14 @@
 <黒瀬ミサ> a vlueprint:VirtualBeing;
     rdfs:label "黒瀬ミサ";
     vlueprint:twitterAccount "B2xmisa";
-    vlueprint:office "空想コード+".
+    vlueprint:office "空想コード+";
+    vlueprint:belongTo <黒瀬家>.
 
 <黒瀬サバト> a vlueprint:VirtualBeing;
     rdfs:label "黒瀬サバト";
     vlueprint:twitterAccount "A2Sabbat";
-    vlueprint:office "空想コード+".
+    vlueprint:office "空想コード+";
+    vlueprint:belongTo <黒瀬家>.
 
 <天秤ひなみ> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCFUwj1vuMm0YSETUJKK9N9Q";
@@ -8492,11 +8592,13 @@
 
 <NoiR> a vlueprint:VirtualBeing;
     rdfs:label "NoiR";
-    vlueprint:twitterAccount "No_iR88".
+    vlueprint:twitterAccount "No_iR88";
+    vlueprint:belongTo <NoWorld>.
 
 <白黒黒白> a vlueprint:VirtualBeing;
     rdfs:label "白黒黒白";
-    vlueprint:twitterAccount "ayame_shirakura".
+    vlueprint:twitterAccount "ayame_shirakura";
+    vlueprint:belongTo <NoWorld>.
 
 <早乙女ぽえむ> a vlueprint:VirtualBeing;
     rdfs:label "早乙女ぽえむ";
@@ -8622,11 +8724,13 @@
 
 <ぴぼ> a vlueprint:VirtualBeing;
     rdfs:label "ぴぼ";
-    vlueprint:twitterAccount "memex_pibo".
+    vlueprint:twitterAccount "memex_pibo";
+    vlueprint:belongTo <memex>.
 
 <アラン> a vlueprint:VirtualBeing;
     rdfs:label "アラン";
-    vlueprint:twitterAccount "memex_aran".
+    vlueprint:twitterAccount "memex_aran";
+    vlueprint:belongTo <memex>.
 
 <バーチャルバナナ> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCF-VYfBjb7uupcdELrrB58A";
@@ -8892,23 +8996,28 @@
 
 <荒賀新音> a vlueprint:VirtualBeing;
     rdfs:label "荒賀新音";
-    vlueprint:twitterAccount "Araga_Neon".
+    vlueprint:twitterAccount "Araga_Neon";
+    vlueprint:belongTo <EIGHT_OF_TRIANGLE>.
 
 <君島零> a vlueprint:VirtualBeing;
     rdfs:label "君島零";
-    vlueprint:twitterAccount "Kimishima_Ray".
+    vlueprint:twitterAccount "Kimishima_Ray";
+    vlueprint:belongTo <EIGHT_OF_TRIANGLE>.
 
 <遠藤和斗> a vlueprint:VirtualBeing;
     rdfs:label "遠藤和斗";
-    vlueprint:twitterAccount "Endou_Kazuto".
+    vlueprint:twitterAccount "Endou_Kazuto";
+    vlueprint:belongTo <EIGHT_OF_TRIANGLE>.
 
 <天河ナツシ> a vlueprint:VirtualBeing;
     rdfs:label "天河ナツシ";
-    vlueprint:twitterAccount "natsu_t2019".
+    vlueprint:twitterAccount "natsu_t2019";
+    vlueprint:belongTo <ナツモモchannel>.
 
 <逢坂モモ> a vlueprint:VirtualBeing;
     rdfs:label "逢坂モモ";
-    vlueprint:twitterAccount "momo_o2019".
+    vlueprint:twitterAccount "momo_o2019";
+    vlueprint:belongTo <ナツモモchannel>.
 
 <ユメノウララ> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCVMYwhck7crinIgz49z8flg";
@@ -9000,11 +9109,13 @@
 
 <紅芋さつま> a vlueprint:VirtualBeing;
     rdfs:label "紅芋さつま";
-    vlueprint:twitterAccount "SatsuMai_moo".
+    vlueprint:twitterAccount "SatsuMai_moo";
+    vlueprint:belongTo <さつまい>.
 
 <十六穀米子> a vlueprint:VirtualBeing;
     rdfs:label "十六穀米子";
-    vlueprint:twitterAccount "SatsuMai_koo".
+    vlueprint:twitterAccount "SatsuMai_koo";
+    vlueprint:belongTo <さつまい>.
 
 <Nano_Games> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCHQw1EH-SDlUMugXSbQzQHg";
@@ -9193,10 +9304,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
 <Nana> a vlueprint:VirtualBeing;
-    rdfs:label "Nana".
+    rdfs:label "Nana";
+    vlueprint:belongTo <NANARIKA_Channel>.
 
 <Rika> a vlueprint:VirtualBeing;
-    rdfs:label "Rika".
+    rdfs:label "Rika";
+    vlueprint:belongTo <NANARIKA_Channel>.
 
 <暇人U新人Vtuber【Vtuber準備中】> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelName "暇人U新人Vtuber【Vtuber準備中】";
@@ -9660,11 +9773,13 @@
 
 <ヱックス> a vlueprint:VirtualBeing;
     rdfs:label "ヱックス";
-    vlueprint:twitterAccount "ekkusu_MMD".
+    vlueprint:twitterAccount "ekkusu_MMD";
+    vlueprint:belongTo <ヱクシーズ>.
 
 <ヱクシィ> a vlueprint:VirtualBeing;
     rdfs:label "ヱクシィ";
-    vlueprint:twitterAccount "exy_Vtuber".
+    vlueprint:twitterAccount "exy_Vtuber";
+    vlueprint:belongTo <ヱクシーズ>.
 
 <秘密結社シュヴァルツシルト> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelName "秘密結社シュヴァルツシルト";
@@ -9820,11 +9935,13 @@
 
 <夏川あき> a vlueprint:VirtualBeing;
     rdfs:label "夏川あき";
-    vlueprint:twitterAccount "natsukawaaki".
+    vlueprint:twitterAccount "natsukawaaki";
+    vlueprint:belongTo <私立いちご女学院>.
 
 <冬乃サヤ> a vlueprint:VirtualBeing;
     rdfs:label "冬乃サヤ";
-    vlueprint:twitterAccount "huyuno38".
+    vlueprint:twitterAccount "huyuno38";
+    vlueprint:belongTo <私立いちご女学院>.
 
 <O2PAI_Game_Channel> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCaBJpskufXmLFHEr7I6_UPw";
@@ -9860,10 +9977,12 @@
 
 <白石カイト> a vlueprint:VirtualBeing;
     rdfs:label "白石カイト";
-    vlueprint:twitterAccount "kaito_ochatboys".
+    vlueprint:twitterAccount "kaito_ochatboys";
+    vlueprint:belongTo <お茶の間Tボーイズ>.
 
 <森山ソラ> a vlueprint:VirtualBeing;
-    rdfs:label "森山ソラ".
+    rdfs:label "森山ソラ";
+    vlueprint:belongTo <お茶の間Tボーイズ>.
 
 <バーチャル悪代官> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelName "バーチャル悪代官";
@@ -10118,11 +10237,13 @@
 
 <くろかわ由理> a vlueprint:VirtualBeing;
     rdfs:label "くろかわ由理";
-    vlueprint:twitterAccount "KuroYuri_ASMR".
+    vlueprint:twitterAccount "KuroYuri_ASMR";
+    vlueprint:belongTo <くろかわ由理としらかわ由理>.
 
 <しらかわ由理> a vlueprint:VirtualBeing;
     rdfs:label "しらかわ由理";
-    vlueprint:twitterAccount "Anesama_Daisuki".
+    vlueprint:twitterAccount "Anesama_Daisuki";
+    vlueprint:belongTo <くろかわ由理としらかわ由理>.
 
 <るるなだよ> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCT7N1yYY-pUM_qmnH00rqnA";
@@ -10298,10 +10419,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
 <あさり> a vlueprint:VirtualBeing;
-    rdfs:label "あさり".
+    rdfs:label "あさり";
+    vlueprint:belongTo <はまの姉妹>.
 
 <たたみ> a vlueprint:VirtualBeing;
-    rdfs:label "たたみ".
+    rdfs:label "たたみ";
+    vlueprint:belongTo <はまの姉妹>.
 
 <のちゃんねる_no-channelとりいP> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UC_pmcnT2TTAgVIMmj9_af0Q";
@@ -10469,11 +10592,13 @@
 
 <胡蝶由芽> a vlueprint:VirtualBeing;
     rdfs:label "胡蝶由芽";
-    vlueprint:twitterAccount "yume_owrd".
+    vlueprint:twitterAccount "yume_owrd";
+    vlueprint:belongTo <終末RADIO>.
 
 <小鳥遊酔> a vlueprint:VirtualBeing;
     rdfs:label "小鳥遊酔";
-    vlueprint:twitterAccount "sui_owrd".
+    vlueprint:twitterAccount "sui_owrd";
+    vlueprint:belongTo <終末RADIO>.
 
 <REIA_Virtual_Channel> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCKAxX1brg0ohuvM_sJqdsMg";
@@ -11053,15 +11178,18 @@
 
 <黒瀬迅> a vlueprint:VirtualBeing;
     rdfs:label "黒瀬迅";
-    vlueprint:twitterAccount "G1N_VARTH".
+    vlueprint:twitterAccount "G1N_VARTH";
+    vlueprint:belongTo <VARTH>.
 
 <佐伯圭> a vlueprint:VirtualBeing;
     rdfs:label "ARKHE THE KINDLESS";
-    vlueprint:twitterAccount "Arkhe_VARTH".
+    vlueprint:twitterAccount "Arkhe_VARTH";
+    vlueprint:belongTo <VARTH>.
 
 <一条澄玲> a vlueprint:VirtualBeing;
     rdfs:label "一条澄玲";
-    vlueprint:twitterAccount "Violetta_VARTH".
+    vlueprint:twitterAccount "Violetta_VARTH";
+    vlueprint:belongTo <VARTH>.
 
 <一鍼ヌイ_Nui_Channel【おとりざ和編】> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCjPtFV_hLQNXosySm3c6CWQ";
@@ -12041,17 +12169,20 @@
 <大鳥一姫> a vlueprint:VirtualBeing;
     rdfs:label "大鳥一姫";
     vlueprint:twitterAccount "Itsuki_Otori";
-    vlueprint:office "cluster".
+    vlueprint:office "cluster";
+    vlueprint:belongTo <バチャカリ>.
 
 <前田花奈> a vlueprint:VirtualBeing;
     rdfs:label "前田花奈";
     vlueprint:twitterAccount "Hana_Maeda_kari";
-    vlueprint:office "cluster".
+    vlueprint:office "cluster";
+    vlueprint:belongTo <バチャカリ>.
 
 <風見舞子> a vlueprint:VirtualBeing;
     rdfs:label "風見舞子";
     vlueprint:twitterAccount "MakoKazami";
-    vlueprint:office "cluster".
+    vlueprint:office "cluster";
+    vlueprint:belongTo <バチャカリ>.
 
 <Feru._VRoom> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UClbJyvnY2GlUsdwJfAiUVuA";
@@ -12174,18 +12305,22 @@
     vlueprint:twitterAccount "xmoa_channel".
 
 <でじっこ*ショコラ> a vlueprint:VirtualBeing;
-    rdfs:label "でじっこ*ショコラ".
+    rdfs:label "でじっこ*ショコラ";
+    vlueprint:belongTo <でじみる*ショコラ>.
 
 <みるきー*ショコラ> a vlueprint:VirtualBeing;
-    rdfs:label "みるきー*ショコラ".
+    rdfs:label "みるきー*ショコラ";
+    vlueprint:belongTo <でじみる*ショコラ>.
 
 <せんせい> a vlueprint:VirtualBeing;
     rdfs:label "せんせい";
-    vlueprint:twitterAccount "sensei0ani".
+    vlueprint:twitterAccount "sensei0ani";
+    vlueprint:belongTo <せんせいとおにく>.
 
 <おにく> a vlueprint:VirtualBeing;
     rdfs:label "おにく";
-    vlueprint:twitterAccount "oniku_0029".
+    vlueprint:twitterAccount "oniku_0029";
+    vlueprint:belongTo <せんせいとおにく>.
 
 <うっちゃん_配信_> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCmLC9EVdAftKxVm7n-OlTPA";

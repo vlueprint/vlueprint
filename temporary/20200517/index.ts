@@ -60,17 +60,17 @@ const main = async () => {
 
   const base = parseretPerformingGroup.base
 
-  // const memberTriples = storePerformingGroup.getQuads(null, 'https://vlueprint.org/schema/member', null, null)
-  // const convertedTriples = memberTriples.map(value => {
-  //   return quad(
-  //     namedNode(value.object.value),
-  //     namedNode('https://vlueprint.org/schema/belongTo'),
-  //     namedNode(value.subject.value),
-  //     undefined
-  //   )
-  // })
-  // storePerformingGroup.removeQuads(memberTriples);
-  // storeVirtualBeing.addQuads(convertedTriples)
+  const memberTriples = storePerformingGroup.getQuads(null, 'https://vlueprint.org/schema/member', null, null)
+  const convertedTriples = memberTriples.map(value => {
+    return quad(
+      namedNode(value.object.value),
+      namedNode('https://vlueprint.org/schema/belongTo'),
+      namedNode(value.subject.value),
+      undefined
+    )
+  })
+  storePerformingGroup.removeQuads(memberTriples);
+  storeVirtualBeing.addQuads(convertedTriples)
 
   parseretPerformingGroup.quads = storePerformingGroup.getQuads(null,null,null,null)
   parseretVirtualBeing.quads = storeVirtualBeing.getQuads(null,null,null,null)

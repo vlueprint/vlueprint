@@ -17,7 +17,7 @@
 
 <ゲーム部プロジェクト> a vlueprint:PerformingGroup;
     rdfs:label "ゲーム部プロジェクト";
-    rdfs:comment "[TODO]以下2つはサブチャンネルなので対応が必要です";
+    rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
     vlueprint:youtubeChannelName "ゲーム部プロジェクト", "放課後ゲーム部";
     vlueprint:youtubeChannelId "UC2ZVDmnoZAOdLt7kI7Uaqog", "UCBX00PjvFhTVnnDAR848O3A";
     vlueprint:belongTo <Unlimited>.
@@ -50,8 +50,8 @@
     rdfs:label "MonsterZ MATE";
     vlueprint:youtubeChannelName "MonsterZ MATE";
     vlueprint:youtubeChannelId "UCDG8K9g6qo8gX4jCjsqUVzA";
-    vlueprint:twitterAccount "monsterzmate";
-    vlueprint:belongTo <Balus>.
+    vlueprint:belongTo <Balus>;
+    vlueprint:twitterAccount "monsterzmate".
 
 <ココツキ> a vlueprint:PerformingGroup;
     rdfs:label "ココツキ";
@@ -68,8 +68,8 @@
     rdfs:label "ウタゴエ放送部プロジェクト";
     vlueprint:youtubeChannelName "ウタゴエ放送部プロジェクト";
     vlueprint:youtubeChannelId "UC84RYorF7UcJzt_iAYXBisA";
-    vlueprint:twitterAccount "lara_songs";
-    vlueprint:belongTo <upd8>.
+    vlueprint:belongTo <upd8>;
+    vlueprint:twitterAccount "lara_songs".
 
 <まりなす> a vlueprint:PerformingGroup;
     rdfs:label "まりなす";
@@ -81,15 +81,15 @@
     rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:youtubeChannelName "【VRアイドル】えのぐチャンネル";
     vlueprint:youtubeChannelId "UCFI81W9F49a7GvimKF905eQ";
-    vlueprint:twitterAccount "rbc_geino";
-    vlueprint:belongTo <岩本町芸能社>.
+    vlueprint:belongTo <岩本町芸能社>;
+    vlueprint:twitterAccount "rbc_geino".
 
 <まじかるどーる> a vlueprint:PerformingGroup;
     rdfs:label "まじかるどーる";
     vlueprint:youtubeChannelName "まじかるどーる / Magical Doll";
     vlueprint:youtubeChannelId "UCzhwXcK9DTiY-VqYjwnjZhQ";
-    vlueprint:twitterAccount "magical_matsuri";
-    vlueprint:belongTo <UUUM>.
+    vlueprint:belongTo <UUUM>;
+    vlueprint:twitterAccount "magical_matsuri".
 
 <Marpril> a vlueprint:PerformingGroup;
     rdfs:label "Marpril";
@@ -124,15 +124,15 @@
     rdfs:label "GEMS COMPANY";
     vlueprint:youtubeChannelName "GEMS COMPANY公式チャンネル";
     vlueprint:youtubeChannelId "UCBvICYXxPK8PkoocBGnmeHA";
-    vlueprint:twitterAccount "gems_company";
-    vlueprint:belongTo <GEMS_COMPANY>.
+    vlueprint:belongTo <GEMS_COMPANY>;
+    vlueprint:twitterAccount "gems_company".
 
 <りむとまき> a vlueprint:PerformingGroup;
     rdfs:label "りむとまき";
     vlueprint:youtubeChannelName "りむとまき channel";
     vlueprint:youtubeChannelId "UCRrJOT-K38VNeS3ukQARIZw";
-    vlueprint:twitterAccount "";
-    vlueprint:belongTo <バ美肉>.
+    vlueprint:belongTo <バ美肉>;
+    vlueprint:twitterAccount "".
 
 <44SUPER> a vlueprint:PerformingGroup;
     rdfs:label "44SUPER";
@@ -144,8 +144,8 @@
     rdfs:label "月夜ソラwith夜桜カノン";
     vlueprint:youtubeChannelName "月夜ソラwith夜桜カノン";
     vlueprint:youtubeChannelId "UCPwSREC85pZ3_ZW1MbEWf9Q";
-    vlueprint:twitterAccount "Sora_Tsukiyo";
-    vlueprint:belongTo <元ENTUM>.
+    vlueprint:belongTo <元ENTUM>;
+    vlueprint:twitterAccount "Sora_Tsukiyo".
 
 <ARP> a vlueprint:PerformingGroup;
     rdfs:label "ARP";
@@ -157,8 +157,8 @@
     rdfs:label "アヤミナ";
     vlueprint:youtubeChannelName "AyaMina Games";
     vlueprint:youtubeChannelId "UCrSpZbNNao8YQ5aj2Jr2exw";
-    vlueprint:twitterAccount "ayamina_Aya";
-    vlueprint:belongTo <upd8>.
+    vlueprint:belongTo <upd8>;
+    vlueprint:twitterAccount "ayamina_Aya".
 
 <シアシスターズ> a vlueprint:PerformingGroup;
     rdfs:label "シアシスターズ";
@@ -176,8 +176,8 @@
     rdfs:label "WHITEHOLE";
     vlueprint:youtubeChannelName "チェリ高帰宅部";
     vlueprint:youtubeChannelId "UCBnJcqkJofBN26VELPXSB5A";
-    vlueprint:twitterAccount "ren_cheriko";
-    vlueprint:belongTo <upd8>.
+    vlueprint:belongTo <upd8>;
+    vlueprint:twitterAccount "ren_cheriko".
 
 <肯定ちゃんと否定ちゃん> a vlueprint:PerformingGroup;
     rdfs:label "肯定ちゃんと否定ちゃん";
@@ -274,8 +274,8 @@
     rdfs:label "終末RADIO";
     vlueprint:youtubeChannelName "バーチャルFM 【 終末RADIO 】";
     vlueprint:youtubeChannelId "UCdqR8MqwdotQXsWnBzj76tA";
-    vlueprint:twitterAccount "vfm_owrd";
-    vlueprint:belongTo <Akihabara_Lab>.
+    vlueprint:belongTo <Akihabara_Lab>;
+    vlueprint:twitterAccount "vfm_owrd".
 
 <VARTH> a vlueprint:PerformingGroup;
     rdfs:label "VARTH";

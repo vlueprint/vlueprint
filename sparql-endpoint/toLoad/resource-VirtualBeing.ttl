@@ -6,15 +6,10 @@
 
 <キズナアイ> a vlueprint:VirtualBeing;
     rdfs:label "キズナアイ";
-    vlueprint:youtubeChannelId "UC4YaOt1yT-ZeyB0OmxHgolA";
     vlueprint:youtubeChannelName "A.I.Channel";
-    vlueprint:twitterAccount "aichan_nel";
-    vlueprint:belongTo <upd8>.
-
-<キズナアイ(ゲーム)> a vlueprint:VirtualBeing;
-    rdfs:label "キズナアイ(ゲーム)";
-    vlueprint:youtubeChannelId "UCbFwe3COkDrbNsbMyGNCsDg";
+    vlueprint:youtubeChannelId "UC4YaOt1yT-ZeyB0OmxHgolA";
     vlueprint:youtubeChannelName "A.I.Games";
+    vlueprint:youtubeChannelId "UCbFwe3COkDrbNsbMyGNCsDg";
     vlueprint:twitterAccount "aichan_nel";
     vlueprint:belongTo <upd8>.
 
@@ -251,6 +246,8 @@
     rdfs:label "緑仙(リューシェン)";
     vlueprint:youtubeChannelId "UCt5-0i4AVHXaWJrL8Wql3mw";
     vlueprint:youtubeChannelName "緑仙channel";
+    vlueprint:youtubeChannelId "UCTi_rzf5QIkXjhJjkbcAdTg";
+    vlueprint:youtubeChannelName "みどりのさぶちゃんねる";
     vlueprint:twitterAccount "midori_2434";
     vlueprint:belongTo <にじさんじ(SEEDs出身)>.
 
@@ -285,7 +282,10 @@
     rdfs:label "赤井はあと";
     vlueprint:youtubeChannelId "UC1CfXB_kRs3C-zaeTG3oGyg";
     vlueprint:youtubeChannelName "Haato Channel 赤井はあと";
+    vlueprint:youtubeChannelId "UCHj_mh57PVMXhAUDphUQDFA";
+    vlueprint:youtubeChannelName "Akai Haato Sub 赤井はあと";
     vlueprint:twitterAccount "akaihaato";
+    vlueprint:twitterAccount "akaihaatosub";
     vlueprint:belongTo <ホロライブ>.
 
 <キミノ_ミヤ(MIYA_KIMINO)> a vlueprint:VirtualBeing;
@@ -475,6 +475,8 @@
     rdfs:label "癒月ちょこ";
     vlueprint:youtubeChannelId "UC1suqwovbL1kzsoaZgFZLKg";
     vlueprint:youtubeChannelName "Choco Ch. 癒月ちょこ";
+    vlueprint:youtubeChannelId "UCp3tgHXw_HI0QMk1K8qh3gQ";
+    vlueprint:youtubeChannelName "Choco subCh. 癒月ちょこ";
     vlueprint:twitterAccount "yuzukichococh";
     vlueprint:belongTo <ホロライブ>.
 
@@ -1131,6 +1133,8 @@
     rdfs:label "アキ・ローゼンタール";
     vlueprint:youtubeChannelId "UCFTLzh12_nrtzqBPsTCqenA";
     vlueprint:youtubeChannelName "アキロゼCh。Vtuber/ホロライブ所属";
+    vlueprint:youtubeChannelId "UCLbtM3JZfRTg8v2KGag-RMw";
+    vlueprint:youtubeChannelName "AkiRose Ch.アキ・ローゼンタールSub";
     vlueprint:twitterAccount "akirosenthal";
     vlueprint:belongTo <ホロライブ>.
 
@@ -2034,6 +2038,8 @@
     rdfs:label "響木アオ";
     vlueprint:youtubeChannelId "UCNwo7eikmX5HPs7NedWVBgw";
     vlueprint:youtubeChannelName "響木アオ-HibikiAo-";
+    vlueprint:youtubeChannelId "UCTNOpMjGN-Djwrj6WHfJgqQ";
+    vlueprint:youtubeChannelName "Hibiki Ao 2nd";
     vlueprint:twitterAccount "hibiki_ao";
     vlueprint:belongTo <upd8>.
 
@@ -2062,13 +2068,6 @@
     vlueprint:youtubeChannelId "UC3czs41x7HD5-nk_cZ-Eo3g";
     vlueprint:youtubeChannelName "Земля Чан";
     vlueprint:twitterAccount "zemlyachan".
-
-<癒月ちょこ(サブチャンネル)> a vlueprint:VirtualBeing;
-    rdfs:label "癒月ちょこ(サブチャンネル)";
-    vlueprint:youtubeChannelId "UCp3tgHXw_HI0QMk1K8qh3gQ";
-    vlueprint:youtubeChannelName "Choco subCh. 癒月ちょこ";
-    vlueprint:twitterAccount "";
-    vlueprint:belongTo <ホロライブ>.
 
 <ちくわ> a vlueprint:VirtualBeing;
     rdfs:label "ちくわ";
@@ -2442,20 +2441,6 @@
     vlueprint:twitterAccount "A_BOX_LAND";
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
-<赤井はあと(サブチャンネル)> a vlueprint:VirtualBeing;
-    rdfs:label "赤井はあと(サブチャンネル)";
-    vlueprint:youtubeChannelId "UCHj_mh57PVMXhAUDphUQDFA";
-    vlueprint:youtubeChannelName "Akai Haato Sub 赤井はあと";
-    vlueprint:twitterAccount "akaihaatosub";
-    vlueprint:belongTo <ホロライブ>.
-
-<緑仙サブチャンネル> a vlueprint:VirtualBeing;
-    rdfs:label "緑仙サブチャンネル";
-    vlueprint:youtubeChannelId "UCTi_rzf5QIkXjhJjkbcAdTg";
-    vlueprint:youtubeChannelName "みどりのさぶちゃんねる";
-    vlueprint:twitterAccount "";
-    vlueprint:belongTo <にじさんじ(SEEDs出身)>.
-
 <語部紡(かたりべつむぐ)> a vlueprint:VirtualBeing;
     rdfs:label "語部紡(かたりべつむぐ)";
     vlueprint:youtubeChannelId "UCufQu4q65z63IgE4cfKs1BQ";
@@ -2714,13 +2699,6 @@
     vlueprint:twitterAccount "matsuri_kzmy";
     vlueprint:belongTo <Balus>.
 
-<アキ・ローゼンタール(サブチャンネル)> a vlueprint:VirtualBeing;
-    rdfs:label "アキ・ローゼンタール(サブチャンネル)";
-    vlueprint:youtubeChannelId "UCLbtM3JZfRTg8v2KGag-RMw";
-    vlueprint:youtubeChannelName "AkiRose Ch.アキ・ローゼンタールSub";
-    vlueprint:twitterAccount "";
-    vlueprint:belongTo <ホロライブ>.
-
 <花奏かのん(かなでかのん)> a vlueprint:VirtualBeing;
     rdfs:label "花奏かのん(かなでかのん)";
     vlueprint:youtubeChannelId "UCmqrvfLMws-GLGHQcB5dasg";
@@ -2886,10 +2864,12 @@
     vlueprint:belongTo <元ENTUM>.
 
 <雑葉学美_-_Zouba_Channel> a vlueprint:VirtualBeing;
+    rdfs:label "雑葉学美";
     vlueprint:youtubeChannelId "UCElr8slMrY-Cr764_QIJHPA";
     vlueprint:youtubeChannelName "雑葉学美 - Zouba Channel";
-    vlueprint:twitterAccount "TriviaStyle_RNK";
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
+    vlueprint:youtubeChannelId "UCEBgSf3y9rPIkvgeyBweYTQ";
+    vlueprint:youtubeChannelName "雑葉学美 - Sub Zouba";
+    vlueprint:twitterAccount "TriviaStyle_RNK".
 
 <花丸はれる> a vlueprint:VirtualBeing;
     rdfs:label "花丸はれる";
@@ -6448,13 +6428,6 @@
     vlueprint:twitterAccount "marchen_music";
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
-<響木アオ(サブ)> a vlueprint:VirtualBeing;
-    rdfs:label "響木アオ(サブ)";
-    vlueprint:youtubeChannelId "UCTNOpMjGN-Djwrj6WHfJgqQ";
-    vlueprint:youtubeChannelName "Hibiki Ao 2nd";
-    vlueprint:twitterAccount "hibiki_ao";
-    vlueprint:belongTo <upd8>.
-
 <ロイヤルタイム> a vlueprint:VirtualBeing;
     vlueprint:youtubeChannelId "UCzkhDK9kMH3kQZyz5nUxJ8A";
     vlueprint:youtubeChannelName "ロイヤルタイム";
@@ -8794,12 +8767,6 @@
     vlueprint:youtubeChannelId "UCLwKMSOJKtoqbrCLAuiavZQ";
     vlueprint:youtubeChannelName "くのいち子V忍者";
     vlueprint:twitterAccount "kunoichiko";
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
-
-<雑葉学美_-_Sub_Zouba> a vlueprint:VirtualBeing;
-    vlueprint:youtubeChannelId "UCEBgSf3y9rPIkvgeyBweYTQ";
-    vlueprint:youtubeChannelName "雑葉学美 - Sub Zouba";
-    vlueprint:twitterAccount "TriviaStyle_RNK";
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです".
 
 <フィドロサミル学園> a vlueprint:VirtualBeing;

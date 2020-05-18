@@ -1,0 +1,18 @@
+@base <https://vlueprint.org/resource/> .
+
+@prefix vlueprint: <https://vlueprint.org/schema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<Activ8> a vlueprint:Company;
+    rdfs:label "Activ8".
+
+<VIC> a vlueprint:Company;
+    rdfs:label "VIC".
+
+<ZIZAI> a vlueprint:Company;
+    rdfs:label "ZIZAI".
+
+<App_Land> a vlueprint:Company;
+    rdfs:label "App Land".
+

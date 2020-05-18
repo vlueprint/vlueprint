@@ -45,3 +45,9 @@ vlueprint:PerformingGroup a rdfs:Class;
     rdfs:label "Virtual Being";
     rdfs:comment "Virtual Being がチャンネル等を複数人で使っている際にグループとします";
     .
+
+vlueprint:Company a rdfs:Class;
+    rdfs:subClassOf vlueprint:Organization;
+    rdfs:label "Company";
+    rdfs:comment "Virtual Being や企業やプロジェクト、ユニットの運営会社";
+    .

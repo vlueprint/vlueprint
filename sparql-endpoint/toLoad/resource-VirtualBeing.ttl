@@ -31,7 +31,7 @@
     vlueprint:youtubeChannelName "Siro Channel";
     vlueprint:youtubeChannelId "UCLhUvJ_wO9hOvv_yYENu4fQ";
     vlueprint:twitterAccount "SIROyoutuber";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <田中ヒメ> a vlueprint:VirtualBeing;
     rdfs:label "田中ヒメ";
@@ -707,7 +707,7 @@
     vlueprint:youtubeChannelName "もこめめ*channel";
     vlueprint:youtubeChannelId "UCz6Gi81kE6p5cdW1rT0ixqw";
     vlueprint:twitterAccount "mokomeme_ch";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <Ami_Yamato(海外)> a vlueprint:VirtualBeing;
     rdfs:label "Ami Yamato(海外)";
@@ -979,7 +979,7 @@
     vlueprint:youtubeChannelName "【世界初?!】男性バーチャルYouTuber ばあちゃる";
     vlueprint:youtubeChannelId "UC6TyfKcsrPwBsBnx2QobVLQ";
     vlueprint:twitterAccount "BAyoutuber";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <Melody> a vlueprint:VirtualBeing;
     rdfs:label "Melody";
@@ -999,7 +999,7 @@
     vlueprint:youtubeChannelName "北上双葉";
     vlueprint:youtubeChannelId "UC5nfcGkOAm3JwfPvJvzplHg";
     vlueprint:twitterAccount "KitakamiFutaba";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <ふぇありす> a vlueprint:VirtualBeing;
     rdfs:label "ふぇありす";
@@ -1013,7 +1013,7 @@
     vlueprint:youtubeChannelName "金剛いろは";
     vlueprint:youtubeChannelId "UCiGcHHHT3kBB1IGOrv7f3qQ";
     vlueprint:twitterAccount "KongoIroha";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <不知火フレア> a vlueprint:VirtualBeing;
     rdfs:label "不知火フレア";
@@ -1185,14 +1185,14 @@
     vlueprint:youtubeChannelName "花京院ちえり";
     vlueprint:youtubeChannelId "UCP9ZgeIJ3Ri9En69R0kJc9Q";
     vlueprint:twitterAccount "chieri_kakyoin";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <超人女子戦士_ガリベンガーV(テレビ朝日)> a vlueprint:VirtualBeing;
     rdfs:label "超人女子戦士 ガリベンガーV(テレビ朝日)";
     vlueprint:youtubeChannelName "超人女子戦士 ガリベンガーV";
     vlueprint:youtubeChannelId "UCzuEc7Nsm9GtMX4yuzjSqgA";
     vlueprint:twitterAccount "garibenV";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <ましろ> a vlueprint:VirtualBeing;
     rdfs:label "ましろ";
@@ -1293,14 +1293,14 @@
     vlueprint:youtubeChannelName "神楽すず";
     vlueprint:youtubeChannelId "UCUZ5AlC3rTlM-rA2cj5RP6w";
     vlueprint:twitterAccount "kagura_suzu";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <八重沢なとり> a vlueprint:VirtualBeing;
     rdfs:label "八重沢なとり";
     vlueprint:youtubeChannelName "八重沢なとり";
     vlueprint:youtubeChannelId "UC1519-d1jzGiL1MPTxEdtSA";
     vlueprint:twitterAccount "YaezawaNatori";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <猫乃木もち> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
@@ -1331,7 +1331,7 @@
     vlueprint:youtubeChannelName "ヤマト イオリ";
     vlueprint:youtubeChannelId "UCyb-cllCkMREr9de-hoiDrg";
     vlueprint:twitterAccount "YamatoIori";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <エリー・コニファー> a vlueprint:VirtualBeing;
     rdfs:label "エリー・コニファー";
@@ -1384,7 +1384,7 @@
     vlueprint:youtubeChannelName "カルロ・ピノ";
     vlueprint:youtubeChannelId "UCMzxQ58QL4NNbWghGymtHvw";
     vlueprint:twitterAccount "carro_pino";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <出雲霞> a vlueprint:VirtualBeing;
     rdfs:label "出雲霞";
@@ -1561,7 +1561,7 @@
     vlueprint:youtubeChannelName "メリーミルクの森";
     vlueprint:youtubeChannelId "UCju7v8SkoWUQ5ITCQwmYpYg";
     vlueprint:twitterAccount "milk_merry_";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <小野町春香> a vlueprint:VirtualBeing;
     rdfs:label "小野町春香";
@@ -1608,7 +1608,7 @@
     vlueprint:youtubeChannelName "どっとライブ";
     vlueprint:youtubeChannelId "UCAZ_LA7f0sjuZ1Ni8L2uITw";
     vlueprint:twitterAccount "dotLIVEyoutuber";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <赤月ゆに> a vlueprint:VirtualBeing;
     rdfs:label "赤月ゆに";
@@ -1628,7 +1628,7 @@
     vlueprint:youtubeChannelName "木曽あずき";
     vlueprint:youtubeChannelId "UCmM5LprTu6-mSlIiRNkiXYg";
     vlueprint:twitterAccount "KisoAzuki";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <吟醸姉妹> a vlueprint:VirtualBeing;
     rdfs:label "吟醸姉妹";
@@ -1716,7 +1716,7 @@
     vlueprint:youtubeChannelName "牛巻 りこ";
     vlueprint:youtubeChannelId "UCKUcnaLsG2DeQqza8zRXHiA";
     vlueprint:twitterAccount "UshimakiRiko";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <蒼月エリ> a vlueprint:VirtualBeing;
     rdfs:label "蒼月エリ";
@@ -2593,7 +2593,7 @@
     vlueprint:youtubeChannelName "電脳少女シロGames";
     vlueprint:youtubeChannelId "UCkD-wlU06zeiGSk31y2qIOw";
     vlueprint:twitterAccount "";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <みあたみちゃんねる> a vlueprint:VirtualBeing;
     rdfs:label "みあたみちゃんねる";
@@ -3619,7 +3619,7 @@
     vlueprint:youtubeChannelName "Siro Games";
     vlueprint:youtubeChannelId "UCWOoEONmiuypAfKAxnBf2vQ";
     vlueprint:twitterAccount "";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <皇噛ユカリ> a vlueprint:VirtualBeing;
     rdfs:label "皇噛ユカリ";
@@ -10245,7 +10245,7 @@
     vlueprint:youtubeChannelName "ピーマンくん";
     vlueprint:youtubeChannelId "UCnqnQYvBehuaAYi9M8W_cig";
     vlueprint:twitterAccount "Pvtuber";
-    vlueprint:belongTo <.LIVE>.
+    vlueprint:belongTo <.LIVE> <App_Land>.
 
 <MiyaMiya_Channel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";

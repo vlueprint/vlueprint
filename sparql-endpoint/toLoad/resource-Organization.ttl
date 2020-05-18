@@ -8,14 +8,13 @@
     rdfs:label "upd8";
     vlueprint:belongTo <Activ8>.
 
-<VIC> a vlueprint:Organization;
-    rdfs:label "VIC".
-
 <元ENTUM> a vlueprint:Organization;
-    rdfs:label "元ENTUM".
+    rdfs:label "元ENTUM";
+    rdfs:comment "[TODO]時系列を考慮した対応が必要です".
 
 <.LIVE> a vlueprint:Organization;
-    rdfs:label ".LIVE".
+    rdfs:label ".LIVE";
+    vlueprint:belongTo <App_Land>.
 
 <にじさんじ(1・2期生)> a vlueprint:Organization;
     rdfs:label "にじさんじ(1・2期生)".

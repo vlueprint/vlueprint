@@ -5,7 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 <upd8> a vlueprint:Organization;
-    rdfs:label "upd8".
+    rdfs:label "upd8";
+    vlueprint:belongTo <Activ8>.
 
 <VIC> a vlueprint:Organization;
     rdfs:label "VIC".

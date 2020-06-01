@@ -1,25 +1,21 @@
 <template>
-  <b-collapse :open.sync="open" class="card">
-    <template v-slot:trigger="props">
-      <div class="card-header" role="button">
-        <p class="card-header-title">
-          {{ title }}
-        </p>
-        <a class="card-header-icon">
-          <b-icon :icon="props.open ? 'menu-down' : 'menu-up'" />
-        </a>
-      </div>
-    </template>
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">
+        {{ title }}
+      </p>
+    </header>
     <div class="card-content">
       <div class="content">
         <pre>{{code}}</pre>
+        <b-loading :is-full-page="false" :active.sync="isLoading"></b-loading>
       </div>
     </div>
     <footer class="card-footer">
-      <a :href="gistUrl" class="card-footer-item">Original Gist (解説等)</a>
+      <a :href="gistUrl" class="card-footer-item">Gist (解説等)</a>
       <a :href="editorLink" class="card-footer-item">Open</a>
     </footer>
-  </b-collapse>
+  </div>
 </template>
 
 <script lang="ts">
@@ -34,7 +30,7 @@ export default Vue.extend({
   },
   data () {
     return {
-      open: false,
+      isLoading: true,
       code: ' ',
       title: ' ',
       cmOptions: {
@@ -52,11 +48,6 @@ export default Vue.extend({
       return `https://vlueprint.org/sparql?qtxt=${encodedCode}`
     }
   },
-  watch: {
-    open () {
-      //this.code += ' '
-    }
-  },
   async mounted () {
     const m = this.gistUrl.match(
       /https:\/\/gist\.github\.com\/.+?\/([0-9a-z]+)(#.+)?/
@@ -68,6 +59,7 @@ export default Vue.extend({
     this.code = file.content
     this.cmOptions.mode = file.type
     this.title = response.data.description
+    this.isLoading = false;
   }
 })
 </script>

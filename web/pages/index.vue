@@ -24,6 +24,14 @@
         <p>また，GitHubアカウントを持っていればどなたでも編集や開発に参加することができます，</p>
       </div>
     </section>
+    <section class="content">
+      <h2 class="title">データの取得例</h2>
+      <div>
+        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/fd700b4cb1f6e4aeaa494b1ea2d7287e" />
+        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/02ae7473069d7f2dccffe5f776e16192" />
+        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/be2a6ddd0ea944874782e8fe21f0a335" />
+      </div>
+    </section>
     <section class="lets-start content">
       <h2 class="title">さあ，始めましょう</h2>
       <div class="links">
@@ -39,10 +47,11 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
+import SparqlSample from "~/components/SparqlSample.vue"
 
 export default {
   components: {
-    Logo
+    Logo, SparqlSample
   }
 };
 </script>

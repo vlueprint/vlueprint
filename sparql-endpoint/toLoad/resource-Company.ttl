@@ -5,14 +5,15 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 <Activ8> a vlueprint:Company;
-    rdfs:label "Activ8".
+    rdfs:label "Activ8";
+    vlueprint:yomi "あくてぃべーと".
 
 <VIC> a vlueprint:Company;
     rdfs:label "VIC".
 
 <ZIZAI> a vlueprint:Company;
-    rdfs:label "ZIZAI".
+    rdfs:label "ZIZAI";
+    vlueprint:yomi "じざい".
 
 <App_Land> a vlueprint:Company;
     rdfs:label "App Land".
-

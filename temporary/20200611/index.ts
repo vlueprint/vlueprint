@@ -68,56 +68,112 @@ const validNode = (base: string, key: string) => {
   return namedNode(base + key.normalize("NFKC"))
 }
 
+const AddYomi = (dicEntry: DicEntry, store: N3.N3Store) => {
+  const vb = store.getQuads(
+    null,
+    namedNode("http://www.w3.org/2000/01/rdf-schema#label"),
+    literal(dicEntry.kanji),
+    null
+  )
+  if (vb.length > 0) {
+    store.addQuad(quad(
+      vb[0].subject,
+      namedNode('https://vlueprint.org/schema/yomi'),
+      literal(dicEntry.yomi),
+      undefined
+    ))
+  }
+  return vb.length > 0
+}
+
 const main = async () => {
 
   const vTuberDic = JSON.parse(fs.readFileSync('./VTuberDic.json', 'utf8')) as DicEntry[]
 
   const parseretVirtualBeing = parse('../../sparql-endpoint/toLoad/resource-VirtualBeing.ttl')
   const storeVirtualBeing = new N3.Store(parseretVirtualBeing.quads)
+
+  const parseretPerformingGroup = parse('../../sparql-endpoint/toLoad/resource-PerformingGroup.ttl')
+  const storePerformingGroup = new N3.Store(parseretPerformingGroup.quads)
+
+  const parseretOrganization = parse('../../sparql-endpoint/toLoad/resource-Organization.ttl')
+  const storeOrganization = new N3.Store(parseretOrganization.quads)
+
+  const parseretCompany = parse('../../sparql-endpoint/toLoad/resource-Company.ttl')
+  const storeCompany = new N3.Store(parseretCompany.quads)
+
+  const storeKeyword = new N3.Store([])
+
   const base = parseretVirtualBeing.base
 
-  const yomiQuads = [] as N3.Quad[]
   let counter = 0;
   vTuberDic.forEach(value => {
-    const vb = storeVirtualBeing.getQuads(
-      null,
-      namedNode("http://www.w3.org/2000/01/rdf-schema#label"),
-      literal(value.kanji),
-      null
-    )
-    if (vb.length > 0) {
-      yomiQuads.push(quad(
-        vb[0].subject,
-        namedNode('https://vlueprint.org/schema/yomi'),
-        literal(value.yomi),
-        undefined
-      ))
-    } else {
+    console.log(`${counter++}/${vTuberDic.length}`)
+    if (AddYomi(value, storeVirtualBeing)) return
+    else if (AddYomi(value, storePerformingGroup)) return
+    else if (AddYomi(value, storeOrganization)) return
+    else if (AddYomi(value, storeCompany)) return
+    else {
+      const isVB = (value.hinshi == "人名")
       const subject = validNode(base, value.kanji)
-      yomiQuads.push(quad(
+      const store = isVB ? storeVirtualBeing : storeKeyword
+      const className = isVB ? "VirtualBeing" : "KeyWord"
+      const exists = store.getQuads(subject, null, null, null).length > 0
+      store.addQuad(quad(
         subject,
         namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"),
-        namedNode("https://vlueprint.org/schema/VirtualBeing"),
+        namedNode(`https://vlueprint.org/schema/${className}`),
         undefined
       ))
-      yomiQuads.push(quad(
+      if (isVB) {
+        if (exists) {
+          const comment = store.getQuads(
+            subject,
+            namedNode("http://www.w3.org/2000/01/rdf-schema#comment"),
+            literal("[TODO]名前が取得できなかったので，URIは仮のものです"),
+            null
+          )[0];
+          if (comment) store.removeQuad(comment)
+        } else {
+          store.addQuad(quad(
+            subject,
+            namedNode("http://www.w3.org/2000/01/rdf-schema#comment"),
+            literal("[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています"),
+            undefined
+          ))
+        }
+      }
+      store.addQuad(quad(
         subject,
         namedNode('http://www.w3.org/2000/01/rdf-schema#label'),
         literal(value.kanji),
         undefined
       ))
-      yomiQuads.push(quad(
+      store.addQuad(quad(
         subject,
         namedNode('https://vlueprint.org/schema/yomi'),
         literal(value.yomi),
         undefined
       ))
     }
-    console.log(`${counter++}/${vTuberDic.length}`)
   })
-  storeVirtualBeing.addQuads(yomiQuads)
+
   parseretVirtualBeing.quads = storeVirtualBeing.getQuads(null, null, null, null)
+  parseretPerformingGroup.quads = storePerformingGroup.getQuads(null, null, null, null)
+  parseretOrganization.quads = storeOrganization.getQuads(null, null, null, null)
+  parseretCompany.quads = storeCompany.getQuads(null, null, null, null)
+
   await write(parseretVirtualBeing)
+  await write(parseretPerformingGroup)
+  await write(parseretOrganization)
+  await write(parseretCompany)
+
+  await write({
+    quads: storeKeyword.getQuads(null, null, null, null),
+    base: base,
+    prefixes: parseretVirtualBeing.prefixes,
+    path: '../../sparql-endpoint/toLoad/resource-Keyword.ttl'
+  })
 }
 
 (async () => await main())()

@@ -27,6 +27,10 @@ vlueprint:belongTo a rdf:Property;
     rdfs:label "所属";
     .
 
+vlueprint:yomi a rdf:Property;
+    rdfs:label "よみ(IME)";
+    .
+
 # クラス定義
 
 vlueprint:VirtualBeing a rdfs:Class;
@@ -50,4 +54,9 @@ vlueprint:Company a rdfs:Class;
     rdfs:subClassOf vlueprint:Organization;
     rdfs:label "Company";
     rdfs:comment "Virtual Being や企業やプロジェクト、ユニットの運営会社";
+    .
+
+vlueprint:Keyword a rdfs:Class;
+    rdfs:label "Keyword";
+    rdfs:comment "IME辞書を取り込んだ際に含まれていたキーワードです";
     .

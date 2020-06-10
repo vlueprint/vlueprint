@@ -17,16 +17,18 @@
 
 <ゲーム部プロジェクト> a vlueprint:PerformingGroup;
     rdfs:label "ゲーム部プロジェクト";
-    rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
     vlueprint:youtubeChannelName "ゲーム部プロジェクト", "放課後ゲーム部";
     vlueprint:youtubeChannelId "UC2ZVDmnoZAOdLt7kI7Uaqog", "UCBX00PjvFhTVnnDAR848O3A";
-    vlueprint:belongTo <Unlimited>.
+    vlueprint:belongTo <Unlimited>;
+    rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
+    vlueprint:yomi "げーむぶ".
 
 <おめがシスターズ> a vlueprint:PerformingGroup;
     rdfs:label "おめがシスターズ";
     vlueprint:youtubeChannelName "おめがシスターズ [Ω Sisters]";
     vlueprint:youtubeChannelId "UCNjTjd2-PMC8Oo_-dCEss7A";
-    vlueprint:belongTo <upd8>, <Activ8>.
+    vlueprint:belongTo <upd8>, <Activ8>;
+    vlueprint:yomi "おめしす".
 
 <あおぎり高校> a vlueprint:PerformingGroup;
     rdfs:label "あおぎり高校";
@@ -51,7 +53,8 @@
     vlueprint:youtubeChannelName "MonsterZ MATE";
     vlueprint:youtubeChannelId "UCDG8K9g6qo8gX4jCjsqUVzA";
     vlueprint:belongTo <Balus>;
-    vlueprint:twitterAccount "monsterzmate".
+    vlueprint:twitterAccount "monsterzmate";
+    vlueprint:yomi "ｍｚｍ", "もんすたーずめいと".
 
 <ココツキ> a vlueprint:PerformingGroup;
     rdfs:label "ココツキ";
@@ -78,10 +81,10 @@
 
 <えのぐ> a vlueprint:PerformingGroup;
     rdfs:label "えのぐ";
-    rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:youtubeChannelName "【VRアイドル】えのぐチャンネル";
     vlueprint:youtubeChannelId "UCFI81W9F49a7GvimKF905eQ";
     vlueprint:belongTo <岩本町芸能社>;
+    rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:twitterAccount "rbc_geino".
 
 <まじかるどーる> a vlueprint:PerformingGroup;
@@ -106,7 +109,8 @@
 <エルセとさめのぽき> a vlueprint:PerformingGroup;
     rdfs:label "エルセとさめのぽき";
     vlueprint:youtubeChannelName "エルセとさめのぽき";
-    vlueprint:youtubeChannelId "UCLMC54YctropOupFX8jyz9A".
+    vlueprint:youtubeChannelId "UCLMC54YctropOupFX8jyz9A";
+    vlueprint:yomi "えるせ".
 
 <Palette_Project> a vlueprint:PerformingGroup;
     rdfs:label "Palette Project";
@@ -170,7 +174,8 @@
     rdfs:label "WHITEHOLE";
     vlueprint:youtubeChannelName "WHITEHOLE";
     vlueprint:youtubeChannelId "UC8vkhYTFz4WGuR8k4qmuX9Q";
-    vlueprint:twitterAccount "nano_whitehole".
+    vlueprint:twitterAccount "nano_whitehole";
+    vlueprint:yomi "ほわいとほーる".
 
 <チェリ高帰宅部> a vlueprint:PerformingGroup;
     rdfs:label "WHITEHOLE";

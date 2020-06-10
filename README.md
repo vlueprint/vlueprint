@@ -63,6 +63,16 @@ https://vlueprint.org/
 
 Made with [contributors-img](https://contributors-img.web.app).
 
+## Special Thanks
+
+### WFLE/GREE VR Studio Lab
+
+Special Thanks WFLE/GREE VR Studio Lab! #53
+
+[@o_ob氏](https://twitter.com/o_ob)よりご紹介いただきました
+https://twitter.com/o_ob/status/1267652499919368193
+https://twitter.com/VRStudioLab/status/1136889624360472577
+
 ## 貢献について
 
 Issue や PullRequest を歓迎します！

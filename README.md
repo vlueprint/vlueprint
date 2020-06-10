@@ -68,12 +68,13 @@ Made with [contributors-img](https://contributors-img.web.app).
 ### WFLE/GREE VR Studio Lab
 
 Special Thanks WFLE/GREE VR Studio Lab!
-WFLE/GREE VR Studio Lab の IME 辞書を取り込み by takanakahiko · Pull Request #53 · vlueprint/vlueprint](https://github.com/vlueprint/vlueprint/pull/53)
+
+[WFLE/GREE VR Studio Lab の IME 辞書を取り込み by takanakahiko · Pull Request #53 · vlueprint/vlueprint](https://github.com/vlueprint/vlueprint/pull/53)
 
 [@o_ob氏](https://twitter.com/o_ob)よりご紹介いただきました
 
-https://twitter.com/o_ob/status/1267652499919368193
-https://twitter.com/VRStudioLab/status/1136889624360472577
+- https://twitter.com/o_ob/status/1267652499919368193
+- https://twitter.com/VRStudioLab/status/1136889624360472577
 
 ## 貢献について
 

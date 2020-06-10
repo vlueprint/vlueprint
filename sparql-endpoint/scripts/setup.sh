@@ -48,7 +48,9 @@ fi
 # Setting
 if [ ! -f ".enable_cors" ];
 then
-  virtuoso-t +wait && isql-v -U dba -P dba < /scripts/setup.sql
-  kill "$(ps aux | grep '[v]irtuoso-t' | awk '{print $2}')"
+  pwd="dba"
+  if [ "$DBA_PASSWORD" ]; then pwd="$DBA_PASSWORD" ; fi
+  virtuoso-t +wait && isql-v -U dba -P "$pwd" < /scripts/setup.sql
+  kill "$(ps aux | grep '[v]irtuoso-t' | awk '{print $1}')"
   echo "`date +%Y-%m-%dT%H:%M:%S%:z`" >  .enable_cors
 fi

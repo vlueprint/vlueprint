@@ -117,7 +117,7 @@ const main = async () => {
       const isVB = (value.hinshi == "人名")
       const subject = validNode(base, value.kanji)
       const store = isVB ? storeVirtualBeing : storeKeyword
-      const className = isVB ? "VirtualBeing" : "KeyWord"
+      const className = isVB ? "VirtualBeing" : "Keyword"
       const exists = store.getQuads(subject, null, null, null).length > 0
       store.addQuad(quad(
         subject,

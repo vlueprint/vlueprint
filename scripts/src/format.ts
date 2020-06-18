@@ -75,6 +75,8 @@ const main = async () => {
   const files = fs.readdirSync(base)
   await Promise.all(files.map(async file => {
     const parseret = parse(path.join(base, file))
+    const store = new N3.Store(parseret.quads)
+    parseret.quads = store.getQuads(null, null, null, null)
     await write(parseret)
   }))
 }

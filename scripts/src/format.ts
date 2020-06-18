@@ -61,16 +61,6 @@ const write = async (turtleInfo: TurtleInfo) => {
 }
 
 const main = async () => {
-  // const parseretVirtualBeing = parse('../../sparql-endpoint/toLoad/resource-VirtualBeing.ttl')
-  // const parseretPerformingGroup = parse('../../sparql-endpoint/toLoad/resource-PerformingGroup.ttl')
-  // const parseretOrganization = parse('../../sparql-endpoint/toLoad/resource-Organization.ttl')
-  // const parseretCompany = parse('../../sparql-endpoint/toLoad/resource-Company.ttl')
-  // await write(parseretVirtualBeing)
-  // await write(parseretPerformingGroup)
-  // await write(parseretOrganization)
-  // await write(parseretCompany)
-
-  // カレントディレクトリ
   const base = path.join(process.cwd(), '../sparql-endpoint/toLoad')
   const files = fs.readdirSync(base)
   await Promise.all(files.map(async file => {

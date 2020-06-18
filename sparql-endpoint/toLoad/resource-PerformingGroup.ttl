@@ -60,8 +60,8 @@
     vlueprint:youtubeChannelName "MonsterZ MATE";
     vlueprint:youtubeChannelId "UCDG8K9g6qo8gX4jCjsqUVzA";
     vlueprint:belongTo <Balus>;
-    vlueprint:twitterAccount "monsterzmate";
     vlueprint:yomi "ｍｚｍ", "もんすたーずめいと";
+    vlueprint:twitterAccount "monsterzmate";
     .
 
 <ココツキ> a vlueprint:PerformingGroup;
@@ -200,8 +200,8 @@
     rdfs:label "WHITEHOLE";
     vlueprint:youtubeChannelName "WHITEHOLE";
     vlueprint:youtubeChannelId "UC8vkhYTFz4WGuR8k4qmuX9Q";
-    vlueprint:twitterAccount "nano_whitehole";
     vlueprint:yomi "ほわいとほーる";
+    vlueprint:twitterAccount "nano_whitehole";
     .
 
 <チェリ高帰宅部> a vlueprint:PerformingGroup;

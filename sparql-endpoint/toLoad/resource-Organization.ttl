@@ -43,8 +43,8 @@
 
 <Unlimited> a vlueprint:Organization;
     rdfs:label "Unlimited";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "あんりみ";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <にじさんじ(統合後)> a vlueprint:Organization;
@@ -54,8 +54,8 @@
 
 <神椿> a vlueprint:Organization;
     rdfs:label "神椿";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "かみつばき", "かんつばき";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <Smarprise> a vlueprint:Organization;
@@ -75,8 +75,8 @@
 
 <ハニーストラップ> a vlueprint:Organization;
     rdfs:label "ハニーストラップ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "はにすと";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <転生組> a vlueprint:Organization;
@@ -86,8 +86,8 @@
 
 <Re_AcT> a vlueprint:Organization;
     rdfs:label "Re:AcT";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "りあくと";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <ぱりぷろ> a vlueprint:Organization;
@@ -107,14 +107,14 @@
 
 <VEEMusic> a vlueprint:Organization;
     rdfs:label "VEEMusic";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ｖｍ", "ヴぇえｍ", "ヴぇえみゅーじっく", "ヴぇーみゅーじっく";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <バ美肉> a vlueprint:Organization;
     rdfs:label "バ美肉";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ばびにく";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <Pictoria> a vlueprint:Organization;
@@ -129,20 +129,20 @@
 
 <Ficty> a vlueprint:Organization;
     rdfs:label "Ficty";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ふぃくてぃ";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <Balus> a vlueprint:Organization;
     rdfs:label "Balus";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ばるす";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <WFLE> a vlueprint:Organization;
     rdfs:label "WFLE";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ｗｆぇ";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <ViViD> a vlueprint:Organization;
@@ -207,8 +207,8 @@
 
 <UUUM> a vlueprint:Organization;
     rdfs:label "UUUM";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "ううむ";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <GEMS_COMPANY> a vlueprint:Organization;
@@ -258,8 +258,8 @@
 
 <IRIAM> a vlueprint:Organization;
     rdfs:label "IRIAM";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "いりあむ";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <元おとりざ> a vlueprint:Organization;
@@ -339,8 +339,8 @@
 
 <cluster> a vlueprint:Organization;
     rdfs:label "cluster";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     vlueprint:yomi "くらすたー";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <ShoveL> a vlueprint:Organization;

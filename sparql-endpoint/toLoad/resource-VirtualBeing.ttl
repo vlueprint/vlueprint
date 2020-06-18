@@ -14,12 +14,13 @@
     vlueprint:yomi "あい";
     .
 
-<輝夜月(かぐやるな)> a vlueprint:VirtualBeing;
-    rdfs:label "輝夜月(かぐやるな)";
+<輝夜月> a vlueprint:VirtualBeing;
+    rdfs:label "輝夜月";
     vlueprint:youtubeChannelName "Kaguya Luna Official";
     vlueprint:youtubeChannelId "UCQYADFw7xEJ9oZSM5ZbqyBw";
     vlueprint:twitterAccount "_KaguyaLuna";
     vlueprint:belongTo <VIC>;
+    vlueprint:yomi "かぐやるな", "るな";
     .
 
 <ミライアカリ> a vlueprint:VirtualBeing;
@@ -188,12 +189,13 @@
     vlueprint:yomi "もえ", "なつみもえ";
     .
 
-<御伽原江良(おとぎばらえら)> a vlueprint:VirtualBeing;
-    rdfs:label "御伽原江良(おとぎばらえら)";
+<御伽原江良> a vlueprint:VirtualBeing;
+    rdfs:label "御伽原江良";
     vlueprint:youtubeChannelName "御伽原 江良 / Otogibara Era【にじさんじ】";
     vlueprint:youtubeChannelId "UCwQ9Uv-m8xkE5PzRc7Bqx3Q";
     vlueprint:twitterAccount "OtogibaraEra";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "えら", "おとぎばらえら", "ぎばら";
     .
 
 <ときのそら> a vlueprint:VirtualBeing;
@@ -230,12 +232,13 @@
     vlueprint:yomi "かえで", "でろ", "でろーん";
     .
 
-<花譜(かふ)> a vlueprint:VirtualBeing;
-    rdfs:label "花譜(かふ)";
+<花譜> a vlueprint:VirtualBeing;
+    rdfs:label "花譜";
     vlueprint:youtubeChannelName "花譜";
     vlueprint:youtubeChannelId "UCQ1U65-CQdIoZ2_NA4Z4F7A";
     vlueprint:twitterAccount "virtual_kaf";
     vlueprint:belongTo <神椿>;
+    vlueprint:yomi "かふ";
     .
 
 <静凛> a vlueprint:VirtualBeing;
@@ -256,20 +259,22 @@
     vlueprint:yomi "るる", "すずはらるる";
     .
 
-<夢月ロア(ゆづきろあ)> a vlueprint:VirtualBeing;
-    rdfs:label "夢月ロア(ゆづきろあ)";
+<夢月ロア> a vlueprint:VirtualBeing;
+    rdfs:label "夢月ロア";
     vlueprint:youtubeChannelName "夢月ロア\U0001f316Yuzuki Roa";
     vlueprint:youtubeChannelId "UCCVwhI5trmaSxfcze_Ovzfw";
     vlueprint:twitterAccount "yuzuki_roa";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "ゆずきろあ", "ろあ";
     .
 
-<富士葵(ふじあおい)> a vlueprint:VirtualBeing;
-    rdfs:label "富士葵(ふじあおい)";
+<富士葵> a vlueprint:VirtualBeing;
+    rdfs:label "富士葵";
     vlueprint:youtubeChannelName "Aoi ch.";
     vlueprint:youtubeChannelId "UC3Ruo_5doyu514PesWGvCAg";
     vlueprint:twitterAccount "fuji_aoi_0618";
     vlueprint:belongTo <Smarprise>;
+    vlueprint:yomi "あおい", "ふじあおい";
     .
 
 <葛葉> a vlueprint:VirtualBeing;
@@ -299,13 +304,14 @@
     vlueprint:belongTo <にじさんじ(1・2期生)>;
     .
 
-<緑仙(リューシェン)> a vlueprint:VirtualBeing;
-    rdfs:label "緑仙(リューシェン)";
+<緑仙> a vlueprint:VirtualBeing;
+    rdfs:label "緑仙";
     rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
     vlueprint:youtubeChannelName "緑仙channel", "みどりのさぶちゃんねる";
     vlueprint:youtubeChannelId "UCt5-0i4AVHXaWJrL8Wql3mw", "UCTi_rzf5QIkXjhJjkbcAdTg";
     vlueprint:twitterAccount "midori_2434";
     vlueprint:belongTo <にじさんじ(SEEDs出身)>;
+    vlueprint:yomi "りゅーしぇん";
     .
 
 <夏色まつり> a vlueprint:VirtualBeing;
@@ -353,12 +359,13 @@
     vlueprint:yomi "あかいはあと", "はあと";
     .
 
-<キミノ_ミヤ(MIYA_KIMINO)> a vlueprint:VirtualBeing;
-    rdfs:label "キミノ ミヤ(MIYA KIMINO)";
+<キミノミヤ> a vlueprint:VirtualBeing;
+    rdfs:label "キミノミヤ";
     vlueprint:youtubeChannelName "Japanese HANJO! TV";
     vlueprint:youtubeChannelId "UCg8TPE5nLLOqlNnBivmQwww";
     vlueprint:twitterAccount "MIYA_KIMINO";
     vlueprint:belongTo <upd8>, <Activ8>;
+    vlueprint:yomi "みや", "きみのみや";
     .
 
 <ハロー_キティ> a vlueprint:VirtualBeing;
@@ -396,12 +403,13 @@
     vlueprint:yomi "すおうぱとら", "ぱとら";
     .
 
-<宝鐘マリン(ほうしょうまりん)> a vlueprint:VirtualBeing;
-    rdfs:label "宝鐘マリン(ほうしょうまりん)";
+<宝鐘マリン> a vlueprint:VirtualBeing;
+    rdfs:label "宝鐘マリン";
     vlueprint:youtubeChannelName "Marine Ch. 宝鐘マリン";
     vlueprint:youtubeChannelId "UCCzUftO8KOVkV4wQG1vkUvg";
     vlueprint:twitterAccount "houshoumarine";
     vlueprint:belongTo <ホロライブ>;
+    vlueprint:yomi "まりん", "ほうしょうまりん";
     .
 
 <バーチャルおばあちゃん(VB)> a vlueprint:VirtualBeing;
@@ -429,19 +437,21 @@
     vlueprint:yomi "いぬがみころね", "ころね";
     .
 
-<天神子兎音(てんじんことね)> a vlueprint:VirtualBeing;
-    rdfs:label "天神子兎音(てんじんことね)";
+<天神子兎音> a vlueprint:VirtualBeing;
+    rdfs:label "天神子兎音";
     vlueprint:youtubeChannelName "天神 子兎音 Tenjin Kotone";
     vlueprint:youtubeChannelId "UCAr7rLi_Wn09G-XfTA07d4g";
     vlueprint:twitterAccount "kotonegami";
+    vlueprint:yomi "ことね", "てんじんことね";
     .
 
-<白銀ノエル(しろがねのえる)> a vlueprint:VirtualBeing;
-    rdfs:label "白銀ノエル(しろがねのえる)";
+<白銀ノエル> a vlueprint:VirtualBeing;
+    rdfs:label "白銀ノエル";
     vlueprint:youtubeChannelName "Noel Ch. 白銀ノエル";
     vlueprint:youtubeChannelId "UCdyqAaZDKHXg4Ahi7VENThQ";
     vlueprint:twitterAccount "shiroganenoel";
     vlueprint:belongTo <ホロライブ>;
+    vlueprint:yomi "のえる", "しろがねのえる";
     .
 
 <マヤ・プトゥリ> a vlueprint:VirtualBeing;
@@ -452,12 +462,13 @@
     vlueprint:yomi "まや", "まやぷとぅり";
     .
 
-<戌亥とこ(いぬいとこ)> a vlueprint:VirtualBeing;
-    rdfs:label "戌亥とこ(いぬいとこ)";
+<戌亥とこ> a vlueprint:VirtualBeing;
+    rdfs:label "戌亥とこ";
     vlueprint:youtubeChannelName "戌亥とこ-Inui Toko-【にじさんじ】";
     vlueprint:youtubeChannelId "UCXRlIK3Cw_TJIQC5kSJJQMg";
     vlueprint:twitterAccount "inui_toko";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "いにゅい", "いぬいとこ", "とこ";
     .
 
 <織田信姫> a vlueprint:VirtualBeing;
@@ -469,20 +480,22 @@
     vlueprint:yomi "おだのぶひめ", "のぶひめ";
     .
 
-<叶(かなえ)> a vlueprint:VirtualBeing;
-    rdfs:label "叶(かなえ)";
+<叶> a vlueprint:VirtualBeing;
+    rdfs:label "叶";
     vlueprint:youtubeChannelName "Kanae Channel";
     vlueprint:youtubeChannelId "UCspv01oxUFf_MTSipURRhkA";
     vlueprint:twitterAccount "Kanae_2434";
     vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
+    vlueprint:yomi "かなえ";
     .
 
-<竜胆尊(りんどうみこと)> a vlueprint:VirtualBeing;
-    rdfs:label "竜胆尊(りんどうみこと)";
+<竜胆尊> a vlueprint:VirtualBeing;
+    rdfs:label "竜胆尊";
     vlueprint:youtubeChannelName "竜胆 尊 / Rindou Mikoto";
     vlueprint:youtubeChannelId "UCPvGypSgfDkVe7JG2KygK7A";
     vlueprint:twitterAccount "RindouMikoto";
     vlueprint:belongTo <にじさんじ(SEEDs出身)>;
+    vlueprint:yomi "みこと", "りんどうみこと";
     .
 
 <ベルモンド・バンデラス> a vlueprint:VirtualBeing;
@@ -512,12 +525,13 @@
     vlueprint:yomi "おかゆ", "ねこまたおかゆ";
     .
 
-<社築(やしろ_きずく)> a vlueprint:VirtualBeing;
-    rdfs:label "社築(やしろ きずく)";
+<社築> a vlueprint:VirtualBeing;
+    rdfs:label "社築";
     vlueprint:youtubeChannelName "社築";
     vlueprint:youtubeChannelId "UCKMYISTJAQ8xTplUPHiABlA";
     vlueprint:twitterAccount "846kizuQ";
     vlueprint:belongTo <にじさんじ(SEEDs出身)>;
+    vlueprint:yomi "きずく", "やしろきずく";
     .
 
 <さくらみこ> a vlueprint:VirtualBeing;
@@ -545,12 +559,13 @@
     vlueprint:yomi "ｂｋｎ", "ばけん";
     .
 
-<郡道美玲(ぐんどうみれい)> a vlueprint:VirtualBeing;
-    rdfs:label "郡道美玲(ぐんどうみれい)";
+<郡道美玲> a vlueprint:VirtualBeing;
+    rdfs:label "郡道美玲";
     vlueprint:youtubeChannelName "【3年0組】郡道美玲の教室";
     vlueprint:youtubeChannelId "UCeShTCVgZyq2lsBW9QwIJcw";
     vlueprint:twitterAccount "g9v9g_mirei";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "みれい", "ぐんぐん", "ぐんどうみれい";
     .
 
 <おめがレイ> a vlueprint:VirtualBeing;
@@ -621,11 +636,12 @@
     vlueprint:yomi "さな", "なとりさな";
     .
 
-<アズマ_リム(アズリム)> a vlueprint:VirtualBeing;
-    rdfs:label "アズマ リム(アズリム)";
+<アズマリム> a vlueprint:VirtualBeing;
+    rdfs:label "アズマリム";
     vlueprint:youtubeChannelName "Azuma Lim Channel -アズマ リム-";
     vlueprint:youtubeChannelId "UCARI2g7r-PHaxrIcAYsMfmA";
     vlueprint:twitterAccount "azuma_lim";
+    vlueprint:yomi "あずまりむ", "あずりむ";
     .
 
 <鳩羽つぐ> a vlueprint:VirtualBeing;
@@ -697,12 +713,13 @@
     vlueprint:yomi "すいせい", "ほしまちすいせい";
     .
 
-<黛灰(まゆずみかい)> a vlueprint:VirtualBeing;
-    rdfs:label "黛灰(まゆずみかい)";
+<黛灰> a vlueprint:VirtualBeing;
+    rdfs:label "黛灰";
     vlueprint:youtubeChannelName "黛 灰 / Kai Mayuzumi【にじさんじ】";
     vlueprint:youtubeChannelId "UCb5JxV6vKlYVknoJB8TnyYg";
     vlueprint:twitterAccount "mayuzumi_X";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "かい", "まゆずみかい";
     .
 
 <加賀美ハヤト> a vlueprint:VirtualBeing;
@@ -750,12 +767,13 @@
     vlueprint:yomi "みお", "おおかみみお";
     .
 
-<童田明治(わらべだめいじー)> a vlueprint:VirtualBeing;
-    rdfs:label "童田明治(わらべだめいじー)";
+<童田明治> a vlueprint:VirtualBeing;
+    rdfs:label "童田明治";
     vlueprint:youtubeChannelName "童田明治-わらべだめいじー-";
     vlueprint:youtubeChannelId "UCveZ9Ic1VtcXbsyaBgxPMvg";
     vlueprint:twitterAccount "warabeda_meiji";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "がぶ", "めいじ", "わらべだめいじー";
     .
 
 <物述有栖> a vlueprint:VirtualBeing;
@@ -767,12 +785,13 @@
     vlueprint:yomi "ありす", "もののべありす";
     .
 
-<夜見れな(よるみれな)> a vlueprint:VirtualBeing;
-    rdfs:label "夜見れな(よるみれな)";
+<夜見れな> a vlueprint:VirtualBeing;
+    rdfs:label "夜見れな";
     vlueprint:youtubeChannelName "夜見れな/yorumi rena【にじさんじ所属】";
     vlueprint:youtubeChannelId "UCL34fAoFim9oHLbVzMKFavQ";
     vlueprint:twitterAccount "rena_yorumi";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "よるみれな", "れな";
     .
 
 <勇気ちひろ> a vlueprint:VirtualBeing;
@@ -793,28 +812,31 @@
     vlueprint:yomi "かざき", "もりなかかざき";
     .
 
-<ジョー・力一(じょーりきいち)> a vlueprint:VirtualBeing;
-    rdfs:label "ジョー・力一(じょーりきいち)";
+<ジョー・力一> a vlueprint:VirtualBeing;
+    rdfs:label "ジョー・力一";
     vlueprint:youtubeChannelName "ジョー・力一 Joe Rikiichi";
     vlueprint:youtubeChannelId "UChUJbHiTVeGrSkTdBzVfNCQ";
     vlueprint:twitterAccount "JoeRikiichi";
     vlueprint:belongTo <にじさんじ(SEEDs出身)>;
+    vlueprint:yomi "じょーりきいち", "りきいち";
     .
 
-<天音かなた(あまねかなた)> a vlueprint:VirtualBeing;
-    rdfs:label "天音かなた(あまねかなた)";
+<天音かなた> a vlueprint:VirtualBeing;
+    rdfs:label "天音かなた";
     vlueprint:youtubeChannelName "Kanata Ch. 天音かなた";
     vlueprint:youtubeChannelId "UCZlDXzGoo7d44bwdNObFacg";
     vlueprint:twitterAccount "amanekanatach";
     vlueprint:belongTo <ホロライブ>;
+    vlueprint:yomi "あまねかなた", "かなた";
     .
 
-<健屋花那(すこやかな)> a vlueprint:VirtualBeing;
-    rdfs:label "健屋花那(すこやかな)";
+<健屋花那> a vlueprint:VirtualBeing;
+    rdfs:label "健屋花那";
     vlueprint:youtubeChannelName "健屋花那【にじさんじ】KanaSukoya";
     vlueprint:youtubeChannelId "UC8C1LLhBhf_E2IBPLSDJXlQ";
     vlueprint:twitterAccount "sukosuko_sukoya";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "かな", "すこやかな";
     .
 
 <しぐれうい> a vlueprint:VirtualBeing;
@@ -858,12 +880,13 @@
     vlueprint:yomi "ちゃいか", "はなばたけちゃいか";
     .
 
-<角巻わため(つのまきわため)> a vlueprint:VirtualBeing;
-    rdfs:label "角巻わため(つのまきわため)";
+<角巻わため> a vlueprint:VirtualBeing;
+    rdfs:label "角巻わため";
     vlueprint:youtubeChannelName "Watame Ch. 角巻わため";
     vlueprint:youtubeChannelId "UCqm3BQLlJfvkTsX_hvm0UmA";
     vlueprint:twitterAccount "tsunomakiwatame";
     vlueprint:belongTo <ホロライブ>;
+    vlueprint:yomi "つのまきわため", "わため";
     .
 
 <もこ田めめめ> a vlueprint:VirtualBeing;
@@ -967,11 +990,12 @@
     vlueprint:yomi "そしえーる", "にゅいそしえーる";
     .
 
-<燦鳥ノム(さんとりのむ)> a vlueprint:VirtualBeing;
-    rdfs:label "燦鳥ノム(さんとりのむ)";
+<燦鳥ノム> a vlueprint:VirtualBeing;
+    rdfs:label "燦鳥ノム";
     vlueprint:youtubeChannelName "燦鳥ノム - SUNTORY NOMU -";
     vlueprint:youtubeChannelId "UCwRKt_raV3N5KZgxcFyC1vw";
     vlueprint:twitterAccount "suntory_nomu";
+    vlueprint:yomi "さんとりのむ", "のむ";
     .
 
 <エルフのえる> a vlueprint:VirtualBeing;
@@ -1016,12 +1040,13 @@
     vlueprint:yomi "いなばはねる", "はねる";
     .
 
-<三枝明那(さえぐさあきな)> a vlueprint:VirtualBeing;
-    rdfs:label "三枝明那(さえぐさあきな)";
+<三枝明那> a vlueprint:VirtualBeing;
+    rdfs:label "三枝明那";
     vlueprint:youtubeChannelName "三枝明那 / Akina Saegusa";
     vlueprint:youtubeChannelId "UCNW1Ex0r6HsWRD4LCtPwvoQ";
     vlueprint:twitterAccount "333akina";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "あきな", "さえぐさあきな";
     .
 
 <かしこまり> a vlueprint:VirtualBeing;
@@ -1051,12 +1076,13 @@
     vlueprint:yomi "いちご", "うしみいちご";
     .
 
-<葉加瀬冬雪(はかせふゆき)> a vlueprint:VirtualBeing;
-    rdfs:label "葉加瀬冬雪(はかせふゆき)";
+<葉加瀬冬雪> a vlueprint:VirtualBeing;
+    rdfs:label "葉加瀬冬雪";
     vlueprint:youtubeChannelName "葉加瀬 冬雪 / Hakase Fuyuki";
     vlueprint:youtubeChannelId "UCGYAYLDE7TZiiC8U6teciDQ";
     vlueprint:twitterAccount "Hakase_Fuyuki";
     vlueprint:belongTo <にじさんじ(統合後)>;
+    vlueprint:yomi "はかせふゆき", "ふゆき";
     .
 
 <音霊魂子> a vlueprint:VirtualBeing;
@@ -1922,7 +1948,7 @@
     rdfs:label "春歌みこと";
     vlueprint:twitterAccount "mikoto_songs";
     vlueprint:belongTo <upd8>, <Activ8>;
-    vlueprint:yomi "はるかみこと", "みこと";
+    vlueprint:yomi "みこと", "はるかみこと";
     .
 
 <三拍ユッコ> a vlueprint:VirtualBeing;
@@ -15364,12 +15390,6 @@
     vlueprint:yomi "となり";
     .
 
-<アズマリム> a vlueprint:VirtualBeing;
-    rdfs:label "アズマリム";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あずまりむ", "あずりむ";
-    .
-
 <アメリカザリガニ> a vlueprint:VirtualBeing;
     rdfs:label "アメリカザリガニ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -15484,12 +15504,6 @@
     vlueprint:yomi "ろき";
     .
 
-<キミノミヤ> a vlueprint:VirtualBeing;
-    rdfs:label "キミノミヤ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "みや", "きみのみや";
-    .
-
 <ケイト・アーモリア> a vlueprint:VirtualBeing;
     rdfs:label "ケイト・アーモリア";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -15530,12 +15544,6 @@
     rdfs:label "シャルロット・卯・イナヴァリエール";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "しゃるろっと";
-    .
-
-<ジョー・力一> a vlueprint:VirtualBeing;
-    rdfs:label "ジョー・力一";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "じょーりきいち", "りきいち";
     .
 
 <すずしろ真菜> a vlueprint:VirtualBeing;
@@ -16069,7 +16077,7 @@
 <夏川美玲> a vlueprint:VirtualBeing;
     rdfs:label "夏川美玲";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "なつかわみれい", "みれい";
+    vlueprint:yomi "みれい", "なつかわみれい";
     .
 
 <火渡飛鳥> a vlueprint:VirtualBeing;
@@ -16082,12 +16090,6 @@
     rdfs:label "花奏かのん";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "かなでかのん", "かのん";
-    .
-
-<花譜> a vlueprint:VirtualBeing;
-    rdfs:label "花譜";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かふ";
     .
 
 <花椒> a vlueprint:VirtualBeing;
@@ -16138,22 +16140,10 @@
     vlueprint:yomi "ななし";
     .
 
-<角巻わため> a vlueprint:VirtualBeing;
-    rdfs:label "角巻わため";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "つのまきわため", "わため";
-    .
-
 <角張ちぐさ> a vlueprint:VirtualBeing;
     rdfs:label "角張ちぐさ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "かくばりちぐさ", "ちぐさ";
-    .
-
-<叶> a vlueprint:VirtualBeing;
-    rdfs:label "叶";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かなえ";
     .
 
 <乾物ひもの> a vlueprint:VirtualBeing;
@@ -16208,12 +16198,6 @@
     rdfs:label "輝度るみな";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "きどるみな", "るみな";
-    .
-
-<輝夜月> a vlueprint:VirtualBeing;
-    rdfs:label "輝夜月";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かぐやるな", "るな";
     .
 
 <吉七味。> a vlueprint:VirtualBeing;
@@ -16354,12 +16338,6 @@
     vlueprint:yomi "くりすめーぷる", "めーぷる";
     .
 
-<郡道美玲> a vlueprint:VirtualBeing;
-    rdfs:label "郡道美玲";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "みれい", "ぐんぐん", "ぐんどうみれい";
-    .
-
 <刑部桂> a vlueprint:VirtualBeing;
     rdfs:label "刑部桂";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -16388,12 +16366,6 @@
     rdfs:label "月夜野珠狐";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "たまこ", "つきよのたまこ";
-    .
-
-<健屋花那> a vlueprint:VirtualBeing;
-    rdfs:label "健屋花那";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かな", "すこやかな";
     .
 
 <犬上ハヤト> a vlueprint:VirtualBeing;
@@ -16448,12 +16420,6 @@
     rdfs:label "御影幽斗";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "みかげゆうと", "ゆうと";
-    .
-
-<御伽原江良> a vlueprint:VirtualBeing;
-    rdfs:label "御伽原江良";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "えら", "おとぎばらえら", "ぎばら";
     .
 
 <御掬この子> a vlueprint:VirtualBeing;
@@ -16642,12 +16608,6 @@
     vlueprint:yomi "あのね", "さくらいあのね";
     .
 
-<三枝明那> a vlueprint:VirtualBeing;
-    rdfs:label "三枝明那";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あきな", "さえぐさあきな";
-    .
-
 <三田そにあ> a vlueprint:VirtualBeing;
     rdfs:label "三田そにあ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -16658,12 +16618,6 @@
     rdfs:label "山田虎太郎";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "こたろう", "やまだこたろう";
-    .
-
-<燦鳥ノム> a vlueprint:VirtualBeing;
-    rdfs:label "燦鳥ノム";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "さんとりのむ", "のむ";
     .
 
 <姉崎ユキミ> a vlueprint:VirtualBeing;
@@ -16754,12 +16708,6 @@
     rdfs:label "社居ハル";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "はる", "やしろいはる";
-    .
-
-<社築> a vlueprint:VirtualBeing;
-    rdfs:label "社築";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "きずく", "やしろきずく";
     .
 
 <守護っ天使パテピュア> a vlueprint:VirtualBeing;
@@ -17080,12 +17028,6 @@
     vlueprint:yomi "しえる", "ただせしえる";
     .
 
-<黛灰> a vlueprint:VirtualBeing;
-    rdfs:label "黛灰";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かい", "まゆずみかい";
-    .
-
 <大上ウルシ> a vlueprint:VirtualBeing;
     rdfs:label "大上ウルシ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17224,12 +17166,6 @@
     vlueprint:yomi "つゆ";
     .
 
-<天音かなた> a vlueprint:VirtualBeing;
-    rdfs:label "天音かなた";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あまねかなた", "かなた";
-    .
-
 <天使リリエル> a vlueprint:VirtualBeing;
     rdfs:label "天使リリエル";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17246,12 +17182,6 @@
     rdfs:label "天死ちゃん";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "てんしちゃん";
-    .
-
-<天神子兎音> a vlueprint:VirtualBeing;
-    rdfs:label "天神子兎音";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ことね", "てんじんことね";
     .
 
 <天川はの> a vlueprint:VirtualBeing;
@@ -17350,12 +17280,6 @@
     vlueprint:yomi "ふぃお";
     .
 
-<童田明治> a vlueprint:VirtualBeing;
-    rdfs:label "童田明治";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "がぶ", "めいじ", "わらべだめいじー";
-    .
-
 <内務省エージェントプログラム佐々木> a vlueprint:VirtualBeing;
     rdfs:label "内務省エージェントプログラム佐々木";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17426,12 +17350,6 @@
     rdfs:label "白宮みみ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "みみ", "しろみやみみ";
-    .
-
-<白銀ノエル> a vlueprint:VirtualBeing;
-    rdfs:label "白銀ノエル";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "のえる", "しろがねのえる";
     .
 
 <白熊すず> a vlueprint:VirtualBeing;
@@ -17572,12 +17490,6 @@
     vlueprint:yomi "ふわみなと", "みなと";
     .
 
-<富士葵> a vlueprint:VirtualBeing;
-    rdfs:label "富士葵";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あおい", "ふじあおい";
-    .
-
 <楓山蓮太郎> a vlueprint:VirtualBeing;
     rdfs:label "楓山蓮太郎";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17600,12 +17512,6 @@
     rdfs:label "碧惺スキア";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あおせすきあ", "すきあ";
-    .
-
-<宝鐘マリン> a vlueprint:VirtualBeing;
-    rdfs:label "宝鐘マリン";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "まりん", "ほうしょうまりん";
     .
 
 <泡沫メモリ> a vlueprint:VirtualBeing;
@@ -17686,12 +17592,6 @@
     vlueprint:yomi "ある", "ゆめくいある";
     .
 
-<夢月ロア> a vlueprint:VirtualBeing;
-    rdfs:label "夢月ロア";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ゆずきろあ", "ろあ";
-    .
-
 <夢見ログ> a vlueprint:VirtualBeing;
     rdfs:label "夢見ログ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17762,12 +17662,6 @@
     rdfs:label "夜月カエデ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "かえで", "やづきかえで", "よづきかえで";
-    .
-
-<夜見れな> a vlueprint:VirtualBeing;
-    rdfs:label "夜見れな";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "よるみれな", "れな";
     .
 
 <夜桜のあ> a vlueprint:VirtualBeing;
@@ -17878,12 +17772,6 @@
     vlueprint:yomi "こう", "はがくれこう";
     .
 
-<葉加瀬冬雪> a vlueprint:VirtualBeing;
-    rdfs:label "葉加瀬冬雪";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "はかせふゆき", "ふゆき";
-    .
-
 <葉山みど> a vlueprint:VirtualBeing;
     rdfs:label "葉山みど";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17968,22 +17856,10 @@
     vlueprint:yomi "あいる", "りゅうせいあいる";
     .
 
-<竜胆尊> a vlueprint:VirtualBeing;
-    rdfs:label "竜胆尊";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "みこと", "りんどうみこと";
-    .
-
 <龍ヶ崎リン> a vlueprint:VirtualBeing;
     rdfs:label "龍ヶ崎リン";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "りん", "りゅうがさきりん";
-    .
-
-<緑仙> a vlueprint:VirtualBeing;
-    rdfs:label "緑仙";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "りゅーしぇん";
     .
 
 <鈴代ここね_鈴代つきね> a vlueprint:VirtualBeing;
@@ -18056,12 +17932,6 @@
     rdfs:label "尸解 ユヱ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "しかいゆえ", "ゆえ";
-    .
-
-<戌亥とこ> a vlueprint:VirtualBeing;
-    rdfs:label "戌亥とこ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "いにゅい", "いぬいとこ", "とこ";
     .
 
 <櫻歌ミコ> a vlueprint:VirtualBeing;

@@ -1,10 +1,8 @@
 @base <https://vlueprint.org/resource/> .
-@prefix vlueprint: <https://vlueprint.org/schema/> .
 
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-# プロパティ定義
+@prefix vlueprint: <https://vlueprint.org/schema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 vlueprint:youtubeChannelId a rdf:Property;
     rdfs:label "YoutubeチャンネルID";
@@ -31,13 +29,10 @@ vlueprint:yomi a rdf:Property;
     rdfs:label "よみ(IME)";
     .
 
-# クラス定義
-
 vlueprint:VirtualBeing a rdfs:Class;
     rdfs:label "Virtual Being";
     rdfs:comment "一般的にVTuberとされる人物をこのクラスに当てはめます";
     .
-
 
 vlueprint:Organization a rdfs:Class;
     rdfs:label "Organization";

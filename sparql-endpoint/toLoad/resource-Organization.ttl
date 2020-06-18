@@ -7,297 +7,368 @@
 <upd8> a vlueprint:Organization;
     rdfs:label "upd8";
     vlueprint:belongTo <Activ8>;
-    vlueprint:yomi "あっぷでーと".
+    vlueprint:yomi "あっぷでーと";
+    .
 
 <元ENTUM> a vlueprint:Organization;
     rdfs:label "元ENTUM";
-    rdfs:comment "[TODO]時系列を考慮した対応が必要です".
+    rdfs:comment "[TODO]時系列を考慮した対応が必要です";
+    .
 
 <.LIVE> a vlueprint:Organization;
     rdfs:label ".LIVE";
     vlueprint:belongTo <App_Land>;
-    vlueprint:yomi "どっとらいぶ".
+    vlueprint:yomi "どっとらいぶ";
+    .
 
 <にじさんじ(1・2期生)> a vlueprint:Organization;
     rdfs:label "にじさんじ(1・2期生)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ホロライブ> a vlueprint:Organization;
     rdfs:label "ホロライブ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <エイレーン一家> a vlueprint:Organization;
     rdfs:label "エイレーン一家";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <にじさんじ(ゲーマーズ出身)> a vlueprint:Organization;
     rdfs:label "にじさんじ(ゲーマーズ出身)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Unlimited> a vlueprint:Organization;
     rdfs:label "Unlimited";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "あんりみ".
+    vlueprint:yomi "あんりみ";
+    .
 
 <にじさんじ(統合後)> a vlueprint:Organization;
     rdfs:label "にじさんじ(統合後)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <神椿> a vlueprint:Organization;
     rdfs:label "神椿";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "かみつばき", "かんつばき".
+    vlueprint:yomi "かみつばき", "かんつばき";
+    .
 
 <Smarprise> a vlueprint:Organization;
     rdfs:label "Smarprise";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <にじさんじ(SEEDs出身)> a vlueprint:Organization;
     rdfs:label "にじさんじ(SEEDs出身)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <サンリオ> a vlueprint:Organization;
     rdfs:label "サンリオ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ハニーストラップ> a vlueprint:Organization;
     rdfs:label "ハニーストラップ";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "はにすと".
+    vlueprint:yomi "はにすと";
+    .
 
 <転生組> a vlueprint:Organization;
     rdfs:label "転生組";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Re_AcT> a vlueprint:Organization;
     rdfs:label "Re:AcT";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "りあくと".
+    vlueprint:yomi "りあくと";
+    .
 
 <ぱりぷろ> a vlueprint:Organization;
     rdfs:label "ぱりぷろ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <あにまーれ> a vlueprint:Organization;
     rdfs:label "あにまーれ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <フェレット女学院> a vlueprint:Organization;
     rdfs:label "フェレット女学院";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <VEEMusic> a vlueprint:Organization;
     rdfs:label "VEEMusic";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ｖｍ", "ヴぇえｍ", "ヴぇえみゅーじっく", "ヴぇーみゅーじっく".
+    vlueprint:yomi "ｖｍ", "ヴぇえｍ", "ヴぇえみゅーじっく", "ヴぇーみゅーじっく";
+    .
 
 <バ美肉> a vlueprint:Organization;
     rdfs:label "バ美肉";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ばびにく".
+    vlueprint:yomi "ばびにく";
+    .
 
 <Pictoria> a vlueprint:Organization;
     rdfs:label "Pictoria";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <夢見坂学院> a vlueprint:Organization;
     rdfs:label "夢見坂学院";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Ficty> a vlueprint:Organization;
     rdfs:label "Ficty";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ふぃくてぃ".
+    vlueprint:yomi "ふぃくてぃ";
+    .
 
 <Balus> a vlueprint:Organization;
     rdfs:label "Balus";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ばるす".
+    vlueprint:yomi "ばるす";
+    .
 
 <WFLE> a vlueprint:Organization;
     rdfs:label "WFLE";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ｗｆぇ".
+    vlueprint:yomi "ｗｆぇ";
+    .
 
 <ViViD> a vlueprint:Organization;
     rdfs:label "ViViD";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <花寄女子寮> a vlueprint:Organization;
     rdfs:label "花寄女子寮";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <もちぷろ> a vlueprint:Organization;
     rdfs:label "もちぷろ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ぶいめん> a vlueprint:Organization;
     rdfs:label "ぶいめん";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <あふたーしーくれっと> a vlueprint:Organization;
     rdfs:label "あふたーしーくれっと";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <22_7> a vlueprint:Organization;
     rdfs:label "22/7";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ブイアパ> a vlueprint:Organization;
     rdfs:label "ブイアパ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <NIJISANJI_ID> a vlueprint:Organization;
     rdfs:label "NIJISANJI ID";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Lupinus_Virtual_Games> a vlueprint:Organization;
     rdfs:label "Lupinus Virtual Games";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <OPEN_BETA> a vlueprint:Organization;
     rdfs:label "OPEN BETA";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Gugenka> a vlueprint:Organization;
     rdfs:label "Gugenka";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <岩本町芸能社> a vlueprint:Organization;
     rdfs:label "岩本町芸能社";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <UUUM> a vlueprint:Organization;
     rdfs:label "UUUM";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "ううむ".
+    vlueprint:yomi "ううむ";
+    .
 
 <GEMS_COMPANY> a vlueprint:Organization;
     rdfs:label "GEMS COMPANY";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <WACTOR> a vlueprint:Organization;
     rdfs:label "WACTOR";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <あいすらぼ> a vlueprint:Organization;
     rdfs:label "あいすらぼ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Akihabara_Lab> a vlueprint:Organization;
     rdfs:label "Akihabara Lab";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <NIJISANJI_IN> a vlueprint:Organization;
     rdfs:label "NIJISANJI IN";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <セガ> a vlueprint:Organization;
     rdfs:label "セガ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <VGaming> a vlueprint:Organization;
     rdfs:label "VGaming";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <PinkPunkPro> a vlueprint:Organization;
     rdfs:label "PinkPunkPro";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Re_AcT男性部門> a vlueprint:Organization;
     rdfs:label "Re:AcT男性部門";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <IRIAM> a vlueprint:Organization;
     rdfs:label "IRIAM";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "いりあむ".
+    vlueprint:yomi "いりあむ";
+    .
 
 <元おとりざ> a vlueprint:Organization;
     rdfs:label "元おとりざ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <空想コード_> a vlueprint:Organization;
     rdfs:label "空想コード+";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <アマリリス組> a vlueprint:Organization;
     rdfs:label "アマリリス組";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ホロスターズ> a vlueprint:Organization;
     rdfs:label "ホロスターズ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <AVATAR2.0> a vlueprint:Organization;
     rdfs:label "AVATAR2.0";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <めるぷら> a vlueprint:Organization;
     rdfs:label "めるぷら";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <NIJISANJI_KR> a vlueprint:Organization;
     rdfs:label "NIJISANJI KR";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <よんしー> a vlueprint:Organization;
     rdfs:label "よんしー";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <VEgo> a vlueprint:Organization;
     rdfs:label "VEgo";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ぶいらいぶ> a vlueprint:Organization;
     rdfs:label "ぶいらいぶ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ZERO_Project> a vlueprint:Organization;
     rdfs:label "ZERO Project";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <元ぴぐまりおん。> a vlueprint:Organization;
     rdfs:label "元ぴぐまりおん。";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <Date_Links!> a vlueprint:Organization;
     rdfs:label "Date+Links!";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <勇者ズム!> a vlueprint:Organization;
     rdfs:label "勇者ズム！";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <サークルみらん> a vlueprint:Organization;
     rdfs:label "サークルみらん";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <cluster> a vlueprint:Organization;
     rdfs:label "cluster";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    vlueprint:yomi "くらすたー".
+    vlueprint:yomi "くらすたー";
+    .
 
 <ShoveL> a vlueprint:Organization;
     rdfs:label "ShoveL";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ズーミング> a vlueprint:Organization;
     rdfs:label "ズーミング";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ユメノグラフィア> a vlueprint:Organization;
     rdfs:label "ユメノグラフィア";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <WINKS> a vlueprint:Organization;
     rdfs:label "WINKS";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <ジャスト_プロ> a vlueprint:Organization;
     rdfs:label "ジャスト プロ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
 
 <i-LIVE> a vlueprint:Organization;
     rdfs:label "i-LIVE";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )".
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .

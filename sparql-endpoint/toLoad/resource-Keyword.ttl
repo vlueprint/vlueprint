@@ -6,56 +6,70 @@
 
 <REALITY> a vlueprint:Keyword;
     rdfs:label "REALITY";
-    vlueprint:yomi "れあ", "れあｒ", "りありてぃ".
+    vlueprint:yomi "れあ", "れあｒ", "りありてぃ";
+    .
 
 <VTuber> a vlueprint:Keyword;
     rdfs:label "VTuber";
-    vlueprint:yomi "ｖｔ".
+    vlueprint:yomi "ｖｔ";
+    .
 
 <Wright_Flyer_Live_Entertainment> a vlueprint:Keyword;
     rdfs:label "Wright Flyer Live Entertainment";
-    vlueprint:yomi "ｗｆぇ".
+    vlueprint:yomi "ｗｆぇ";
+    .
 
 <YouTube> a vlueprint:Keyword;
     rdfs:label "YouTube";
-    vlueprint:yomi "ｙｔ", "ようつべ".
+    vlueprint:yomi "ｙｔ", "ようつべ";
+    .
 
 <てぇてぇ> a vlueprint:Keyword;
     rdfs:label "てぇてぇ";
-    vlueprint:yomi "てて".
+    vlueprint:yomi "てて";
+    .
 
 <黒猫ななし> a vlueprint:Keyword;
     rdfs:label "黒猫ななし";
-    vlueprint:yomi "ななし".
+    vlueprint:yomi "ななし";
+    .
 
 <ANIPLEX> a vlueprint:Keyword;
     rdfs:label "ANIPLEX";
-    vlueprint:yomi "あにぷれ".
+    vlueprint:yomi "あにぷれ";
+    .
 
 <ENTUM> a vlueprint:Keyword;
     rdfs:label "ENTUM";
-    vlueprint:yomi "えんたむ".
+    vlueprint:yomi "えんたむ";
+    .
 
 <pixiv> a vlueprint:Keyword;
     rdfs:label "pixiv";
-    vlueprint:yomi "ぴくしぶ".
+    vlueprint:yomi "ぴくしぶ";
+    .
 
 <ゲーム部> a vlueprint:Keyword;
     rdfs:label "ゲーム部";
-    vlueprint:yomi "げーむぶ".
+    vlueprint:yomi "げーむぶ";
+    .
 
 <朝ノ姉妹> a vlueprint:Keyword;
     rdfs:label "朝ノ姉妹";
-    vlueprint:yomi "あさのしまい".
+    vlueprint:yomi "あさのしまい";
+    .
 
 <博戯王> a vlueprint:Keyword;
     rdfs:label "博戯王";
-    vlueprint:yomi "ばくぎおう".
+    vlueprint:yomi "ばくぎおう";
+    .
 
 <夜の喫茶店ハニーストラップ> a vlueprint:Keyword;
     rdfs:label "夜の喫茶店ハニーストラップ";
-    vlueprint:yomi "はにすと", "はにーすとらっぷ".
+    vlueprint:yomi "はにすと", "はにーすとらっぷ";
+    .
 
 <有閑喫茶あにまーれ> a vlueprint:Keyword;
     rdfs:label "有閑喫茶あにまーれ";
-    vlueprint:yomi "あにまーれ", "ゆうかんきっさあにまーれ".
+    vlueprint:yomi "あにまーれ", "ゆうかんきっさあにまーれ";
+    .

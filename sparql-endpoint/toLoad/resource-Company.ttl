@@ -6,14 +6,18 @@
 
 <Activ8> a vlueprint:Company;
     rdfs:label "Activ8";
-    vlueprint:yomi "あくてぃべーと".
+    vlueprint:yomi "あくてぃべーと";
+    .
 
 <VIC> a vlueprint:Company;
-    rdfs:label "VIC".
+    rdfs:label "VIC";
+    .
 
 <ZIZAI> a vlueprint:Company;
     rdfs:label "ZIZAI";
-    vlueprint:yomi "じざい".
+    vlueprint:yomi "じざい";
+    .
 
 <App_Land> a vlueprint:Company;
-    rdfs:label "App Land".
+    rdfs:label "App Land";
+    .

@@ -8557,7 +8557,7 @@
     vlueprint:youtubeChannelId "UCrgeWsCRNP74qOzAeIRJQbQ";
     vlueprint:twitterAccount "l_irne";
     vlueprint:belongTo <WFLE>;
-    vlueprint:yomi "らいむ", "りめ";
+    vlueprint:yomi "りめ", "らいむ";
     .
 
 <ワタシch> a vlueprint:VirtualBeing;
@@ -16219,7 +16219,7 @@
 <琴葉とわ> a vlueprint:VirtualBeing;
     rdfs:label "琴葉とわ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ことのはとわ", "とわ";
+    vlueprint:yomi "とわ", "ことのはとわ";
     .
 
 <芹桃めもり> a vlueprint:VirtualBeing;

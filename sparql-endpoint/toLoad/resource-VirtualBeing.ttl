@@ -282,7 +282,7 @@
     vlueprint:youtubeChannelName "Kuzuha Channel";
     vlueprint:youtubeChannelId "UCSFCh5NL4qXrAy9u-u2lX3g";
     vlueprint:twitterAccount "Vamp_Kuzu";
-    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
+    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>, <クロノワール>;
     vlueprint:yomi "くずは";
     .
 
@@ -485,7 +485,7 @@
     vlueprint:youtubeChannelName "Kanae Channel";
     vlueprint:youtubeChannelId "UCspv01oxUFf_MTSipURRhkA";
     vlueprint:twitterAccount "Kanae_2434";
-    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
+    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>, <クロノワール>;
     vlueprint:yomi "かなえ";
     .
 
@@ -1812,14 +1812,6 @@
     vlueprint:youtubeChannelId "UCwrjITPwG4q71HzihV2C7Nw";
     vlueprint:twitterAccount "FumiVirtual";
     vlueprint:belongTo <にじさんじ(統合後)>;
-    .
-
-<クロノワール(叶_葛葉)> a vlueprint:VirtualBeing;
-    rdfs:label "クロノワール(叶 葛葉)";
-    vlueprint:youtubeChannelName "ChroNoiR";
-    vlueprint:youtubeChannelId "UCz6vnIbgiqFT9xUcD6Bp65Q";
-    vlueprint:twitterAccount "";
-    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
     .
 
 <餅月ひまり> a vlueprint:VirtualBeing;

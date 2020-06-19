@@ -353,3 +353,10 @@
     vlueprint:youtubeChannelId "UCmPvX0Go5as_ZC_WeMhLqKw";
     vlueprint:twitterAccount "senseitooniku";
     .
+
+<クロノワール> a vlueprint:PerformingGroup;
+    rdfs:label "クロノワール";
+    vlueprint:youtubeChannelName "ChroNoiR";
+    vlueprint:youtubeChannelId "UCz6vnIbgiqFT9xUcD6Bp65Q";
+    vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
+    .

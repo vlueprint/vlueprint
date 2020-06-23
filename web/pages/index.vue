@@ -27,10 +27,21 @@
     <section class="content">
       <h2 class="title">データの取得例</h2>
       <div>
-        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/fd700b4cb1f6e4aeaa494b1ea2d7287e" />
-        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/02ae7473069d7f2dccffe5f776e16192" />
-        <SparqlSample gistUrl="https://gist.github.com/takanakahiko/be2a6ddd0ea944874782e8fe21f0a335" />
+        <SparqlSample
+          gistUrl="https://gist.github.com/takanakahiko/fd700b4cb1f6e4aeaa494b1ea2d7287e"
+        />
+        <SparqlSample
+          gistUrl="https://gist.github.com/takanakahiko/02ae7473069d7f2dccffe5f776e16192"
+        />
+        <SparqlSample
+          gistUrl="https://gist.github.com/takanakahiko/be2a6ddd0ea944874782e8fe21f0a335"
+        />
       </div>
+    </section>
+    <section class="content usecase">
+      <h2 class="title">利用例(JavaScript)</h2>
+      <p>以下のソースコードをブラウザのJavaScriptコンソールで実行してみてください</p>
+      <pre>{{code}}</pre>
     </section>
     <section class="lets-start content">
       <h2 class="title">さあ，始めましょう</h2>
@@ -47,11 +58,37 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import SparqlSample from "~/components/SparqlSample.vue"
+import SparqlSample from "~/components/SparqlSample.vue";
 
 export default {
   components: {
-    Logo, SparqlSample
+    Logo,
+    SparqlSample
+  },
+  data() {
+    return {
+      code: `
+const query = \`
+  prefix vlueprint: <https://vlueprint.org/schema/>
+  prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+  select ?id {
+    ?uri vlueprint:youtubeChannelId ?id.
+    ?uri rdfs:label "月ノ美兎".
+  }
+\`;
+const ret = await fetch(
+  "https://vlueprint.org/sparql?query=" + encodeURIComponent(query),
+  {
+    headers: { Accept: "application/json" }
+  }
+);
+const retJson = await ret.json();
+const suddest = retJson.results.bindings[0]
+  ? retJson.results.bindings[0].id.value
+  : "";
+console.log(suddest); // 月ノ美兎の Youtube チャンネルの ID が表示される`
+    };
   }
 };
 </script>
@@ -129,6 +166,10 @@ export default {
   .point-img {
     width: 48px;
   }
+}
+
+.usecase {
+  text-align: left;
 }
 
 .lets-start {

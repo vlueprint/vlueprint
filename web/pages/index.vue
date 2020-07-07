@@ -46,8 +46,8 @@
     <section class="lets-start content">
       <h2 class="title">さあ，始めましょう</h2>
       <div class="links">
-        <a href="#" target="_blank" class="button--green">Document</a>
-        <a href="https://github.com/vlueprint/vlueprint" target="_blank" class="button--grey">GitHub</a>
+        <a href="#" target="_blank" class="button is-outlined is-primary">Document</a>
+        <a href="https://github.com/vlueprint/vlueprint" target="_blank" class="button is-outlined is-dark">GitHub</a>
       </div>
     </section>
     <footer class="footer has-text-centered">

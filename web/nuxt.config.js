@@ -5,6 +5,9 @@ export default {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      class: "has-navbar-fixed-top"
+    },
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },

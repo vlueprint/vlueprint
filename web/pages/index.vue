@@ -65,6 +65,13 @@ export default {
     Logo,
     SparqlSample
   },
+  head () {
+    return {
+      htmlAttrs: {
+        class: ""
+      }
+    }
+  },
   data() {
     return {
       code: `

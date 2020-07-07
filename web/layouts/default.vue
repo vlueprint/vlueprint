@@ -18,7 +18,7 @@
           <div class="navbar-start">
             <a class="navbar-item" href="/">Home</a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="/category/">Data</a>
+              <a class="navbar-link" href="/category/">Data Category</a>
               <div class="navbar-dropdown is-boxed">
                 <template v-for="val in classes">
                   <a class="navbar-item" :href="`/category/${val}/`" :key="val">{{val}}</a>

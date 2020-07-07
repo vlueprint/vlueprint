@@ -4,9 +4,7 @@
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
           <li><a href="/">Home</a></li>
-          <li class="is-active">
-            <a href="/rdfs/">category</a>
-          </li>
+          <li class="is-active"><a href="/category/">Category</a></li>
         </ul>
       </nav>
       <h1 class="title is-1">

@@ -4,6 +4,7 @@
       <h1 class="title is-1">
         About: {{ label }}
       </h1>
+      <p>{{ subjectUrl }}</p>
       <sparql-response-table :response="response" />
     </div>
   </section>
@@ -48,6 +49,7 @@ export default Vue.extend({
       if (response.data.results.bindings.length) {
         return {
           response: response.data,
+          subjectUrl
         }
       } else {
         error({ statusCode: 404, message: 'Data not found' })

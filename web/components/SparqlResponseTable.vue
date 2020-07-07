@@ -35,11 +35,11 @@
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
-import { SparqleResponse } from '~/types/SparqleResponse.d.ts'
+import { SparqlResponse } from '~/types/SparqlResponse'
 export default Vue.extend({
   props: {
     response: {
-      type: Object as PropType<SparqleResponse>,
+      type: Object as PropType<SparqlResponse>,
       required: true
     }
   }

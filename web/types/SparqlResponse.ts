@@ -25,7 +25,7 @@ interface RdfTerms5 {
   value: string
 }
 
-export interface SparqleResponse {
+export interface SparqlResponse {
   head: {
     vars: string[]
     link: string[]

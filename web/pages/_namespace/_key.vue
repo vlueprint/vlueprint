@@ -13,7 +13,7 @@
 import Vue from 'vue'
 import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
 
-import { SparqleResponse } from '~/types/SparqleResponse.d.ts'
+import { SparqlResponse } from '~/types/SparqlResponse'
 
 export default Vue.extend({
   components: { SparqlResponseTable },
@@ -42,7 +42,7 @@ export default Vue.extend({
     const subjectUrl = `${baseUrl}/${namespace}/${params.key}`
     const query = `SELECT ?Property ?Value WHERE { <${subjectUrl}> ?Property ?Value }`
     try {
-      const response = await $axios.get<SparqleResponse>('/sparql', {
+      const response = await $axios.get<SparqlResponse>('/sparql', {
         params: { query },
       })
       if (response.data.results.bindings.length) {

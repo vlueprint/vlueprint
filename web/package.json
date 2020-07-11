@@ -1,7 +1,7 @@
 {
-  "name": "vlueprint-web",
+  "name": "vlueprint",
   "version": "1.0.0",
-  "description": "My legendary Nuxt.js project",
+  "description": "Virtual Worldに共通のスキーマを",
   "author": "",
   "private": true,
   "scripts": {

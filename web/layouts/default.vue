@@ -70,7 +70,8 @@ export default Vue.extend({
       rdfs:label ?label.
     }
     `
-    const response = await this.$axios.get<SparqlResponse>('/sparql', {
+    // /sparql にすると https://localhost:3000/sparql にアクセスしてしまう
+    const response = await this.$axios.get<SparqlResponse>('https://vlueprint.org/sparql', {
       params: { query },
     })
     this.classes =  response.data.results.bindings.map(binding=>binding["label"].value)

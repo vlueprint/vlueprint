@@ -6,8 +6,11 @@
 
 <upd8> a vlueprint:Organization;
     rdfs:label "upd8";
-    vlueprint:belongTo <Activ8>;
     vlueprint:yomi "あっぷでーと";
+    vlueprint:youtubeChannelName "upd8チャンネル";
+    vlueprint:youtubeChannelId "UCBsrAA8Z_6Ot3my0vM8dlvg";
+    vlueprint:twitterAccount "project_upd8";
+    vlueprint:belongTo <upd8>, <Activ8>;
     .
 
 <元ENTUM> a vlueprint:Organization;
@@ -259,7 +262,7 @@
 <IRIAM> a vlueprint:Organization;
     rdfs:label "IRIAM";
     vlueprint:yomi "いりあむ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    rdfs:comment "[TODO]運営会社が未定義です ( #48 )", "[TODO]所属VirtualBeingが古い情報のようです";
     .
 
 <元おとりざ> a vlueprint:Organization;
@@ -371,4 +374,10 @@
 <i-LIVE> a vlueprint:Organization;
     rdfs:label "i-LIVE";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
+    .
+
+<シテイル> a vlueprint:VirtualBeing;
+    vlueprint:youtubeChannelName "シテイルチャンネル";
+    vlueprint:youtubeChannelId "UC4z_44S_KifPNmKrSzaEgCQ";
+    vlueprint:twitterAccount "citail_pr";
     .

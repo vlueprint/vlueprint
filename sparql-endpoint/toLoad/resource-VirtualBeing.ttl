@@ -1448,9 +1448,12 @@
     .
 
 <柚木凛> a vlueprint:VirtualBeing;
+    rdfs:label "柚木凛";
+    rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
     vlueprint:youtubeChannelName "ゆずきチャンネル";
     vlueprint:youtubeChannelId "UC_1Okh7IBMyazrTJD_ymYsQ";
-    vlueprint:twitterAccount "rin_yuzukich";
+    vlueprint:twitterAccount "rin_yuzukich", "Rin_Yuzukich";
+    vlueprint:yomi "りん", "ゆずきりん";
     .
 
 <葉山舞鈴> a vlueprint:VirtualBeing;
@@ -3938,14 +3941,6 @@
     vlueprint:youtubeChannelId "UCK72PAXy0T6v49CDgLzzOIQ";
     vlueprint:twitterAccount "WFLE_REALITY";
     vlueprint:belongTo <WFLE>;
-    .
-
-<柚木凛> a vlueprint:VirtualBeing;
-    rdfs:label "柚木凛";
-    rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
-    vlueprint:youtubeChannelName "ゆずきチャンネル";
-    vlueprint:twitterAccount "Rin_Yuzukich";
-    vlueprint:yomi "りん", "ゆずきりん";
     .
 
 <Team双葉湖> a vlueprint:VirtualBeing;
@@ -9624,11 +9619,13 @@
     .
 
 <愛守ノユリ> a vlueprint:VirtualBeing;
+    rdfs:label "愛守ノユリ";
     rdfs:comment "[TODO]所属が適切ではないようです";
     vlueprint:youtubeChannelName "Ice Noyuri Channel";
     vlueprint:youtubeChannelId "UC5dZzb_MZ0t-qoFxuUr6cLw";
     vlueprint:twitterAccount "ice_noyuri";
     vlueprint:belongTo <IRIAM>;
+    vlueprint:yomi "あいすのゆり", "のゆり";
     .
 
 <鐘ヶ江季里_三園命> a vlueprint:VirtualBeing;
@@ -9786,10 +9783,13 @@
     .
 
 <天死ちゃん> a vlueprint:VirtualBeing;
+    rdfs:label "天死ちゃん";
+    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:youtubeChannelName "天死ちゃん天界チャンネル";
     vlueprint:youtubeChannelId "UC3LJj-dWaa0wkEOYgopHq2Q";
     vlueprint:twitterAccount "tensitya";
     vlueprint:belongTo <IRIAM>;
+    vlueprint:yomi "てんしちゃん";
     .
 
 <MeowieCakes> a vlueprint:VirtualBeing;
@@ -15773,12 +15773,6 @@
     vlueprint:yomi "あおいりほ", "りほ";
     .
 
-<愛守ノユリ> a vlueprint:VirtualBeing;
-    rdfs:label "愛守ノユリ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あいすのゆり", "のゆり";
-    .
-
 <愛瀬ユリア> a vlueprint:VirtualBeing;
     rdfs:label "愛瀬ユリア";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17031,12 +17025,6 @@
     rdfs:label "天使愛聖";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あいせ", "あまつかあいせ";
-    .
-
-<天死ちゃん> a vlueprint:VirtualBeing;
-    rdfs:label "天死ちゃん";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "てんしちゃん";
     .
 
 <天道もやし> a vlueprint:VirtualBeing;

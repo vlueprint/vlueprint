@@ -20,8 +20,8 @@
 
 <.LIVE> a vlueprint:Organization;
     rdfs:label ".LIVE";
-    vlueprint:belongTo <App_Land>;
     vlueprint:yomi "どっとらいぶ";
+    vlueprint:belongTo <App_Land>;
     .
 
 <にじさんじ(1・2期生)> a vlueprint:Organization;

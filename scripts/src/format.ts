@@ -71,4 +71,4 @@ const main = async () => {
   }))
 }
 
-(async () => await main())()
+main()

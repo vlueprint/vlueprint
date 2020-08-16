@@ -6807,12 +6807,13 @@
     vlueprint:twitterAccount "WAKANA_RAY";
     .
 
-<竹取かるた(夢)> a vlueprint:VirtualBeing;
-    rdfs:label "竹取かるた(夢)";
-    rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
+<竹取かるた> a vlueprint:VirtualBeing;
+    rdfs:label "竹取かるた";
     vlueprint:youtubeChannelName "竹取かるた/Karuta Channel【おとりざ】";
+    vlueprint:youtubeChannelId "UCBVmC7fKfYONkWpb2FseRSg";
     vlueprint:twitterAccount "taketori_karuta";
     vlueprint:belongTo <元おとりざ>;
+    vlueprint:yomi "かるた", "たけとりかるた";
     .
 
 <尸解ユヱ> a vlueprint:VirtualBeing;
@@ -16901,12 +16902,6 @@
     rdfs:label "谷田透佳 立花鈴";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "まーぷる";
-    .
-
-<竹取かるた> a vlueprint:VirtualBeing;
-    rdfs:label "竹取かるた";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かるた", "たけとりかるた";
     .
 
 <茶越きよか> a vlueprint:VirtualBeing;

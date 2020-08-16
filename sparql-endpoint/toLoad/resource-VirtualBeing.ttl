@@ -8194,15 +8194,15 @@
     vlueprint:twitterAccount "kiki_akemiya38";
     .
 
-<猫田かぶり_kaburiChannel> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<猫田かぶり> a vlueprint:VirtualBeing;
+    rdfs:label "猫田かぶり";
     vlueprint:youtubeChannelName "猫田かぶり/kaburiChannel";
     vlueprint:youtubeChannelId "UCJvTO4Nf_36Q8FYavl1zV7g";
     vlueprint:twitterAccount "kaburiseisaku";
     .
 
-<江戸レナEdo_Lena> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<江戸レナ> a vlueprint:VirtualBeing;
+    rdfs:label "江戸レナ";
     vlueprint:youtubeChannelName "江戸レナEdo Lena";
     vlueprint:youtubeChannelId "UC0Qt-ycVvKBcP5J_Xz44zTg";
     vlueprint:twitterAccount "edo_lena";

@@ -367,3 +367,9 @@
     vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
     vlueprint:twitterAccount "vjpofficial";
     .
+
+<ともえとエルゼ> a vlueprint:PerformingGroup;
+    rdfs:label "ともえとエルゼ";
+    vlueprint:youtubeChannelName "ともえとエルゼのほんわかASMR";
+    vlueprint:youtubeChannelId "UCmjRV2ULqBFenjbsFIrerNg";
+    .

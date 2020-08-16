@@ -1541,8 +1541,8 @@
     vlueprint:yomi "ふくやますたー", "ますたー";
     .
 
-<シャンデリ【Claw_Machine_Japan】> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<シャンバリーレ> a vlueprint:VirtualBeing;
+    rdfs:label "ふくやマスター";
     vlueprint:youtubeChannelName "シャンデリ【Claw Machine Japan】";
     vlueprint:youtubeChannelId "UCTpCryz1jUuITM4Ccz-hlWg";
     vlueprint:twitterAccount "Vshanbarire";
@@ -1617,11 +1617,16 @@
     vlueprint:yomi "のら";
     .
 
-<ともえとエルゼのほんわかASMR> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
-    vlueprint:youtubeChannelName "ともえとエルゼのほんわかASMR";
-    vlueprint:youtubeChannelId "UCmjRV2ULqBFenjbsFIrerNg";
+<村瀬巴> a vlueprint:VirtualBeing;
+    rdfs:label "村瀬巴";
+    vlueprint:twitterAccount "Murase_Tomoe";
+    vlueprint:belongTo <ともえとエルゼ>;
+    .
+
+<エルゼ・フォン・エーデルシュタイン> a vlueprint:VirtualBeing;
+    rdfs:label "エルゼ・フォン・エーデルシュタイン";
     vlueprint:twitterAccount "Else_ASMR";
+    vlueprint:belongTo <ともえとエルゼ>;
     .
 
 <神楽すず> a vlueprint:VirtualBeing;

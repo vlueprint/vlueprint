@@ -376,15 +376,6 @@
     vlueprint:yomi "うたこ", "すずかうたこ";
     .
 
-<ホロライブ公式> a vlueprint:VirtualBeing;
-    rdfs:label "ホロライブ公式";
-    rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です";
-    vlueprint:youtubeChannelName "hololive ホロライブ - VTuber Group";
-    vlueprint:youtubeChannelId "UCJFZiqLMntJufDCHc6bQixg";
-    vlueprint:twitterAccount "hololivetv";
-    vlueprint:belongTo <ホロライブ>;
-    .
-
 <周防パトラ> a vlueprint:VirtualBeing;
     rdfs:label "周防パトラ";
     vlueprint:youtubeChannelName "Patra Channel / 周防パトラ 【ハニスト】";

@@ -9215,7 +9215,8 @@
     vlueprint:twitterAccount "VNearnia";
     .
 
-<赤坂まさか_-VSinger_SongWriter-> a vlueprint:VirtualBeing;
+<赤坂まさか> a vlueprint:VirtualBeing;
+    rdfs:label "赤坂まさか";
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "赤坂まさか -VSinger SongWriter-";
     vlueprint:youtubeChannelId "UC4BBIXa9zeqfivTV2iDBwdg";

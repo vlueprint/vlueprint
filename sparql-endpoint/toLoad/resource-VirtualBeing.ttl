@@ -13654,12 +13654,13 @@
     vlueprint:belongTo <IRIAM>;
     .
 
-<凛葉(りんよう)> a vlueprint:VirtualBeing;
-    rdfs:label "凛葉(りんよう)";
+<凛葉> a vlueprint:VirtualBeing;
+    rdfs:label "凛葉";
     vlueprint:youtubeChannelName "凛葉";
     vlueprint:youtubeChannelId "UC4OZTFcH6NAtiYSbHyLwWFw";
     vlueprint:twitterAccount "_Rinyou";
     vlueprint:belongTo <IRIAM>;
+    vlueprint:yomi "りんよう";
     .
 
 <旱林鏡香> a vlueprint:VirtualBeing;
@@ -17666,12 +17667,6 @@
     rdfs:label "兒玉菜生";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "なお", "こだまなお";
-    .
-
-<凛葉> a vlueprint:VirtualBeing;
-    rdfs:label "凛葉";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "りんよう";
     .
 
 <囃市まふゆ> a vlueprint:VirtualBeing;

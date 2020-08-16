@@ -1542,7 +1542,7 @@
     .
 
 <シャンバリーレ> a vlueprint:VirtualBeing;
-    rdfs:label "ふくやマスター";
+    rdfs:label "シャンバリーレ";
     vlueprint:youtubeChannelName "シャンデリ【Claw Machine Japan】";
     vlueprint:youtubeChannelId "UCTpCryz1jUuITM4Ccz-hlWg";
     vlueprint:twitterAccount "Vshanbarire";

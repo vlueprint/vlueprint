@@ -2701,8 +2701,8 @@
 
 <高槻りつ> a vlueprint:VirtualBeing;
     rdfs:label "高槻りつ";
-    vlueprint:youtubeChannelName "高槻りつ / Takatsuki ritsu";
-    vlueprint:youtubeChannelId "UCL9dLCVvHyMiqjp2RDgowqQ";
+    vlueprint:youtubeChannelName "高槻りつ / Takatsuki ritsu", "ASMR 高槻りつ_Takatsuki Ritsu";
+    vlueprint:youtubeChannelId "UCL9dLCVvHyMiqjp2RDgowqQ", "UC_SuwA5sNFz8msSYcbUJhgg";
     vlueprint:twitterAccount "re2_takatsuki";
     vlueprint:belongTo <ぱりぷろ>;
     vlueprint:yomi "たかつきりつ", "りつ";
@@ -10366,7 +10366,7 @@
     vlueprint:twitterAccount "Meltymagic__";
     .
 
-<苛真千桜【Vtuber】> a vlueprint:VirtualBeing;
+<苛真千桜> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "苛真千桜【Vtuber】";
     vlueprint:youtubeChannelId "UCLFbcm_S6qxlIt-jpetW6_A";
@@ -10385,13 +10385,6 @@
     vlueprint:youtubeChannelName "ストュラス・ウォール";
     vlueprint:youtubeChannelId "UCRBgLK7iEblWvDIm0L8AUoQ";
     vlueprint:twitterAccount "wall_citrus";
-    .
-
-<高槻りつ> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
-    vlueprint:youtubeChannelName "ASMR 高槻りつ_Takatsuki Ritsu";
-    vlueprint:youtubeChannelId "UC_SuwA5sNFz8msSYcbUJhgg";
-    vlueprint:twitterAccount "re2_takatsuki";
     .
 
 <Mone.Channel【水影もね】> a vlueprint:VirtualBeing;

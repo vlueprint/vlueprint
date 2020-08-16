@@ -215,8 +215,8 @@
     vlueprint:yomi "しいなゆいか", "ゆいか";
     .
 
-<シフィ(シフィ―ル・エシラー)> a vlueprint:VirtualBeing;
-    rdfs:label "シフィ(シフィ―ル・エシラー)";
+<シフィ―ル・エシラー> a vlueprint:VirtualBeing;
+    rdfs:label "シフィ―ル・エシラー";
     vlueprint:youtubeChannelName "シフィ - Sifir Esirer -";
     vlueprint:youtubeChannelId "UCz0lin3ZsOtmr2yuTN2MDQg";
     vlueprint:twitterAccount "sifiresirer";

@@ -5895,11 +5895,12 @@
     vlueprint:yomi "すばる", "ななせすばる";
     .
 
-<兒玉菜生(こだまなお)> a vlueprint:VirtualBeing;
-    rdfs:label "兒玉菜生(こだまなお)";
+<兒玉菜生> a vlueprint:VirtualBeing;
+    rdfs:label "兒玉菜生";
     vlueprint:youtubeChannelName "兒玉 菜生 -Nao Channel-";
     vlueprint:youtubeChannelId "UCbwBhbB6P62P1SrcwcKgaqQ";
     vlueprint:twitterAccount "vtuber_nao";
+    vlueprint:yomi "なお", "こだまなお";
     .
 
 <バーチャルYouTuber蟹> a vlueprint:VirtualBeing;
@@ -17661,12 +17662,6 @@
     rdfs:label "仄架よみ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "よみ", "ほのかよみ";
-    .
-
-<兒玉菜生> a vlueprint:VirtualBeing;
-    rdfs:label "兒玉菜生";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "なお", "こだまなお";
     .
 
 <囃市まふゆ> a vlueprint:VirtualBeing;

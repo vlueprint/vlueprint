@@ -4460,12 +4460,13 @@
     vlueprint:yomi "あさひ", "せとあさひ";
     .
 
-<森永みう_Morinaga_Miu> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<森永みう> a vlueprint:VirtualBeing;
+    rdfs:label "森永みう";
     vlueprint:youtubeChannelName "森永みう/Morinaga Miu";
     vlueprint:youtubeChannelId "UChN7P9OhRltW3w9IesC92PA";
     vlueprint:twitterAccount "morinaga_miu";
     vlueprint:belongTo <ぱりぷろ>;
+    vlueprint:yomi "みう", "もりながみう";
     .
 
 <Siro(Game)> a vlueprint:VirtualBeing;
@@ -16686,12 +16687,6 @@
     rdfs:label "色葉あやめ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あやめ", "いろはあやめ";
-    .
-
-<森永みう> a vlueprint:VirtualBeing;
-    rdfs:label "森永みう";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "みう", "もりながみう";
     .
 
 <深海リュイ> a vlueprint:VirtualBeing;

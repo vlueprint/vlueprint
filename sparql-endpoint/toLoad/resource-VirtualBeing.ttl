@@ -8253,8 +8253,8 @@
     vlueprint:twitterAccount "hoshina_com";
     .
 
-<冷水ぬるめ_歌う女子高生の作曲VTuber> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<冷水ぬるめ> a vlueprint:VirtualBeing;
+    rdfs:label "冷水ぬるめ";
     vlueprint:youtubeChannelName "冷水ぬるめ/歌う女子高生の作曲VTuber";
     vlueprint:youtubeChannelId "UCVHykctvqUX1fhARnxv10ZA";
     vlueprint:twitterAccount "nurunuru_nurume";

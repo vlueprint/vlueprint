@@ -6874,11 +6874,12 @@
     vlueprint:belongTo <VEgo>;
     .
 
-<門矢士(もやし)> a vlueprint:VirtualBeing;
-    rdfs:label "門矢士(もやし)";
+<天道もやし> a vlueprint:VirtualBeing;
+    rdfs:label "天道もやし";
     vlueprint:youtubeChannelName "天道もやしVtuber";
     vlueprint:youtubeChannelId "UCLhRqrcPauOgC6MTRhlOSMQ";
     vlueprint:twitterAccount "VtuberDCD";
+    vlueprint:yomi "もやし";
     .
 
 <マジョノカ渚> a vlueprint:VirtualBeing;
@@ -17016,12 +17017,6 @@
     rdfs:label "天使愛聖";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あいせ", "あまつかあいせ";
-    .
-
-<天道もやし> a vlueprint:VirtualBeing;
-    rdfs:label "天道もやし";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "もやし";
     .
 
 <天魔マリナ> a vlueprint:VirtualBeing;

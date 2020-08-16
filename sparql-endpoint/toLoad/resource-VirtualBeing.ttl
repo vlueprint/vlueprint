@@ -10387,7 +10387,7 @@
     vlueprint:twitterAccount "wall_citrus";
     .
 
-<ASMR_高槻りつ_Takatsuki_Ritsu> a vlueprint:VirtualBeing;
+<高槻りつ> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ASMR 高槻りつ_Takatsuki Ritsu";
     vlueprint:youtubeChannelId "UC_SuwA5sNFz8msSYcbUJhgg";

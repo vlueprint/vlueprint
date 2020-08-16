@@ -373,3 +373,10 @@
     vlueprint:youtubeChannelName "ともえとエルゼのほんわかASMR";
     vlueprint:youtubeChannelId "UCmjRV2ULqBFenjbsFIrerNg";
     .
+
+<朝ノ姉妹> a vlueprint:PerformingGroup;
+    rdfs:label "朝ノ姉妹";
+    vlueprint:youtubeChannelName "朝ノ姉妹ぷろじぇくと";
+    vlueprint:youtubeChannelId "UCODNLyn3L83wEmC0DLL0cxA";
+    vlueprint:twitterAccount "asanoruri";
+    .

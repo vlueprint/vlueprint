@@ -1735,13 +1735,6 @@
     vlueprint:yomi "えりふぁ", "れヴぃえりふぁ";
     .
 
-<朝ノ姉妹ぷろじぇくと> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
-    vlueprint:youtubeChannelName "朝ノ姉妹ぷろじぇくと";
-    vlueprint:youtubeChannelId "UCODNLyn3L83wEmC0DLL0cxA";
-    vlueprint:twitterAccount "asanoruri";
-    .
-
 <カルロ・ピノ> a vlueprint:VirtualBeing;
     rdfs:label "カルロ・ピノ";
     vlueprint:youtubeChannelName "カルロ・ピノ";
@@ -7968,11 +7961,18 @@
     vlueprint:twitterAccount "practice19";
     .
 
-<朝ノ瑠璃【清楚】> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
-    vlueprint:youtubeChannelName "朝ノ瑠璃【清楚】";
-    vlueprint:youtubeChannelId "UCTbtI0DRdL1Y7UElDq3fEwA";
-    vlueprint:twitterAccount "";
+<朝ノ瑠璃> a vlueprint:VirtualBeing;
+    rdfs:label "朝ノ瑠璃";
+    vlueprint:twitterAccount "asanoruri";
+    vlueprint:belongTo <朝ノ姉妹>;
+    vlueprint:yomi "あさのるり", "るり";
+    .
+
+<朝ノ茜> a vlueprint:VirtualBeing;
+    rdfs:label "朝ノ茜";
+    vlueprint:twitterAccount "asanoakane";
+    vlueprint:belongTo <朝ノ姉妹>;
+    vlueprint:yomi "あかね", "あさのあかね";
     .
 
 <Fairy_mint_channel___ミント【苺だいふく】> a vlueprint:VirtualBeing;
@@ -16869,22 +16869,10 @@
     vlueprint:yomi "りりぃ", "なかみねりりぃ";
     .
 
-<朝ノ茜> a vlueprint:VirtualBeing;
-    rdfs:label "朝ノ茜";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あかね", "あさのあかね";
-    .
-
 <朝ノ光> a vlueprint:VirtualBeing;
     rdfs:label "朝ノ光";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あさのひかり", "ひかり";
-    .
-
-<朝ノ瑠璃> a vlueprint:VirtualBeing;
-    rdfs:label "朝ノ瑠璃";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あさのるり", "るり";
     .
 
 <朝倉日向> a vlueprint:VirtualBeing;

@@ -8230,8 +8230,8 @@
     vlueprint:yomi "しろがねめくる", "めくる";
     .
 
-<岸堂天真(きしどうてんま)> a vlueprint:VirtualBeing;
-    rdfs:label "岸堂天真(きしどうてんま)";
+<岸堂天真> a vlueprint:VirtualBeing;
+    rdfs:label "岸堂天真";
     vlueprint:youtubeChannelName "Temma Ch. 岸堂天真";
     vlueprint:youtubeChannelId "UCGNI4MENvnsymYjKiZwv9eg";
     vlueprint:twitterAccount "kishidotemma";

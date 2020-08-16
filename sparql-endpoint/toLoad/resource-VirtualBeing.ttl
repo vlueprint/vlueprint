@@ -6439,12 +6439,14 @@
     vlueprint:twitterAccount "inu_sion_dog";
     .
 
-<たかさき咲_takasaki_sister> a vlueprint:VirtualBeing;
+<たかさき咲> a vlueprint:VirtualBeing;
+    rdfs:label "たかさき咲";
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "たかさき咲/takasaki_sister";
     vlueprint:youtubeChannelId "UCk4BQkzb4Xe96kEx5RtBb-w";
     vlueprint:twitterAccount "takasaki_sister";
     vlueprint:belongTo <バ美肉>;
+    vlueprint:yomi "さき", "たかさきさき";
     .
 
 <陽向ここみ*Cocomi_Channel> a vlueprint:VirtualBeing;
@@ -15523,12 +15525,6 @@
     rdfs:label "ダーダダ・ジェット・ブランコ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "だーだだじぇっとぶらんこ", "ぶらんこ";
-    .
-
-<たかさき咲> a vlueprint:VirtualBeing;
-    rdfs:label "たかさき咲";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "さき", "たかさきさき";
     .
 
 <タシギアトリ> a vlueprint:VirtualBeing;

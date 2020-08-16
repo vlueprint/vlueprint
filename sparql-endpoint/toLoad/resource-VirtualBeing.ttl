@@ -7975,8 +7975,8 @@
     vlueprint:yomi "あかね", "あさのあかね";
     .
 
-<Fairy_mint_channel___ミント【苺だいふく】> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<Fairy_mint> a vlueprint:VirtualBeing;
+    rdfs:label "Fairy mint";
     vlueprint:youtubeChannelName "Fairy mint channel / ミント【苺だいふく】";
     vlueprint:youtubeChannelId "UC6g2dwBo5lDSuf0L-EMCo9A";
     vlueprint:twitterAccount "mint15fam";
@@ -8038,8 +8038,8 @@
     vlueprint:twitterAccount "ootamato";
     .
 
-<安堂いなり_channel> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<安堂いなり> a vlueprint:VirtualBeing;
+    rdfs:label "安堂いなり";
     vlueprint:youtubeChannelName "安堂いなり channel";
     vlueprint:youtubeChannelId "UCWwwXXd_RPzj3LAyEfBslsg";
     vlueprint:twitterAccount "andou_inari";

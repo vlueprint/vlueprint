@@ -360,3 +360,23 @@
     vlueprint:youtubeChannelId "UCz6vnIbgiqFT9xUcD6Bp65Q";
     vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
     .
+
+<あすかな> a vlueprint:PerformingGroup;
+    rdfs:label "あすかな";
+    vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
+    vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
+    vlueprint:twitterAccount "vjpofficial";
+    .
+
+<ともえとエルゼ> a vlueprint:PerformingGroup;
+    rdfs:label "ともえとエルゼ";
+    vlueprint:youtubeChannelName "ともえとエルゼのほんわかASMR";
+    vlueprint:youtubeChannelId "UCmjRV2ULqBFenjbsFIrerNg";
+    .
+
+<朝ノ姉妹> a vlueprint:PerformingGroup;
+    rdfs:label "朝ノ姉妹";
+    vlueprint:youtubeChannelName "朝ノ姉妹ぷろじぇくと";
+    vlueprint:youtubeChannelId "UCODNLyn3L83wEmC0DLL0cxA";
+    vlueprint:twitterAccount "asanoruri";
+    .

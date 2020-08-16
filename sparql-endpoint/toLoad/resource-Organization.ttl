@@ -31,6 +31,9 @@
 
 <ホロライブ> a vlueprint:Organization;
     rdfs:label "ホロライブ";
+    vlueprint:youtubeChannelName "hololive ホロライブ - VTuber Group";
+    vlueprint:youtubeChannelId "UCJFZiqLMntJufDCHc6bQixg";
+    vlueprint:twitterAccount "hololivetv";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
@@ -380,4 +383,12 @@
     vlueprint:youtubeChannelName "シテイルチャンネル";
     vlueprint:youtubeChannelId "UC4z_44S_KifPNmKrSzaEgCQ";
     vlueprint:twitterAccount "citail_pr";
+    .
+
+<にじさんじ> a vlueprint:VirtualBeing;
+    rdfs:label "にじさんじ";
+    vlueprint:youtubeChannelName "にじさんじ";
+    vlueprint:youtubeChannelId "UCX7YkU9nEeaoZbkVLVajcMg";
+    vlueprint:twitterAccount "nijisanji_app";
+    rdfs:comment "[TODO]n期生みたいなやつは所属というより属性なので、こちらにマージしたい";
     .

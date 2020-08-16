@@ -3352,12 +3352,14 @@
     vlueprint:yomi "まつり", "かざみやまつり";
     .
 
-<花奏かのん(かなでかのん)> a vlueprint:VirtualBeing;
-    rdfs:label "花奏かのん(かなでかのん)";
+<花奏かのん> a vlueprint:VirtualBeing;
+    rdfs:label "花奏かのん";
+    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:youtubeChannelName "花奏 かのん -Kanade Kanon Official-";
     vlueprint:youtubeChannelId "UCmqrvfLMws-GLGHQcB5dasg";
     vlueprint:twitterAccount "_kanade_kanon";
     vlueprint:belongTo <ブイアパ>;
+    vlueprint:yomi "かなでかのん", "かのん";
     .
 
 <あるふぁブラザーズ> a vlueprint:VirtualBeing;
@@ -15983,12 +15985,6 @@
     rdfs:label "火渡飛鳥";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あすか", "ひわたりあすか";
-    .
-
-<花奏かのん> a vlueprint:VirtualBeing;
-    rdfs:label "花奏かのん";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かなでかのん", "かのん";
     .
 
 <花椒> a vlueprint:VirtualBeing;

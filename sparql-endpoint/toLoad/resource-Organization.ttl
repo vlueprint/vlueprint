@@ -381,3 +381,11 @@
     vlueprint:youtubeChannelId "UC4z_44S_KifPNmKrSzaEgCQ";
     vlueprint:twitterAccount "citail_pr";
     .
+
+<にじさんじ> a vlueprint:VirtualBeing;
+    rdfs:label "にじさんじ";
+    rdfs:comment "[TODO]n期生みたいなやつは所属というより属性なので、こちらにマージしたい";
+    vlueprint:youtubeChannelName "にじさんじ";
+    vlueprint:youtubeChannelId "UCX7YkU9nEeaoZbkVLVajcMg";
+    vlueprint:twitterAccount "nijisanji_app";
+    .

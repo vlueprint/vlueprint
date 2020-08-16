@@ -295,15 +295,6 @@
     vlueprint:yomi "りぜ", "りぜへるえすた";
     .
 
-<にじさんじ公式> a vlueprint:VirtualBeing;
-    rdfs:label "にじさんじ公式";
-    rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です";
-    vlueprint:youtubeChannelName "にじさんじ";
-    vlueprint:youtubeChannelId "UCX7YkU9nEeaoZbkVLVajcMg";
-    vlueprint:twitterAccount "nijisanji_app";
-    vlueprint:belongTo <にじさんじ(1・2期生)>;
-    .
-
 <緑仙> a vlueprint:VirtualBeing;
     rdfs:label "緑仙";
     rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";

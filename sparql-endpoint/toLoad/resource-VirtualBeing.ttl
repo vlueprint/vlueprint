@@ -4414,8 +4414,8 @@
     vlueprint:twitterAccount "masho_makamaka";
     .
 
-<山葵凛音(わさびりんね)> a vlueprint:VirtualBeing;
-    rdfs:label "山葵凛音(わさびりんね)";
+<山葵凛音> a vlueprint:VirtualBeing;
+    rdfs:label "山葵凛音";
     vlueprint:youtubeChannelName "山葵凛音";
     vlueprint:youtubeChannelId "UCOsoM1Y26DlmVCON4Ng9NNQ";
     vlueprint:twitterAccount "wasabi_rinne";

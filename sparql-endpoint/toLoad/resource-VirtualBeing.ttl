@@ -1283,6 +1283,7 @@
     vlueprint:youtubeChannelId "UC2Rr7mILebYLTjd38DNNUTw";
     vlueprint:twitterAccount "fairyschan";
     vlueprint:belongTo <バ美肉>;
+    vlueprint:yomi "ふぇありす";
     .
 
 <金剛いろは> a vlueprint:VirtualBeing;
@@ -15231,12 +15232,6 @@
     rdfs:label "Emma Hazy Minami";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "えま", "みなみ";
-    .
-
-<fairys> a vlueprint:VirtualBeing;
-    rdfs:label "fairys";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ふぇありす";
     .
 
 <Honeystrap> a vlueprint:VirtualBeing;

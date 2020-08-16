@@ -1028,11 +1028,13 @@
 <海堂飛鳥> a vlueprint:VirtualBeing;
     rdfs:label "海堂飛鳥";
     vlueprint:belongTo <あすかな>;
+    vlueprint:yomi "あすか", "かいどうあすか";
     .
 
 <苺谷星空> a vlueprint:VirtualBeing;
     rdfs:label "苺谷星空";
     vlueprint:belongTo <あすかな>;
+    vlueprint:yomi "かなた", "いちごやかなた";
     .
 
 <因幡はねる> a vlueprint:VirtualBeing;
@@ -2788,7 +2790,7 @@
     rdfs:label "燈舞りん";
     vlueprint:twitterAccount "TomaRindesu";
     vlueprint:belongTo <まりなす>;
-    vlueprint:yomi "とうまりん", "りん";
+    vlueprint:yomi "りん", "とうまりん";
     .
 
 <音葉なほ> a vlueprint:VirtualBeing;
@@ -16016,12 +16018,6 @@
     vlueprint:yomi "かいこうかげ", "かげ";
     .
 
-<海堂飛鳥> a vlueprint:VirtualBeing;
-    rdfs:label "海堂飛鳥";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あすか", "かいどうあすか";
-    .
-
 <海堂飛鳥_苺谷星空> a vlueprint:VirtualBeing;
     rdfs:label "海堂飛鳥 苺谷星空";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17700,12 +17696,6 @@
     rdfs:label "櫻歌ミコ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "みこ", "おうかみこ";
-    .
-
-<苺谷星空> a vlueprint:VirtualBeing;
-    rdfs:label "苺谷星空";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "かなた", "いちごやかなた";
     .
 
 <茉莉花> a vlueprint:VirtualBeing;

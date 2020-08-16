@@ -394,8 +394,8 @@
     vlueprint:yomi "まりん", "ほうしょうまりん";
     .
 
-<バーチャルおばあちゃん(VB)> a vlueprint:VirtualBeing;
-    rdfs:label "バーチャルおばあちゃん(VB)";
+<バーチャルおばあちゃん> a vlueprint:VirtualBeing;
+    rdfs:label "バーチャルおばあちゃん";
     vlueprint:youtubeChannelName "バーチャルおばあちゃんねる";
     vlueprint:youtubeChannelId "UCTMgd9qnUD9qKBX5oTtD6ug";
     vlueprint:twitterAccount "virtual_obachan";

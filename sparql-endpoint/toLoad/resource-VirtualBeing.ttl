@@ -4539,12 +4539,13 @@
     vlueprint:belongTo <転生組>;
     .
 
-<神城くれあ(麗)> a vlueprint:VirtualBeing;
-    rdfs:label "神城くれあ(麗)";
+<神城くれあ> a vlueprint:VirtualBeing;
+    rdfs:label "神城くれあ";
     vlueprint:youtubeChannelName "神城くれあ/Kurea Channel【おとりざ】";
     vlueprint:youtubeChannelId "UCBQd84IW8OvM8H5jftHdvmw";
     vlueprint:twitterAccount "kamishiro_kurea";
     vlueprint:belongTo <元おとりざ>;
+    vlueprint:yomi "くれあ", "かみしろくれあ";
     .
 
 <丑牡てぃあ> a vlueprint:VirtualBeing;
@@ -16714,12 +16715,6 @@
     rdfs:label "神楽美桜";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "みお", "かぐらみお";
-    .
-
-<神城くれあ> a vlueprint:VirtualBeing;
-    rdfs:label "神城くれあ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "くれあ", "かみしろくれあ";
     .
 
 <水鳥ナヲ> a vlueprint:VirtualBeing;

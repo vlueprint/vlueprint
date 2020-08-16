@@ -1670,8 +1670,8 @@
     vlueprint:yomi "あいり", "うぇざーろいどあいり";
     .
 
-<チョイ(海外)> a vlueprint:VirtualBeing;
-    rdfs:label "チョイ(海外)";
+<チョイ> a vlueprint:VirtualBeing;
+    rdfs:label "チョイ";
     vlueprint:youtubeChannelName "초이 CHOY";
     vlueprint:youtubeChannelId "UCIsggA5Bnrm7ZRiOjMNH_rQ";
     vlueprint:twitterAccount "VTuber_CHOY";

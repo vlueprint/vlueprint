@@ -3354,7 +3354,6 @@
 
 <花奏かのん> a vlueprint:VirtualBeing;
     rdfs:label "花奏かのん";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:youtubeChannelName "花奏 かのん -Kanade Kanon Official-";
     vlueprint:youtubeChannelId "UCmqrvfLMws-GLGHQcB5dasg";
     vlueprint:twitterAccount "_kanade_kanon";

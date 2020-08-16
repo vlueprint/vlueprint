@@ -1499,6 +1499,7 @@
 
 <超人女子戦士_ガリベンガーV(テレビ朝日)> a vlueprint:VirtualBeing;
     rdfs:label "超人女子戦士 ガリベンガーV(テレビ朝日)";
+    rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です";
     vlueprint:youtubeChannelName "超人女子戦士 ガリベンガーV";
     vlueprint:youtubeChannelId "UCzuEc7Nsm9GtMX4yuzjSqgA";
     vlueprint:twitterAccount "garibenV";

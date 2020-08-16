@@ -5176,6 +5176,8 @@
 
 <花菱撫子> a vlueprint:VirtualBeing;
     rdfs:label "花菱撫子";
+    vlueprint:youtubeChannelName "ごきげんよう、わたし花菱撫子です。";
+    vlueprint:youtubeChannelId "UCHVHqjhfT9apG68r3MJ5McA";
     vlueprint:twitterAccount "nadehana_ggy";
     vlueprint:belongTo <GEMS_COMPANY>;
     vlueprint:yomi "なでしこ", "はなびしなでしこ";
@@ -8722,14 +8724,6 @@
     vlueprint:youtubeChannelName "とりしまり";
     vlueprint:youtubeChannelId "UCH1dHCf15d8i7SNlbd5IRKQ";
     vlueprint:twitterAccount "8833jp";
-    .
-
-<花菱撫子(はなびしなでしこ)> a vlueprint:VirtualBeing;
-    rdfs:label "花菱撫子(はなびしなでしこ)";
-    vlueprint:youtubeChannelName "ごきげんよう、わたし花菱撫子です。";
-    vlueprint:youtubeChannelId "UCHVHqjhfT9apG68r3MJ5McA";
-    vlueprint:twitterAccount "nadehana_ggy";
-    vlueprint:belongTo <GEMS_COMPANY>;
     .
 
 <腐男子Vtuber黒崎ヴァイス> a vlueprint:VirtualBeing;

@@ -8158,8 +8158,8 @@
     vlueprint:twitterAccount "HiiragiUrume";
     .
 
-<塔綾絲ʕ•ᴥ•ʔタリンス> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<Talency> a vlueprint:VirtualBeing;
+    rdfs:label "Talency";
     vlueprint:youtubeChannelName "塔綾絲ʕ•ᴥ•ʔタリンス";
     vlueprint:youtubeChannelId "UCUAtAMbbUuaXkX_NVwth1WQ";
     vlueprint:twitterAccount "Talency_Vtuber";

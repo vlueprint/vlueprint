@@ -6230,12 +6230,13 @@
     vlueprint:twitterAccount "KodamaAru";
     .
 
-<K’WA(海外)> a vlueprint:VirtualBeing;
-    rdfs:label "K’WA(海外)";
+<KITSUNEKON> a vlueprint:VirtualBeing;
+    rdfs:label "KITSUNEKON";
     vlueprint:youtubeChannelName "KITSUNEKON";
     vlueprint:youtubeChannelId "UCyZZMKRn-mUEkPzaqa9b6bg";
     vlueprint:twitterAccount "kwa_kon";
     vlueprint:belongTo <upd8>, <Activ8>;
+    vlueprint:yomi "きつねこん";
     .
 
 <幡多乃ちゃろ> a vlueprint:VirtualBeing;
@@ -15244,12 +15245,6 @@
     rdfs:label "Kilin";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "きりん";
-    .
-
-<KITSUNEKON> a vlueprint:VirtualBeing;
-    rdfs:label "KITSUNEKON";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "きつねこん";
     .
 
 <KMNZ> a vlueprint:VirtualBeing;

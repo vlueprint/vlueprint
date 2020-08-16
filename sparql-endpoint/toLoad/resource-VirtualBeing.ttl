@@ -8187,8 +8187,8 @@
     vlueprint:twitterAccount "hirasakamei";
     .
 
-<キキちゃんねる> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<朱宮キキ> a vlueprint:VirtualBeing;
+    rdfs:label "朱宮キキ";
     vlueprint:youtubeChannelName "キキちゃんねる";
     vlueprint:youtubeChannelId "UChNNAcQWbBiNveovGBBEIMQ";
     vlueprint:twitterAccount "kiki_akemiya38";

@@ -15443,12 +15443,6 @@
     vlueprint:yomi "はぴばと";
     .
 
-<おめがレイ_おめがリオ> a vlueprint:VirtualBeing;
-    rdfs:label "おめがレイ おめがリオ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "おめしす";
-    .
-
 <ォ逅> a vlueprint:VirtualBeing;
     rdfs:label "ォ逅";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

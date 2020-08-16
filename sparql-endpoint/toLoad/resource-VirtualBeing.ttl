@@ -1025,11 +1025,14 @@
     vlueprint:belongTo <Unlimited>;
     .
 
-<海堂飛鳥・苺谷星空> a vlueprint:VirtualBeing;
-    rdfs:label "海堂飛鳥・苺谷星空";
-    vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
-    vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
-    vlueprint:twitterAccount "vjpofficial";
+<海堂飛鳥> a vlueprint:VirtualBeing;
+    rdfs:label "海堂飛鳥";
+    vlueprint:belongTo <あすかな>;
+    .
+
+<苺谷星空> a vlueprint:VirtualBeing;
+    rdfs:label "苺谷星空";
+    vlueprint:belongTo <あすかな>;
     .
 
 <因幡はねる> a vlueprint:VirtualBeing;

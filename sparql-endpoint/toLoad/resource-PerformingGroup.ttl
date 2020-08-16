@@ -360,3 +360,10 @@
     vlueprint:youtubeChannelId "UCz6vnIbgiqFT9xUcD6Bp65Q";
     vlueprint:belongTo <にじさんじ(ゲーマーズ出身)>;
     .
+
+<あすかな> a vlueprint:PerformingGroup;
+    rdfs:label "あすかな";
+    vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
+    vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
+    vlueprint:twitterAccount "vjpofficial";
+    .

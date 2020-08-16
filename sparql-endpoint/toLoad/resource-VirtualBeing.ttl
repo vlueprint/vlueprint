@@ -8222,11 +8222,12 @@
     vlueprint:twitterAccount "100_kkin";
     .
 
-<銀めくる(しろがねめぐる)> a vlueprint:VirtualBeing;
-    rdfs:label "銀めくる(しろがねめぐる)";
+<銀めくる> a vlueprint:VirtualBeing;
+    rdfs:label "銀めくる";
     vlueprint:youtubeChannelName "めくちゃんねる";
     vlueprint:youtubeChannelId "UCprQaynf6W8Qargmo5jg2-Q";
     vlueprint:twitterAccount "mekuru_chan";
+    vlueprint:yomi "しろがねめくる", "めくる";
     .
 
 <岸堂天真(きしどうてんま)> a vlueprint:VirtualBeing;
@@ -16099,12 +16100,6 @@
     rdfs:label "金田あひる";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "あひる", "かねだあひる";
-    .
-
-<銀めくる> a vlueprint:VirtualBeing;
-    rdfs:label "銀めくる";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "しろがねめくる", "めくる";
     .
 
 <銀虹彩> a vlueprint:VirtualBeing;

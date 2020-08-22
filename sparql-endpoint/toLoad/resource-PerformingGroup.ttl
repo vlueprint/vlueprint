@@ -366,6 +366,7 @@
     vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
     vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
     vlueprint:twitterAccount "vjpofficial";
+    vlueprint:yomi "ばーちゃるじゃにーず";
     .
 
 <ともえとエルゼ> a vlueprint:PerformingGroup;
@@ -391,6 +392,6 @@
 <インサイドちゃん> a vlueprint:VirtualBeing;
     rdfs:label "インサイドちゃん";
     vlueprint:youtubeChannelName "インサイドちゃん -INSIDEChan Sisters-";
-    vvlueprint:youtubeChannelId "UC_tFMq_yvulj-yzQDqmH9SQ";
+    vlueprint:youtubeChannelId "UC_tFMq_yvulj-yzQDqmH9SQ";
     vlueprint:yomi "いんさいどちゃん";
     .

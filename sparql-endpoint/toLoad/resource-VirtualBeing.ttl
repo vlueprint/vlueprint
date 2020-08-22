@@ -15976,12 +15976,6 @@
     vlueprint:yomi "かいこうかげ", "かげ";
     .
 
-<海堂飛鳥_苺谷星空> a vlueprint:VirtualBeing;
-    rdfs:label "海堂飛鳥 苺谷星空";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ばーちゃるじゃにーず";
-    .
-
 <海野_ぷるぷ> a vlueprint:VirtualBeing;
     rdfs:label "海野 ぷるぷ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

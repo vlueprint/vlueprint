@@ -74,8 +74,8 @@ const main = async () => {
       const key2 = vb2.id.replace(parseret.base, '')
       if(key1.includes(key2)) {
         fromtolist.push({
-          from: vb2.id,
-          to: vb1.id,
+          to: vb2.id,
+          from: vb1.id,
         })
       }
     })

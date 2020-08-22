@@ -6812,12 +6812,13 @@
     vlueprint:twitterAccount "shikai_yue";
     .
 
-<勇凪エレナ___Elena_Yunagi> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<勇凪エレナ> a vlueprint:VirtualBeing;
+    rdfs:label "勇凪エレナ";
     vlueprint:youtubeChannelName "勇凪エレナ / Elena Yunagi";
     vlueprint:youtubeChannelId "UCKwATdrcjyzNv9c56PqJbWA";
     vlueprint:twitterAccount "ELENA_YUNAGI";
     vlueprint:belongTo <ViViD>;
+    vlueprint:yomi "えれな", "ゆうなぎえれな";
     .
 
 <めんだこちゃんMendakoChannel> a vlueprint:VirtualBeing;
@@ -17392,12 +17393,6 @@
     rdfs:label "勇者マスピー";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "ますぴー";
-    .
-
-<勇凪エレナ> a vlueprint:VirtualBeing;
-    rdfs:label "勇凪エレナ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "えれな", "ゆうなぎえれな";
     .
 
 <幽世つむぐ> a vlueprint:VirtualBeing;

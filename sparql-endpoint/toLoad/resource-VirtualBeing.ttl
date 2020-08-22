@@ -17464,12 +17464,6 @@
     vlueprint:yomi "りん", "りゅうがさきりん";
     .
 
-<鈴木あんず_白藤環_夏目ハル_日向奈央_栗原桜子> a vlueprint:VirtualBeing;
-    rdfs:label "鈴木あんず 白藤環 夏目ハル 日向奈央 栗原桜子";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "えのぐ";
-    .
-
 <霊電チアキ> a vlueprint:VirtualBeing;
     rdfs:label "霊電チアキ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

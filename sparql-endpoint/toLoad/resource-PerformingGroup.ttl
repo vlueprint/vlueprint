@@ -102,6 +102,7 @@
     vlueprint:belongTo <岩本町芸能社>;
     rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:twitterAccount "rbc_geino";
+    vlueprint:yomi "えのぐ";
     .
 
 <まじかるどーる> a vlueprint:PerformingGroup;

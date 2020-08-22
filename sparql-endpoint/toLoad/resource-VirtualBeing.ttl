@@ -15375,12 +15375,6 @@
     vlueprint:yomi "あんじゅ";
     .
 
-<アンジョー_コーサカ> a vlueprint:VirtualBeing;
-    rdfs:label "アンジョー　コーサカ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ｍｚｍ";
-    .
-
 <いそら真実> a vlueprint:VirtualBeing;
     rdfs:label "いそら真実";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

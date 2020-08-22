@@ -14798,11 +14798,12 @@
     vlueprint:twitterAccount "Haiduki_Carola";
     .
 
-<北条院エレガ【エレガの宮殿】> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<北条院エレガ> a vlueprint:VirtualBeing;
+    rdfs:label "北条院エレガ";`
     vlueprint:youtubeChannelName "北条院エレガ【エレガの宮殿】";
     vlueprint:youtubeChannelId "UCTV7KaFpy7SBXwkq6EEnMdw";
     vlueprint:twitterAccount "Eleganza_houjou";
+    vlueprint:yomi "えれが", "ほくじょういんえれが";
     .
 
 <ヲタきち> a vlueprint:VirtualBeing;
@@ -17264,12 +17265,6 @@
     rdfs:label "北極冰河";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "さみだれみく", "みく";
-    .
-
-<北条院エレガ> a vlueprint:VirtualBeing;
-    rdfs:label "北条院エレガ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "えれが", "ほくじょういんえれが";
     .
 
 <本リーゼ> a vlueprint:VirtualBeing;

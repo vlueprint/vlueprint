@@ -16822,12 +16822,6 @@
     vlueprint:yomi "うる", "おおかみうる";
     .
 
-<谷田透佳_立花鈴> a vlueprint:VirtualBeing;
-    rdfs:label "谷田透佳 立花鈴";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "まーぷる";
-    .
-
 <茶越きよか> a vlueprint:VirtualBeing;
     rdfs:label "茶越きよか";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

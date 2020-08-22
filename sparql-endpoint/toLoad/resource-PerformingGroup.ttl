@@ -114,6 +114,7 @@
     vlueprint:youtubeChannelName "Marprilチャンネル";
     vlueprint:youtubeChannelId "UCWhv732tk4DAQ7X32qHKrfA";
     vlueprint:belongTo <岩本町芸能社>;
+    vlueprint:yomi "まーぷる";
     .
 
 <小山内めい_小山内いちか> a vlueprint:PerformingGroup;

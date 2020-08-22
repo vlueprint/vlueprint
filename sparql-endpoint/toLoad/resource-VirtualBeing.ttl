@@ -2996,12 +2996,18 @@
     vlueprint:twitterAccount "az_yukimi";
     .
 
-<柊彩香_朝倉日向> a vlueprint:VirtualBeing;
-    rdfs:label "柊彩香 朝倉日向";
-    vlueprint:youtubeChannelName "あやひなチャンネル";
-    vlueprint:youtubeChannelId "UCjR1q4ab0fcg6cPomnjUgHg";
+<柊彩香> a vlueprint:VirtualBeing;
+    rdfs:label "柊彩香";
+    vlueprint:twitterAccount "Ayaka_Hiragi";
+    vlueprint:belongTo <Unlimited>, <あやひな>;
+    vlueprint:yomi "あやか", "ひいらぎあやか";
+    .
+
+<朝倉日向> a vlueprint:VirtualBeing;
+    rdfs:label "朝倉日向";
     vlueprint:twitterAccount "Hinata_Asakura";
-    vlueprint:belongTo <Unlimited>;
+    vlueprint:belongTo <Unlimited>, <あやひな>;
+    vlueprint:yomi "ひなた", "あさくらひなた";
     .
 
 <源元気> a vlueprint:VirtualBeing;
@@ -16874,12 +16880,6 @@
     vlueprint:yomi "あさのひかり", "ひかり";
     .
 
-<朝倉日向> a vlueprint:VirtualBeing;
-    rdfs:label "朝倉日向";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ひなた", "あさくらひなた";
-    .
-
 <朝凪せいら> a vlueprint:VirtualBeing;
     rdfs:label "朝凪せいら";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -17160,12 +17160,6 @@
     rdfs:label "柊マナト";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "ひいらぎまなと", "まなと";
-    .
-
-<柊彩香> a vlueprint:VirtualBeing;
-    rdfs:label "柊彩香";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "あやか", "ひいらぎあやか";
     .
 
 <柊那> a vlueprint:VirtualBeing;

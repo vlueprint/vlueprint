@@ -380,3 +380,10 @@
     vlueprint:youtubeChannelId "UCODNLyn3L83wEmC0DLL0cxA";
     vlueprint:twitterAccount "asanoruri";
     .
+
+<あやひな> a vlueprint:VirtualBeing;
+    rdfs:label "あやひな";
+    vlueprint:youtubeChannelName "あやひなチャンネル";
+    vlueprint:youtubeChannelId "UCjR1q4ab0fcg6cPomnjUgHg";
+    vlueprint:belongTo <Unlimited>;
+    .

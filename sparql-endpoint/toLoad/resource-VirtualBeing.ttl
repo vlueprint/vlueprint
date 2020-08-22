@@ -16768,12 +16768,6 @@
     vlueprint:yomi "めい", "ちすずめい";
     .
 
-<奏天まひろ_燈舞りん_音葉なほ_鈴鳴すばる> a vlueprint:VirtualBeing;
-    rdfs:label "奏天まひろ 燈舞りん 音葉なほ 鈴鳴すばる";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "まりなす";
-    .
-
 <奏波なこ> a vlueprint:VirtualBeing;
     rdfs:label "奏波なこ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
@@ -16820,12 +16814,6 @@
     rdfs:label "大鳥スミレ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "すみれ", "おおとりすみれ";
-    .
-
-<大鳥一姫、前田花奈、風見舞子> a vlueprint:VirtualBeing;
-    rdfs:label "大鳥一姫、前田花奈、風見舞子";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ばちゃかり";
     .
 
 <大狼うる> a vlueprint:VirtualBeing;

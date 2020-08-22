@@ -10583,11 +10583,12 @@
     vlueprint:twitterAccount "";
     .
 
-<夢乃名菓の夢の中> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<夢乃名菓> a vlueprint:VirtualBeing;
+    rdfs:label "夢乃名菓";
     vlueprint:youtubeChannelName "夢乃名菓の夢の中";
     vlueprint:youtubeChannelId "UCcHv8CrBnQn19xhokzNwWFA";
     vlueprint:twitterAccount "yumeno_meika";
+    vlueprint:yomi "めいか", "ゆめのめいか";
     .
 
 <白乃クロミ> a vlueprint:VirtualBeing;
@@ -17319,12 +17320,6 @@
     rdfs:label "夢星ねる";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "ねる", "ゆめほしねる";
-    .
-
-<夢乃名菓> a vlueprint:VirtualBeing;
-    rdfs:label "夢乃名菓";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "めいか", "ゆめのめいか";
     .
 
 <無憂樹> a vlueprint:VirtualBeing;

@@ -5357,17 +5357,17 @@
     .
 
 <44(YOYO)> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド";
+    rdfs:label "44(YOYO)";
     vlueprint:belongTo <44SUPER>;
     .
 
 <CHOCO> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド";
+    rdfs:label "CHOCO";
     vlueprint:belongTo <44SUPER>;
     .
 
 <RIO> a vlueprint:VirtualBeing;
-    rdfs:label "白雪レイド";
+    rdfs:label "RIO";
     vlueprint:belongTo <44SUPER>;
     .
 

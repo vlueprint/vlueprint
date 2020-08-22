@@ -340,6 +340,7 @@
     vlueprint:youtubeChannelName "バチャカリ 【 大鳥一姫、前田花奈、風見舞子 】";
     vlueprint:youtubeChannelId "UCJlPcoY1_JdtbAFyydp5Y-w";
     vlueprint:belongTo <cluster>;
+    vlueprint:yomi "ばちゃかり";
     .
 
 <でじみる*ショコラ> a vlueprint:PerformingGroup;

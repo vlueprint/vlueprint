@@ -17452,12 +17452,6 @@
     vlueprint:yomi "りる";
     .
 
-<流石乃ルキ_流石乃ロキ> a vlueprint:VirtualBeing;
-    rdfs:label "流石乃ルキ 流石乃ロキ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "るきろき";
-    .
-
 <竜星アイル> a vlueprint:VirtualBeing;
     rdfs:label "竜星アイル";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

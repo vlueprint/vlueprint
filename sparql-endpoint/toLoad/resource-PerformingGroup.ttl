@@ -47,6 +47,7 @@
     vlueprint:youtubeChannelName "ルキロキチャンネル - Ruki Roki Channel -";
     vlueprint:youtubeChannelId "UCf3DHSmd2DhZcoq2gwYXCIA";
     vlueprint:twitterAccount "RukiRoki_ch";
+    vlueprint:yomi "るきろき";
     .
 
 <Project_A.I.D> a vlueprint:PerformingGroup;

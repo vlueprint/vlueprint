@@ -14799,7 +14799,7 @@
     .
 
 <北条院エレガ> a vlueprint:VirtualBeing;
-    rdfs:label "北条院エレガ";`
+    rdfs:label "北条院エレガ";
     vlueprint:youtubeChannelName "北条院エレガ【エレガの宮殿】";
     vlueprint:youtubeChannelId "UCTV7KaFpy7SBXwkq6EEnMdw";
     vlueprint:twitterAccount "Eleganza_houjou";

@@ -6120,6 +6120,7 @@
 
 <きなこ_柊彩香> a vlueprint:VirtualBeing;
     rdfs:label "きなこ 柊彩香";
+    rdfs:comment "[TODO]VTuberが飼っている猫という概念が難しすぎるので要確認";
     vlueprint:youtubeChannelName "きなこ成長日記";
     vlueprint:youtubeChannelId "UC-OwBpmo5BYCYem2SBpJY_g";
     vlueprint:twitterAccount "Ayaka_Hiragi";

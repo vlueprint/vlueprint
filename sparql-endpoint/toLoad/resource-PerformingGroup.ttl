@@ -89,6 +89,7 @@
     rdfs:label "まりなす";
     vlueprint:youtubeChannelName "まりなすチャンネル【仮】";
     vlueprint:youtubeChannelId "UCDgH-CfHO85D0rxtXnXeN2w";
+    vlueprint:yomi "まりなす";
     .
 
 <えのぐ> a vlueprint:PerformingGroup;

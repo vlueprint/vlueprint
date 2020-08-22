@@ -4323,11 +4323,18 @@
     vlueprint:yomi "しし", "なつめしし";
     .
 
-<インサイドちゃん> a vlueprint:VirtualBeing;
-    rdfs:label "インサイドちゃん";
-    rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
-    vlueprint:youtubeChannelName "インサイドちゃん";
+<インサイドちゃんMark1> a vlueprint:VirtualBeing;
+    rdfs:label "インサイドちゃんMark1";
     vlueprint:twitterAccount "V_insidechan";
+    vlueprint:belongTo <インサイドちゃん>;
+    vlueprint:yomi "いんさいどちゃん";
+    .
+
+<インサイドちゃんMark2> a vlueprint:VirtualBeing;
+    rdfs:label "インサイドちゃんMark2";
+    vlueprint:twitterAccount "V_insidechanMK2";
+    vlueprint:belongTo <インサイドちゃん>;
+    vlueprint:yomi "いんさいどちゃん", "つーちゃん";
     .
 
 <みゅみゅ> a vlueprint:VirtualBeing;
@@ -15385,18 +15392,6 @@
     rdfs:label "イラルージュ・ミラビッチ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "いらるーじゅみらびっち", "みらびっち";
-    .
-
-<インサイドちゃんMark1> a vlueprint:VirtualBeing;
-    rdfs:label "インサイドちゃんMark1";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "いんさいどちゃん";
-    .
-
-<インサイドちゃんMark2> a vlueprint:VirtualBeing;
-    rdfs:label "インサイドちゃんMark2";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "いんさいどちゃん", "つーちゃん";
     .
 
 <ヴィーナス・アンジェリック> a vlueprint:VirtualBeing;

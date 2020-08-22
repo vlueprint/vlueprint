@@ -387,3 +387,10 @@
     vlueprint:youtubeChannelId "UCjR1q4ab0fcg6cPomnjUgHg";
     vlueprint:belongTo <Unlimited>;
     .
+
+<インサイドちゃん> a vlueprint:VirtualBeing;
+    rdfs:label "インサイドちゃん";
+    vlueprint:youtubeChannelName "インサイドちゃん -INSIDEChan Sisters-";
+    vvlueprint:youtubeChannelId "UC_tFMq_yvulj-yzQDqmH9SQ";
+    vlueprint:yomi "いんさいどちゃん";
+    .

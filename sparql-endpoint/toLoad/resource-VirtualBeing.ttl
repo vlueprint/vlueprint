@@ -16942,12 +16942,6 @@
     vlueprint:yomi "みい", "てんらんみい";
     .
 
-<田中ヒメ_鈴木ヒナ> a vlueprint:VirtualBeing;
-    rdfs:label "田中ヒメ 鈴木ヒナ";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "ひめひな";
-    .
-
 <電脳塵イチカ> a vlueprint:VirtualBeing;
     rdfs:label "電脳塵イチカ";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";

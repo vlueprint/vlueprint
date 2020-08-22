@@ -8,6 +8,7 @@
     rdfs:label "ヒメヒナ";
     vlueprint:youtubeChannelName "HIMEHINA Channel";
     vlueprint:youtubeChannelId "UCFv2z4iM5vHrS8bZPq4fHQQ";
+    vlueprint:yomi "ひめひな";
     .
 
 <萌実_ヨメミ_エトラ> a vlueprint:PerformingGroup;

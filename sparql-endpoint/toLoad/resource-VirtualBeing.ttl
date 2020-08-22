@@ -11731,11 +11731,12 @@
     vlueprint:yomi "すずめ", "うちすずめ";
     .
 
-<ちゃんねる如月はる> a vlueprint:VirtualBeing;
-    rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
+<如月はる> a vlueprint:VirtualBeing;
+    rdfs:label "如月はる";
     vlueprint:youtubeChannelName "ちゃんねる如月はる";
     vlueprint:youtubeChannelId "UCFXxR3jgeNtoh2ksJ17F8_A";
     vlueprint:twitterAccount "kisaragiharu86";
+    vlueprint:yomi "はる";
     .
 
 <ビハン> a vlueprint:VirtualBeing;
@@ -17045,12 +17046,6 @@
     rdfs:label "如月こより";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
     vlueprint:yomi "きさらぎこより", "こより";
-    .
-
-<如月はる> a vlueprint:VirtualBeing;
-    rdfs:label "如月はる";
-    rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "はる";
     .
 
 <寧夢ねむる> a vlueprint:VirtualBeing;

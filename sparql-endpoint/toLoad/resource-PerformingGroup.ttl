@@ -71,6 +71,7 @@
     vlueprint:youtubeChannelName "ココツキCocoTsuki Project";
     vlueprint:youtubeChannelId "UCH1B9AR8sfWJVf9zcu9rbGg";
     vlueprint:belongTo <upd8>, <Activ8>;
+    vlueprint:yomi "ここつき";
     .
 
 <カナメとハルキー> a vlueprint:PerformingGroup;

@@ -1,5 +1,4 @@
 import fs from 'fs'
-import path from 'path'
 import * as N3 from 'n3'
 import { DataFactory } from 'n3'
 
@@ -12,10 +11,9 @@ interface TurtleInfo {
   path: string
 }
 
-interface DicEntry {
-  yomi: string
-  kanji: string
-  hinshi: string
+interface fromto {
+  from: string,
+  to: string,
 }
 
 const parse = (path: string) => {
@@ -61,33 +59,40 @@ const write = async (turtleInfo: TurtleInfo) => {
 }
 
 const main = async () => {
+  const fromtolist = JSON.parse(fs.readFileSync('./list_checke.json', 'utf8')) as fromto[]
   const parseret = parse('../../sparql-endpoint/toLoad/resource-VirtualBeing.ttl')
-  const store = new N3.Store(parseret.quads)
-  const uris = store.getSubjects(null, null, null)
-  parseret.quads = store.getQuads(null, null, null, null)
-  interface fromto {
-    from: string,
-    to: string,
-  }
-  const fromtolist = [] as fromto[]
-  const alltasklen = uris.length * uris.length;
-  let count = 0;
-  await write(parseret)
-  uris.forEach(vb1 => {
-    uris.forEach(vb2 => {
-      console.log(`${count++}/${alltasklen}`)
-      if(vb1.id == vb2.id) return;
-      const key1 = vb1.id.replace(parseret.base, '')
-      const key2 = vb2.id.replace(parseret.base, '')
-      if(key1.includes(key2)) {
-        fromtolist.push({
-          from: vb2.id,
-          to: vb1.id,
-        })
+  let quads = parseret.quads
+  console.log(fromtolist)
+  quads = quads.filter( value => {
+    for( let fromto of fromtolist){
+
+      if (
+        (fromto.from == value.subject.id || fromto.to == value.subject.id) &&
+        value.predicate.id == "http://www.w3.org/2000/01/rdf-schema#comment" &&
+        (
+          value.object.value == "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています" || 
+          value.object.value == "[TODO]名前が取得できなかったので，URIは仮のものです"
+        )
+      ) return false
+
+      if (
+        fromto.from == value.subject.id &&
+        value.predicate.value == "http://www.w3.org/2000/01/rdf-schema#label"
+      ) return false
+
+    }
+    return true
+  })
+  quads.forEach( quad => {
+    fromtolist.forEach( fromto => {
+      if(fromto.from === quad.subject.id) {
+        quad.subject = namedNode(fromto.to)
       }
     })
   })
-  console.log(fromtolist)
+  const store = new N3.Store(quads)
+  parseret.quads = store.getQuads(null, null, null, null)
+  await write(parseret)
 }
 
 main()

@@ -8,6 +8,7 @@
     rdfs:label "ヒメヒナ";
     vlueprint:youtubeChannelName "HIMEHINA Channel";
     vlueprint:youtubeChannelId "UCFv2z4iM5vHrS8bZPq4fHQQ";
+    vlueprint:yomi "ひめひな";
     .
 
 <萌実_ヨメミ_エトラ> a vlueprint:PerformingGroup;
@@ -46,6 +47,7 @@
     vlueprint:youtubeChannelName "ルキロキチャンネル - Ruki Roki Channel -";
     vlueprint:youtubeChannelId "UCf3DHSmd2DhZcoq2gwYXCIA";
     vlueprint:twitterAccount "RukiRoki_ch";
+    vlueprint:yomi "るきろき";
     .
 
 <Project_A.I.D> a vlueprint:PerformingGroup;
@@ -69,6 +71,7 @@
     vlueprint:youtubeChannelName "ココツキCocoTsuki Project";
     vlueprint:youtubeChannelId "UCH1B9AR8sfWJVf9zcu9rbGg";
     vlueprint:belongTo <upd8>, <Activ8>;
+    vlueprint:yomi "ここつき";
     .
 
 <カナメとハルキー> a vlueprint:PerformingGroup;
@@ -89,6 +92,7 @@
     rdfs:label "まりなす";
     vlueprint:youtubeChannelName "まりなすチャンネル【仮】";
     vlueprint:youtubeChannelId "UCDgH-CfHO85D0rxtXnXeN2w";
+    vlueprint:yomi "まりなす";
     .
 
 <えのぐ> a vlueprint:PerformingGroup;
@@ -98,6 +102,7 @@
     vlueprint:belongTo <岩本町芸能社>;
     rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:twitterAccount "rbc_geino";
+    vlueprint:yomi "えのぐ";
     .
 
 <まじかるどーる> a vlueprint:PerformingGroup;
@@ -113,6 +118,7 @@
     vlueprint:youtubeChannelName "Marprilチャンネル";
     vlueprint:youtubeChannelId "UCWhv732tk4DAQ7X32qHKrfA";
     vlueprint:belongTo <岩本町芸能社>;
+    vlueprint:yomi "まーぷる";
     .
 
 <小山内めい_小山内いちか> a vlueprint:PerformingGroup;
@@ -339,6 +345,7 @@
     vlueprint:youtubeChannelName "バチャカリ 【 大鳥一姫、前田花奈、風見舞子 】";
     vlueprint:youtubeChannelId "UCJlPcoY1_JdtbAFyydp5Y-w";
     vlueprint:belongTo <cluster>;
+    vlueprint:yomi "ばちゃかり";
     .
 
 <でじみる*ショコラ> a vlueprint:PerformingGroup;
@@ -366,6 +373,7 @@
     vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
     vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
     vlueprint:twitterAccount "vjpofficial";
+    vlueprint:yomi "ばーちゃるじゃにーず";
     .
 
 <ともえとエルゼ> a vlueprint:PerformingGroup;
@@ -379,4 +387,18 @@
     vlueprint:youtubeChannelName "朝ノ姉妹ぷろじぇくと";
     vlueprint:youtubeChannelId "UCODNLyn3L83wEmC0DLL0cxA";
     vlueprint:twitterAccount "asanoruri";
+    .
+
+<あやひな> a vlueprint:VirtualBeing;
+    rdfs:label "あやひな";
+    vlueprint:youtubeChannelName "あやひなチャンネル";
+    vlueprint:youtubeChannelId "UCjR1q4ab0fcg6cPomnjUgHg";
+    vlueprint:belongTo <Unlimited>;
+    .
+
+<インサイドちゃん> a vlueprint:VirtualBeing;
+    rdfs:label "インサイドちゃん";
+    vlueprint:youtubeChannelName "インサイドちゃん -INSIDEChan Sisters-";
+    vlueprint:youtubeChannelId "UC_tFMq_yvulj-yzQDqmH9SQ";
+    vlueprint:yomi "いんさいどちゃん";
     .

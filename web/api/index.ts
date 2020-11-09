@@ -17,8 +17,9 @@ router.get("/samples", async (req, res) => {
       schema:text	?query ;
       schema:keywords    ?keywords ;
       schema:url	       ?url ;
+      schema:creator		 ?creator ;
       schema:dateCreated ?created .
-    FILTER regex(?keywords, "Vlueprint:sample")
+    FILTER( regex(?keywords, "Vlueprint:sample") && ?creator = "takanakahiko")
   }
   ORDER BY ?created
   `

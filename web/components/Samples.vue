@@ -20,8 +20,8 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    const response = await this.$axios.get<SampleQuery[]>('/api/samples')
-    this.sampleQueries = response.data
+    const response = await this.$axios.$get<SampleQuery[]>('/api/samples')
+    this.sampleQueries = response
     this.isLoading = false
   }
 })

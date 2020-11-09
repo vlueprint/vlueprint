@@ -8,7 +8,9 @@
 
 ## Develop
 
-### Virtuoso オンリー
+SPARQLエンドポイントのみ、Nuxt部分のみ、両方とも、それぞれ立ち上げる方法を紹介します。
+
+### SPARQLエンドポイントのみ
 
 http://localhost:3001/ に Virtuoso を立ち上げます
 
@@ -19,19 +21,17 @@ $ docker-compose up sparql-endpoint
 
 http://localhost:3001/sparql/ でクエリを投げたり出来ます
 
-例えば，これで VTuber 一覧が取得できます
+### Nuxt部分のみ
 
-```sparql
-prefix vlueprint: <https://vlueprint.org/schema/>
-prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+http://localhost:3000/ に Nuxt で Web アプリケーションを立ち上げます
 
-select ?label {
-  ?uri a vlueprint:VirtualBeing ;
-       rdfs:label ?label.
-}
+```bash
+$ cd web
+$ npm i
+$ SPARQL_ENDPOINT_URL=https://vlueprint.org/ npm run dev
 ```
 
-### Nuxt + Virtuoso
+### SPARQLエンドポイント + Nuxt部分
 
 http://localhost:3000/ に Nuxt を立ち上げます
 

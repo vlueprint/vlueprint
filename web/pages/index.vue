@@ -26,16 +26,9 @@
     </section>
     <section class="content">
       <h2 class="title">データの取得例</h2>
+      <p>Powered by <a href="https://space.pikopikopla.net/">☆ピコピコプラネット☆ SPACE</a></p>
       <div>
-        <SparqlSample
-          gistUrl="https://gist.github.com/takanakahiko/fd700b4cb1f6e4aeaa494b1ea2d7287e"
-        />
-        <SparqlSample
-          gistUrl="https://gist.github.com/takanakahiko/02ae7473069d7f2dccffe5f776e16192"
-        />
-        <SparqlSample
-          gistUrl="https://gist.github.com/takanakahiko/be2a6ddd0ea944874782e8fe21f0a335"
-        />
+        <Samples />
       </div>
     </section>
     <section class="content usecase">
@@ -58,12 +51,12 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
-import SparqlSample from "~/components/SparqlSample.vue";
+import Samples from "~/components/Samples.vue";
 
 export default {
   components: {
     Logo,
-    SparqlSample
+    Samples
   },
   head () {
     return {

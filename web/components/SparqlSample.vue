@@ -2,65 +2,41 @@
   <div class="card">
     <header class="card-header">
       <p class="card-header-title">
-        {{ title }}
+        {{ simpleTitle }}
+        <span>
+          <a :href="editorLink" class="button is-primary">エンドポイントで開く</a>
+          <a :href="sampleQuery.url" class="button is-info">ピコプラSPACEで開く</a>
+        </span>
       </p>
     </header>
     <div class="card-content">
       <div class="content">
-        <pre>{{code}}</pre>
-        <b-loading :is-full-page="false" :active.sync="isLoading"></b-loading>
+        <pre>{{sampleQuery.query}}</pre>
       </div>
     </div>
-    <footer class="card-footer">
-      <a :href="gistUrl" class="card-footer-item">Gist (解説等)</a>
-      <a :href="editorLink" class="card-footer-item">Open</a>
-    </footer>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue, { PropType } from "vue"
 import axios from 'axios'
+import { SampleQuery } from '~/types/SampleQuery'
 export default Vue.extend({
   props: {
-    gistUrl: {
-      type: String,
+    sampleQuery: {
+      type: Object as PropType<SampleQuery>,
       required: true
     }
   },
-  data () {
-    return {
-      isLoading: true,
-      code: ' ',
-      title: ' ',
-      cmOptions: {
-        mode: ' ',
-        theme: 'base16-dark',
-        lineNumbers: true,
-        readOnly: true,
-        fullLines: true
-      }
-    }
-  },
   computed: {
-    editorLink () {
-      const encodedCode = encodeURIComponent(this.code)
+    editorLink (): string {
+      const encodedCode = encodeURIComponent(this.sampleQuery.query)
       return `https://vlueprint.org/sparql?qtxt=${encodedCode}`
+    },
+    simpleTitle(): string {
+      return this.sampleQuery.title.replace(/^(Vlueprint で)/,"");
     }
   },
-  async mounted () {
-    const m = this.gistUrl.match(
-      /https:\/\/gist\.github\.com\/.+?\/([0-9a-z]+)(#.+)?/
-    )
-    if(!m) return;
-    const apiUrl = `https://api.github.com/gists/${m[1]}`
-    const response = await axios.get(apiUrl)
-    const file = response.data.files[Object.keys(response.data.files)[0]]
-    this.code = file.content
-    this.cmOptions.mode = file.type
-    this.title = response.data.description
-    this.isLoading = false;
-  }
 })
 </script>
 
@@ -70,6 +46,8 @@ export default Vue.extend({
 }
 p.card-header-title {
   margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 pre {

@@ -66,4 +66,7 @@ export default {
   proxy: {
     '/sparql': process.env.SPARQL_ENDPOINT_URL,
   },
+  serverMiddleware: [
+    { path: '/api', handler: '~/api/index.ts' }
+  ]
 }

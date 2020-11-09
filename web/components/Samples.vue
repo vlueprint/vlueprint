@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="container">
     <SparqlSample v-for="sampleQuery in sampleQueries" :key="sampleQuery.url" :sampleQuery="sampleQuery" />
-    <b-loading :is-full-page="false" :active="isLoading" class="loading" ></b-loading>
+    <b-loading :is-full-page="false" :active="isLoading" ></b-loading>
   </div>
 </template>
 
@@ -27,11 +27,8 @@ export default Vue.extend({
 })
 </script>
 
-<style lang='scss'>
-@import 'bulma/bulma.sass';
-
-.loading {
-  width: 100%;
-  height: 100px;
+<style lang='scss' scoped>
+.container {
+  position: relative;
 }
 </style>

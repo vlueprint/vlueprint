@@ -39,9 +39,13 @@ export default Vue.extend({
     }`
     try {
       const response = await $axios.$get<SparqlResponse>('/sparql', {
-        params: { query },
+        params: {
+          query,
+          format: 'application/sparql-results+json'
+        },
         headers: { 'Content-Type': 'application/sparql-query+json' }
       })
+      console.log(JSON.stringify(response, null, 2));
       if (response.results.bindings.length) {
         return { response }
       } else {

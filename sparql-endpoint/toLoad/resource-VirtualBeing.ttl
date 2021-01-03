@@ -6164,7 +6164,7 @@
     vlueprint:twitterAccount "kodai_chi_koji";
     .
 
-<ウル_ケン･ノース> a vlueprint:VirtualBeing;
+<ウル_ケン_ノース> a vlueprint:VirtualBeing;
     rdfs:label "ウル＝ケン･ノース";
     vlueprint:youtubeChannelName "世紀末Vtuber伝説ウル _ケン・ノース";
     vlueprint:youtubeChannelId "UC2zuO8mkXTI5l-s6TL7uzuw";

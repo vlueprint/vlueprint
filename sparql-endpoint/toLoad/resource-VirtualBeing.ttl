@@ -122,7 +122,7 @@
     rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
     vlueprint:youtubeChannelName "ここあMusic", "COCOA CHANNEL";
     vlueprint:youtubeChannelId "UCCebk1_w5oiMUTRxdNJq0sA", "UC5Xse6X7vB_nUL5HvEFVo_g";
-    vlueprint:twitterAccount "kokoa_domyoji", "";
+    vlueprint:twitterAccount "kokoa_domyoji";
     vlueprint:belongTo <Unlimited>;
     vlueprint:yomi "ここあ", "どうみょうじここあ";
     .
@@ -363,7 +363,6 @@
     rdfs:label "ハロー キティ";
     vlueprint:youtubeChannelName "HELLO KITTY / ハローキティ【Sanrio Official】";
     vlueprint:youtubeChannelId "UCyof-1Ko_jy2sOtivyTpc4Q";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <サンリオ>;
     .
 
@@ -960,7 +959,6 @@
     rdfs:label "Account Girl";
     vlueprint:youtubeChannelName "VTuber Channel Account Girl 會計妹";
     vlueprint:youtubeChannelId "UCyjfIBhU1VUtvU9j47lLy7g";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -994,7 +992,7 @@
     rdfs:label "由宇霧";
     vlueprint:youtubeChannelName "由宇霧ちゃんねる【しくじり性教育】", "由宇霧 プレイランド";
     vlueprint:youtubeChannelId "UCMxKcUjeTEcgHmC9Zzn3R4w", "UCLHWoRGMFGGOLf-jyH-N9AA";
-    vlueprint:twitterAccount "", "oiran_yugiri";
+    vlueprint:twitterAccount "oiran_yugiri";
     vlueprint:belongTo <upd8>, <Activ8>;
     vlueprint:yomi "ゆうぎり";
     .
@@ -1238,7 +1236,6 @@
     rdfs:label "Melody";
     vlueprint:youtubeChannelName "Projekt Melody";
     vlueprint:youtubeChannelId "UC1yoRdFoFJaCY-AGfD9W0wQ";
-    vlueprint:twitterAccount "";
     .
 
 <西園寺メアリ> a vlueprint:VirtualBeing;
@@ -1845,7 +1842,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "少年あしたくん";
     vlueprint:youtubeChannelId "UCYc1gZWpeVFJf6hY-hjOX1A";
-    vlueprint:twitterAccount "";
     .
 
 <ヤッターマン2号カミナリアイ_ボヤッキー> a vlueprint:VirtualBeing;
@@ -2042,7 +2038,6 @@
     rdfs:label "LStypeMiku";
     vlueprint:youtubeChannelName "LStypeMiku Vtuber Channel";
     vlueprint:youtubeChannelId "UCXyGmdCo1owxgyQsAHT4iPA";
-    vlueprint:twitterAccount "";
     .
 
 <バーチャルゴリラ> a vlueprint:VirtualBeing;
@@ -2166,7 +2161,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "まこと。2nd channel";
     vlueprint:youtubeChannelId "UCb5CREnaa2XooFVqy6yEfSQ";
-    vlueprint:twitterAccount "";
     .
 
 <すーぱーそに子> a vlueprint:VirtualBeing;
@@ -2182,7 +2176,6 @@
     rdfs:label "セア(海外)";
     vlueprint:youtubeChannelName "세아 스토리";
     vlueprint:youtubeChannelId "UCKg3SYrZl5zskG5fkexUPCQ";
-    vlueprint:twitterAccount "";
     .
 
 <飛鳥ひな> a vlueprint:VirtualBeing;
@@ -2264,7 +2257,6 @@
     rdfs:label "YadiDoll zaotome(海外)";
     vlueprint:youtubeChannelName "YadiDoll zaotome";
     vlueprint:youtubeChannelId "UCoePNQDJTH27hrEMp6_O62A";
-    vlueprint:twitterAccount "";
     .
 
 <Andi_Adinata> a vlueprint:VirtualBeing;
@@ -2471,7 +2463,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "すあだちゃんねる";
     vlueprint:youtubeChannelId "UCz8GBZ8wPWchdD6IVuxkKRg";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -2506,7 +2497,7 @@
     rdfs:label "黒咲りん";
     vlueprint:youtubeChannelName "黒咲りんRin Kurosaki", "りんの今日は何の日";
     vlueprint:youtubeChannelId "UCNPu5zXzXvS6pLCCaI5SnSA", "UCfozmc-fSK7-iC05Ze4erHQ";
-    vlueprint:twitterAccount "", "Kurorin_V";
+    vlueprint:twitterAccount "Kurorin_V";
     .
 
 <理芽> a vlueprint:VirtualBeing;
@@ -2761,7 +2752,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "邪神ちゃんねる";
     vlueprint:youtubeChannelId "UChu8Yu_w9z8DGFtXzuGvDlg";
-    vlueprint:twitterAccount "";
     .
 
 <奏天まひろ> a vlueprint:VirtualBeing;
@@ -2982,7 +2972,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "メンラボ!";
     vlueprint:youtubeChannelId "UCf38r9izUvZluZ7talFE1zQ";
-    vlueprint:twitterAccount "";
     .
 
 <万楽えね> a vlueprint:VirtualBeing;
@@ -3018,7 +3007,6 @@
     rdfs:label "源元気";
     vlueprint:youtubeChannelName "Gengen Channel";
     vlueprint:youtubeChannelId "UCNt2ZN3usTdTdRV9HJvYAsQ";
-    vlueprint:twitterAccount "";
     vlueprint:yomi "げんげん";
     .
 
@@ -3157,7 +3145,6 @@
     rdfs:label "かめっち";
     vlueprint:youtubeChannelName "かめっちTV【バーチャルおやじユーチューバー】";
     vlueprint:youtubeChannelId "UCksFV3h5Jm5BWNCN4BBej2A";
-    vlueprint:twitterAccount "";
     .
 
 <イオウ_Iaughingfox> a vlueprint:VirtualBeing;
@@ -3257,7 +3244,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "VTuber AdPro廣告達人";
     vlueprint:youtubeChannelId "UCC9MYEWQYSxI9jOJOgxVmqQ";
-    vlueprint:twitterAccount "";
     .
 
 <谷田透佳> a vlueprint:VirtualBeing;
@@ -3348,7 +3334,6 @@
     rdfs:label "あるふぁブラザーズ";
     vlueprint:youtubeChannelName "あるふぁブラザーズ";
     vlueprint:youtubeChannelId "UCDiCNS939uq5E4-5CJ-EAZQ";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <upd8>, <Activ8>;
     vlueprint:yomi "あるぶら";
     .
@@ -3380,7 +3365,6 @@
     rdfs:label "飛鮫ナミ 海月ナギ";
     vlueprint:youtubeChannelName "ナギナミちゃんねる";
     vlueprint:youtubeChannelId "UCvnO_CTJr80qayp5JFEf3Fw";
-    vlueprint:twitterAccount "";
     .
 
 <羽宮のあ> a vlueprint:VirtualBeing;
@@ -3443,7 +3427,6 @@
     rdfs:label "バーチャルネットアイドルちゆ12歳";
     vlueprint:youtubeChannelName "バーチャルネットアイドルちゆ12歳";
     vlueprint:youtubeChannelId "UCg49h2KFnB3SH1efaI_njVg";
-    vlueprint:twitterAccount "";
     .
 
 <根羽清ココロ> a vlueprint:VirtualBeing;
@@ -3458,7 +3441,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "悪魔のメムメムちゃんねる";
     vlueprint:youtubeChannelId "UCvGW3NYU2kokJZcS4wVvk6g";
-    vlueprint:twitterAccount "";
     .
 
 <琴月てと> a vlueprint:VirtualBeing;
@@ -3473,7 +3455,7 @@
     rdfs:label "今酒ハクノ";
     vlueprint:youtubeChannelName "Hakuno Imasaka", "今酒ハクノの二次会さぶちゃん";
     vlueprint:youtubeChannelId "UCuJpyIPTENcIMpdqGYCU6WA", "UCSBh0P9SRhhtfh8WiX40kiA";
-    vlueprint:twitterAccount "", "hakuno_imasaka";
+    vlueprint:twitterAccount "hakuno_imasaka";
     .
 
 <まどろみもあ> a vlueprint:VirtualBeing;
@@ -3592,7 +3574,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ふらむChannel";
     vlueprint:youtubeChannelId "UCyVlKV66vfB6nR2KwboxTOQ";
-    vlueprint:twitterAccount "";
     .
 
 <さはな> a vlueprint:VirtualBeing;
@@ -3688,14 +3669,12 @@
     rdfs:label "直感×アルゴリズム♪";
     vlueprint:youtubeChannelName "Live Animation Heart x Algorhythm";
     vlueprint:youtubeChannelId "UCEjysNG2a2UgCBIpJxBqn3w";
-    vlueprint:twitterAccount "";
     .
 
 <ゲヱム道館> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ゲヱム道館";
     vlueprint:youtubeChannelId "UCj3K2Xy0nQr3Jdc0nd-8zQw";
-    vlueprint:twitterAccount "";
     .
 
 <エルセ> a vlueprint:VirtualBeing;
@@ -3771,7 +3750,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Pinky Fantastic";
     vlueprint:youtubeChannelId "UC-DhkPdCr0_O2PvzH36QJsg";
-    vlueprint:twitterAccount "";
     .
 
 <粛正罰丸> a vlueprint:VirtualBeing;
@@ -3801,7 +3779,6 @@
 <カッパはんちょー> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "カッパはんちょー";
-    vlueprint:twitterAccount "";
     .
 
 <ハネたん魔法陣HeartTV> a vlueprint:VirtualBeing;
@@ -4050,7 +4027,6 @@
     rdfs:label "cerita tessa(海外)";
     vlueprint:youtubeChannelName "cerita tessa";
     vlueprint:youtubeChannelId "UCs2vuFEP9kut4THJEksJfOw";
-    vlueprint:twitterAccount "";
     .
 
 <FPSやめれないんだけどwwTV> a vlueprint:VirtualBeing;
@@ -4199,7 +4175,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "しきぶTV";
     vlueprint:youtubeChannelId "UCtRCF2NLRULCmf-oLAF455w";
-    vlueprint:twitterAccount "";
     .
 
 <MIZUNO_CABBAGE> a vlueprint:VirtualBeing;
@@ -4234,7 +4209,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "軍師ミノル";
     vlueprint:youtubeChannelId "UCTihjqbpa6rQFMtSTSGlFbA";
-    vlueprint:twitterAccount "";
     .
 
 <アネネはVtuber> a vlueprint:VirtualBeing;
@@ -4254,7 +4228,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "VRScout";
     vlueprint:youtubeChannelId "UCnpj2p45DO7CsvFKJjqeh3Q";
-    vlueprint:twitterAccount "";
     .
 
 <小東ひとな> a vlueprint:VirtualBeing;
@@ -4380,7 +4353,6 @@
 <Wanna_Join_the_Elle_Cult_> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Wanna Join the Elle Cult?";
-    vlueprint:twitterAccount "";
     .
 
 <Icotsu> a vlueprint:VirtualBeing;
@@ -4426,7 +4398,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "チャンチョのゲーム部屋";
     vlueprint:youtubeChannelId "UC5fwtXKwDpgboOud4DbjQTg";
-    vlueprint:twitterAccount "";
     .
 
 <花園セレナ> a vlueprint:VirtualBeing;
@@ -4473,7 +4444,6 @@
     rdfs:label "Siro(Game)";
     vlueprint:youtubeChannelName "Siro Games";
     vlueprint:youtubeChannelId "UCWOoEONmiuypAfKAxnBf2vQ";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <.LIVE>, <App_Land>;
     .
 
@@ -4537,7 +4507,6 @@
     rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です";
     vlueprint:youtubeChannelName "kadokawagames";
     vlueprint:youtubeChannelId "UCWwqGSCDbHKKFQjWDYP3Oaw";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -4725,7 +4694,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Takumi Desu";
     vlueprint:youtubeChannelId "UCASVAAgvntOrwRgVeMAkIPg";
-    vlueprint:twitterAccount "";
     .
 
 <アイスルメ> a vlueprint:VirtualBeing;
@@ -4762,7 +4730,6 @@
     rdfs:label "キズナアイ(China)";
     vlueprint:youtubeChannelName "A.I.Channel China";
     vlueprint:youtubeChannelId "UCArUdy5xj0i0cTuhPHRVMpw";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <upd8>, <Activ8>;
     .
 
@@ -4860,7 +4827,6 @@
     rdfs:label "一翔剣";
     vlueprint:youtubeChannelName "一翔剣ちゃんねる";
     vlueprint:youtubeChannelId "UCY7Qs1UGnO3LYpNVwitTXUA";
-    vlueprint:twitterAccount "";
     .
 
 <小宙るる> a vlueprint:VirtualBeing;
@@ -5284,7 +5250,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "あやとボイス";
     vlueprint:youtubeChannelId "UCXmWT_SCacaVzp7GapSVdqQ";
-    vlueprint:twitterAccount "";
     .
 
 <夏玥白夜> a vlueprint:VirtualBeing;
@@ -5643,7 +5608,6 @@
     rdfs:label "デリン(海外)";
     vlueprint:youtubeChannelName "데링TV";
     vlueprint:youtubeChannelId "UCom5QV9gxit6YzUFZbvn_VA";
-    vlueprint:twitterAccount "";
     .
 
 <ミツルギリア> a vlueprint:VirtualBeing;
@@ -5757,7 +5721,6 @@
     rdfs:label "麻宮アテナ";
     vlueprint:youtubeChannelName "麻宮アテナ KOFAS Official";
     vlueprint:youtubeChannelId "UCl1yB_o-K9L3pJApyaeS2sg";
-    vlueprint:twitterAccount "";
     vlueprint:yomi "あさみやあてな", "あてな";
     .
 
@@ -6111,7 +6074,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "F.Tさやか";
     vlueprint:youtubeChannelId "UC97ZmUkQPMmQzC-zEEW52SA";
-    vlueprint:twitterAccount "";
     .
 
 <花鈴すずめ> a vlueprint:VirtualBeing;
@@ -6171,7 +6133,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "凪尾games";
     vlueprint:youtubeChannelId "UCs_0n9y_qw6fAniS4mQ7q8w";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -6318,7 +6279,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "るいとも";
     vlueprint:youtubeChannelId "UCj1WZcf_FFOmNJmM5L1LWGw";
-    vlueprint:twitterAccount "";
     .
 
 <水無瀬るい> a vlueprint:VirtualBeing;
@@ -6429,7 +6389,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Loli Squad";
     vlueprint:youtubeChannelId "UCCcYKUUwQmcXwp2OV3Jl9PQ";
-    vlueprint:twitterAccount "";
     .
 
 <イヌージョンCHANNEL> a vlueprint:VirtualBeing;
@@ -6507,7 +6466,7 @@
     vlueprint:youtubeChannelId "UCpHIwGHq_3OfX42cyfyJp-A";
     vlueprint:twitterAccount "MiMi_KANADE";
     vlueprint:belongTo <Smarprise>;
-    vlueprint:yomi "かなでみみ", "みみ";
+    vlueprint:yomi "みみ", "かなでみみ";
     .
 
 <星園かのん> a vlueprint:VirtualBeing;
@@ -6527,7 +6486,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "実況部屋キラキラゲーム";
     vlueprint:youtubeChannelId "UCH-vuqXWc0lUrH47kIZKkRA";
-    vlueprint:twitterAccount "";
     .
 
 <花咲みやび> a vlueprint:VirtualBeing;
@@ -6640,7 +6598,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Sapphy Stars";
     vlueprint:youtubeChannelId "UC7btneNjw-mAOK9B0bnwBFg";
-    vlueprint:twitterAccount "";
     .
 
 <雪待つばき> a vlueprint:VirtualBeing;
@@ -6676,7 +6633,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Kvante Karina";
     vlueprint:youtubeChannelId "UC1i2fXJDDqVK6Y7stHuyqxg";
-    vlueprint:twitterAccount "";
     .
 
 <此ノ木よしる_-_このぎよしる> a vlueprint:VirtualBeing;
@@ -6796,7 +6752,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "みとまろゲームズ【夫婦でVtuber】";
     vlueprint:youtubeChannelId "UCx1efSAJvxZJFfVIoQ2-IuQ";
-    vlueprint:twitterAccount "";
     .
 
 <あいえるちゃんねる_株式会社インフィニットループ> a vlueprint:VirtualBeing;
@@ -7054,7 +7009,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ねむれるCH/Vtuber";
     vlueprint:youtubeChannelId "UCjV4dWznpxAVJCtPb9nW66A";
-    vlueprint:twitterAccount "";
     .
 
 <ほりくろ動画投稿チャンネル> a vlueprint:VirtualBeing;
@@ -7068,7 +7022,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "もんぬサマー";
     vlueprint:youtubeChannelId "UCPBu4XQ8hlQfGU8Wc5ljbEA";
-    vlueprint:twitterAccount "";
     .
 
 <리에_EIVE> a vlueprint:VirtualBeing;
@@ -7229,7 +7182,6 @@
     rdfs:label "ユニティちゃん";
     vlueprint:youtubeChannelName "unity-chan!";
     vlueprint:youtubeChannelId "UCvDLWW-HZ0JJHzblazs-OWw";
-    vlueprint:twitterAccount "";
     .
 
 <ツキト_ハナ_-_Hana_Tsukito_-> a vlueprint:VirtualBeing;
@@ -7295,7 +7247,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "にししゃん";
     vlueprint:youtubeChannelId "UC1yBTIbov5iEolV8HupPyKA";
-    vlueprint:twitterAccount "";
     .
 
 <ひなの羽衣> a vlueprint:VirtualBeing;
@@ -7333,7 +7284,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "こーじのゲーム部屋";
     vlueprint:youtubeChannelId "UCo_G8PEhG_6DDFWhsgYsuEw";
-    vlueprint:twitterAccount "";
     .
 
 <ナノ> a vlueprint:VirtualBeing;
@@ -7369,7 +7319,6 @@
 <LIPLIP_(Yujiro__Aizo_CV__Uchiyama_Kouki__Shimazaki_Nobunaga)_-_Topic> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です", "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "LIPLIP (Yujiro, Aizo/CV: Uchiyama Kouki, Shimazaki Nobunaga) - Topic";
-    vlueprint:twitterAccount "";
     .
 
 <ちゃらんぽらん隊> a vlueprint:VirtualBeing;
@@ -7392,21 +7341,18 @@
     rdfs:label "夢咲刻夜";
     vlueprint:youtubeChannelName "夢咲刻夜Vtuber時夜";
     vlueprint:youtubeChannelId "UCJXIj8u4wVpN5kxieMTzW7A";
-    vlueprint:twitterAccount "";
     .
 
 <ルォ・テンイ> a vlueprint:VirtualBeing;
     rdfs:label "ルォ・テンイ";
     vlueprint:youtubeChannelName "洛天依 - Luo Tianyi";
     vlueprint:youtubeChannelId "UCDUCCsxopoiZCtzdr81C6EQ";
-    vlueprint:twitterAccount "";
     .
 
 <股間戦士エムズーン> a vlueprint:VirtualBeing;
     rdfs:label "股間戦士エムズーン";
     vlueprint:youtubeChannelName "チャンネルデリケアエムズ";
     vlueprint:youtubeChannelId "UCwKyqaiFhb7TuAFCkTb7IIQ";
-    vlueprint:twitterAccount "";
     .
 
 <second> a vlueprint:VirtualBeing;
@@ -7450,7 +7396,7 @@
     rdfs:label "花笠イリヤ";
     vlueprint:youtubeChannelName "Hanagasa Ilya花笠イリヤ チェリ高帰宅部 /";
     vlueprint:youtubeChannelId "UCigpSsgPbdCxXtbfGksFIYQ";
-    vlueprint:twitterAccount "", "ilya_cheriko";
+    vlueprint:twitterAccount "ilya_cheriko";
     vlueprint:belongTo <チェリ高帰宅部>;
     vlueprint:yomi "いりや", "はながさいりや";
     .
@@ -7531,7 +7477,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "アニメチャンネル by Lide, Inc.";
     vlueprint:youtubeChannelId "UC4ayhjGByMXEjueyqZoEo6A";
-    vlueprint:twitterAccount "";
     .
 
 <まるるんず> a vlueprint:VirtualBeing;
@@ -7544,7 +7489,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "メタキャット";
     vlueprint:youtubeChannelId "UCoGgPSz6p6f-UyacvJK0ZaQ";
-    vlueprint:twitterAccount "";
     .
 
 <Aicia_Solid_Project> a vlueprint:VirtualBeing;
@@ -7998,7 +7942,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "samayuzame";
     vlueprint:youtubeChannelId "UCkVzd2GJRTYp7eMQQ9JeJ7A";
-    vlueprint:twitterAccount "";
     .
 
 <ぴーす> a vlueprint:VirtualBeing;
@@ -8085,7 +8028,6 @@
     rdfs:label "ニパ子";
     vlueprint:youtubeChannelName "ゴッドハンドムービー";
     vlueprint:youtubeChannelId "UCVVkSdBNaJEM4RTB9W2nnlg";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -8293,7 +8235,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Pixelko.Dot &amp; Field";
     vlueprint:youtubeChannelId "UCLtY2A5H1rs3aR8bYykhX8Q";
-    vlueprint:twitterAccount "";
     .
 
 <榊つねこ> a vlueprint:VirtualBeing;
@@ -8307,7 +8248,6 @@
 <碧色のMIMI_-DIVE_LIVE_JAPAN-> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "碧色のMIMI -DIVE LIVE JAPAN-";
-    vlueprint:twitterAccount "";
     .
 
 <テイリ_Noa_Nikaido> a vlueprint:VirtualBeing;
@@ -8473,7 +8413,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "雪之ジョー";
     vlueprint:youtubeChannelId "UCTZJPUNkRgbKYFmypqBL-yA";
-    vlueprint:twitterAccount "";
     .
 
 <BlueArpeggio> a vlueprint:VirtualBeing;
@@ -8523,7 +8462,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "もぐらちゃんねる";
     vlueprint:youtubeChannelId "UCYdyz_XP7hfT6JwXsNt86Ww";
-    vlueprint:twitterAccount "";
     .
 
 <博多きくこ_VTuber_GAMES> a vlueprint:VirtualBeing;
@@ -8537,7 +8475,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "スズキセシル";
     vlueprint:youtubeChannelId "UCvzce5i14VUY-N1FQoPqRbg";
-    vlueprint:twitterAccount "";
     .
 
 <花守へるし> a vlueprint:VirtualBeing;
@@ -8680,7 +8617,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Denom Rs";
     vlueprint:youtubeChannelId "UCFRKkvaIc1PVFxb3NzDODXA";
-    vlueprint:twitterAccount "";
     .
 
 <産毛だよ> a vlueprint:VirtualBeing;
@@ -8927,7 +8863,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "月子ちゃんねる";
     vlueprint:youtubeChannelId "UC5G04S-bDNi0gc61cC9iyxA";
-    vlueprint:twitterAccount "";
     .
 
 <MC_SAN> a vlueprint:VirtualBeing;
@@ -8980,7 +8915,6 @@
 <バーチャルエロドラゴンの巣> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "バーチャルエロドラゴンの巣";
-    vlueprint:twitterAccount "";
     .
 
 <にゃるら> a vlueprint:VirtualBeing;
@@ -9008,7 +8942,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Paparacha";
     vlueprint:youtubeChannelId "UCEnVUZL8Wwj_ILdW-gOE3Dw";
-    vlueprint:twitterAccount "";
     .
 
 <二寺蒼五> a vlueprint:VirtualBeing;
@@ -9085,7 +9018,6 @@
 <しろすけVtuber> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "しろすけVtuber";
-    vlueprint:twitterAccount "";
     .
 
 <吉七味。> a vlueprint:VirtualBeing;
@@ -9121,7 +9053,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "みみこ";
     vlueprint:youtubeChannelId "UCuORn0gpP7nIM0M-H5oN7uw";
-    vlueprint:twitterAccount "";
     .
 
 <天使リリエル> a vlueprint:VirtualBeing;
@@ -9423,7 +9354,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Vtuber界を見守るリス 【旧名 自己顕示欲が強いリス】";
     vlueprint:youtubeChannelId "UCaFPqj1tSHFRqQ-qaM1pznQ";
-    vlueprint:twitterAccount "";
     .
 
 <ちばねずみ> a vlueprint:VirtualBeing;
@@ -9466,7 +9396,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Programastar.com/プログラマスター";
     vlueprint:youtubeChannelId "UCOznO6ysTr3PD9nVkHBmGOA";
-    vlueprint:twitterAccount "";
     .
 
 <ミン・スゥーハ> a vlueprint:VirtualBeing;
@@ -9539,7 +9468,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "もりこっこ";
     vlueprint:youtubeChannelId "UCOIokvocLvOp4PqSNhRCqeA";
-    vlueprint:twitterAccount "";
     .
 
 <ブラピの実況部屋> a vlueprint:VirtualBeing;
@@ -10187,14 +10115,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "カッパたいちょー";
     vlueprint:youtubeChannelId "UCz2nGVmMdAeayppOQtioN6Q";
-    vlueprint:twitterAccount "";
     .
 
 <BB_amp_パピヨン_ch> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "BB&amp;パピヨン ch";
     vlueprint:youtubeChannelId "UCmvxuzGUKo0u35FPhQM0a4A";
-    vlueprint:twitterAccount "";
     .
 
 <ぴかお> a vlueprint:VirtualBeing;
@@ -10385,7 +10311,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "秋田で釣る理由";
     vlueprint:youtubeChannelId "UCGjRe26ayaC3_7W2WiS7sTg";
-    vlueprint:twitterAccount "";
     .
 
 <ぴぼ> a vlueprint:VirtualBeing;
@@ -10418,14 +10343,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "けもみん";
     vlueprint:youtubeChannelId "UCUS2n-dVmo3E_4t5TwllsMA";
-    vlueprint:twitterAccount "";
     .
 
 <しろん・フラットパディちゃんねる> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "しろん・フラットパディちゃんねる";
     vlueprint:youtubeChannelId "UCGMLT8MG-H3zt0nrFwCb-lA";
-    vlueprint:twitterAccount "";
     .
 
 <ソルトちゃんねる> a vlueprint:VirtualBeing;
@@ -10445,7 +10368,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Teruaki Tsubokura";
     vlueprint:youtubeChannelId "UCqt-TzsVU53WYYmj9m0ExUA";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -10554,7 +10476,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "くれみぃー\\ kuremyi \\鉄道系バーチャルYouTuber";
     vlueprint:youtubeChannelId "UCvKoQQfEJYJJqPW5yPWOvTg";
-    vlueprint:twitterAccount "";
     .
 
 <夢乃名菓> a vlueprint:VirtualBeing;
@@ -10662,7 +10583,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "バーチャルコーヒーユーチューバーモカ";
     vlueprint:youtubeChannelId "UCL_zJRLImq8gpfpkz3xEfjQ";
-    vlueprint:twitterAccount "";
     .
 
 <AZ三日月> a vlueprint:VirtualBeing;
@@ -10683,7 +10603,6 @@
     rdfs:label "Vian(海外)";
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません";
     vlueprint:youtubeChannelName "Vian-tuber";
-    vlueprint:twitterAccount "";
     .
 
 <牧之瀬マキノ> a vlueprint:VirtualBeing;
@@ -10792,14 +10711,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "空色スカイ";
     vlueprint:youtubeChannelId "UCL3s9kOzkK9wdYL_iqr5tuw";
-    vlueprint:twitterAccount "";
     .
 
 <きりみんちゃん_ねる> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "きりみんちゃん ねる";
     vlueprint:youtubeChannelId "UCqN87Ye4TNLB04EFhxJ0L5w";
-    vlueprint:twitterAccount "";
     .
 
 <うさ野うさ子> a vlueprint:VirtualBeing;
@@ -11077,7 +10994,6 @@
 <暇人U新人Vtuber【Vtuber準備中】> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "暇人U新人Vtuber【Vtuber準備中】";
-    vlueprint:twitterAccount "";
     .
 
 <チンアナゴTV> a vlueprint:VirtualBeing;
@@ -11122,7 +11038,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "白衣少年キキョウ";
     vlueprint:youtubeChannelId "UCnNEvG-t9w0dEsE0YrnOYlA";
-    vlueprint:twitterAccount "";
     .
 
 <Amida・La・Bip> a vlueprint:VirtualBeing;
@@ -11334,7 +11249,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ツッコミ系ゴンくん";
     vlueprint:youtubeChannelId "UCayBcv8P51A3WX63B-enLGg";
-    vlueprint:twitterAccount "";
     .
 
 <ぶらっく> a vlueprint:VirtualBeing;
@@ -11411,7 +11325,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "バーチャル大物youtuber";
     vlueprint:youtubeChannelId "UCjs9PBaQXj2EfKC74w1ponA";
-    vlueprint:twitterAccount "";
     .
 
 <ジララボ【バーチャルジラフ】> a vlueprint:VirtualBeing;
@@ -11477,7 +11390,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Mira Pink";
     vlueprint:youtubeChannelId "UCd_ShA9Vk4Htm9UGvlF2bCw";
-    vlueprint:twitterAccount "";
     .
 
 <かおりんご。社畜系Vtuber> a vlueprint:VirtualBeing;
@@ -11505,7 +11417,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "浅葱ゆあ";
     vlueprint:youtubeChannelId "UCZrMsKDP_OQuwICm_b1TGZg";
-    vlueprint:twitterAccount "";
     .
 
 <RistGaming> a vlueprint:VirtualBeing;
@@ -11532,7 +11443,6 @@
 <ぱすメモ(ぱすてるメモリーズ)公式> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ぱすメモ（ぱすてるメモリーズ）公式";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -11561,7 +11471,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ひなチャンネル【一年生】";
     vlueprint:youtubeChannelId "UC4l2Q0I6ceBxytaSJ05pBcQ";
-    vlueprint:twitterAccount "";
     .
 
 <ブラッド・エンペラー> a vlueprint:VirtualBeing;
@@ -11575,7 +11484,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "うどん猫";
     vlueprint:youtubeChannelId "UCG8-PEXpqnyf-qjC6IgfANA";
-    vlueprint:twitterAccount "";
     .
 
 <ちるま___Chilma音楽チャンネル> a vlueprint:VirtualBeing;
@@ -12138,7 +12046,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "巣籠ツル";
     vlueprint:youtubeChannelId "UCNWqz-qfa5dRGMCRfFXM_rQ";
-    vlueprint:twitterAccount "";
     .
 
 <甘姫まかろん> a vlueprint:VirtualBeing;
@@ -12192,7 +12099,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "《エブリビオン放送軍》レンガ塔男爵";
     vlueprint:youtubeChannelId "UCJnhJV6rpOkWEL47UPPCWkw";
-    vlueprint:twitterAccount "";
     .
 
 <Hana_Channel___日野ハナ> a vlueprint:VirtualBeing;
@@ -12248,7 +12154,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "LUMi Official";
     vlueprint:youtubeChannelId "UCsfFcTyfcyAKBYbAw6crbMg";
-    vlueprint:twitterAccount "";
     .
 
 <藍兎らび> a vlueprint:VirtualBeing;
@@ -12376,14 +12281,12 @@
 <マイクリVtuber【YesmanAsada】> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "マイクリVtuber【YesmanAsada】";
-    vlueprint:twitterAccount "";
     .
 
 <【公式】OVERHIT_CHANNEL> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "【公式】OVERHIT CHANNEL";
     vlueprint:youtubeChannelId "UCzaZR-7Olw3aNi91PqQ3_LA";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <転生組>;
     .
 
@@ -12462,13 +12365,11 @@
 <マダラモトミ_-バーチャルYouTuber-> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "マダラモトミ -バーチャルYouTuber-";
-    vlueprint:twitterAccount "";
     .
 
 <MySelect_Channel> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "MySelect Channel";
-    vlueprint:twitterAccount "";
     .
 
 <かもしんチャンネル> a vlueprint:VirtualBeing;
@@ -12670,7 +12571,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ゆまりあCafe";
     vlueprint:youtubeChannelId "UC2IhSzXtZtSkUFST07JbD3A";
-    vlueprint:twitterAccount "";
     .
 
 <PUBG_MOBILE_NEWS> a vlueprint:VirtualBeing;
@@ -12690,7 +12590,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "黒猫 ティーチャ";
     vlueprint:youtubeChannelId "UCQ513KI2GFuPqf3PkSlU8pQ";
-    vlueprint:twitterAccount "";
     .
 
 <グエス_-VEx_Gues_Ch-> a vlueprint:VirtualBeing;
@@ -12711,7 +12610,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "碧志摩メグ";
     vlueprint:youtubeChannelId "UCID4u5lepqbRExvj8KlFlxQ";
-    vlueprint:twitterAccount "";
     .
 
 <たまごやきになりたかった> a vlueprint:VirtualBeing;
@@ -12738,7 +12636,6 @@
 <バーチャルYouTuberすわわチャンネル> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "バーチャルYouTuberすわわチャンネル";
-    vlueprint:twitterAccount "";
     .
 
 <Yumemi_Yumeiro> a vlueprint:VirtualBeing;
@@ -12888,7 +12785,6 @@
     rdfs:label "VTuber HINAKO";
     vlueprint:youtubeChannelName "鬼カワイイ岡山市";
     vlueprint:youtubeChannelId "UC3GFrJGMhLnPKBzbky9fFEQ";
-    vlueprint:twitterAccount "";
     .
 
 <青川うそ> a vlueprint:VirtualBeing;
@@ -12910,7 +12806,6 @@
     rdfs:label "すずしろ真菜";
     vlueprint:youtubeChannelName "suzushiro ch.すずしろ真菜";
     vlueprint:youtubeChannelId "UC3my-EzfpiWWCoGiBwUooXA";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <バ美肉>;
     vlueprint:yomi "まな", "すずしろまな";
     .
@@ -12926,7 +12821,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "金熊鬼奸 / Kaneguma Kiken";
     vlueprint:youtubeChannelId "UCMzVh74iqJ1mWVzs9zab_Bw";
-    vlueprint:twitterAccount "";
     .
 
 <めっちゃばぶ美> a vlueprint:VirtualBeing;
@@ -13089,7 +12983,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "suzuki ryuma";
     vlueprint:youtubeChannelId "UCGaYnVOOAx3meaJmx2N_Lhw";
-    vlueprint:twitterAccount "";
     .
 
 <ちゃんねる夜木> a vlueprint:VirtualBeing;
@@ -13117,7 +13010,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Just Abby";
     vlueprint:youtubeChannelId "UC5BFopbSPaHsmQIsBb4xXrg";
-    vlueprint:twitterAccount "";
     .
 
 <愛宮みるく> a vlueprint:VirtualBeing;
@@ -13221,7 +13113,6 @@
 <しろーとチャンネル> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "しろーとチャンネル";
-    vlueprint:twitterAccount "";
     .
 
 <バーチャルおかん> a vlueprint:VirtualBeing;
@@ -13486,7 +13377,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "あんさくちゃんねる";
     vlueprint:youtubeChannelId "UC70rhGG44IFbhSA_dgkfCEA";
-    vlueprint:twitterAccount "";
     .
 
 <阿古江レイスケ> a vlueprint:VirtualBeing;
@@ -13604,7 +13494,6 @@
 <公式IRIAM> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "公式IRIAM";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <IRIAM>;
     .
 
@@ -13873,7 +13762,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ほぼ週刊キーボードニュース";
     vlueprint:youtubeChannelId "UCyU1PAGvw_suAyI4wljHmag";
-    vlueprint:twitterAccount "";
     .
 
 <かなかまなだよー!> a vlueprint:VirtualBeing;
@@ -13887,7 +13775,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "伏黒しのぶ";
     vlueprint:youtubeChannelId "UC3h_TxlJPpmFSv1gxBQsYEQ";
-    vlueprint:twitterAccount "";
     .
 
 <くーりのちゃんねる> a vlueprint:VirtualBeing;
@@ -14011,7 +13898,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "GOROman";
     vlueprint:youtubeChannelId "UCIiHflo_ry8SFHbZQBxlIHg";
-    vlueprint:twitterAccount "";
     .
 
 <折紙正宗> a vlueprint:VirtualBeing;
@@ -14026,7 +13912,6 @@
     rdfs:comment "[TODO]事務所や団体，企画のチャンネルなので移行が必要です";
     vlueprint:youtubeChannelName "言霊少女プロジェクト【公式】";
     vlueprint:youtubeChannelId "UCp6CNzOtACuUHVV8-piSmtA";
-    vlueprint:twitterAccount "";
     .
 
 <カサチ_ライエン《Raien_Channel》> a vlueprint:VirtualBeing;
@@ -14076,7 +13961,6 @@
     rdfs:label "桜夢なな";
     vlueprint:youtubeChannelName "桜夢なな";
     vlueprint:youtubeChannelId "UCzwvjt3Fv4ihrJHQy6dxZ8g";
-    vlueprint:twitterAccount "";
     vlueprint:belongTo <ZERO_Project>;
     vlueprint:yomi "なな", "さくらむなな";
     .
@@ -14085,7 +13969,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ただのれゐ【笑顔と元気をお得にお届け】";
     vlueprint:youtubeChannelId "UCN84kddLj2J6OTgKl6Kkt7Q";
-    vlueprint:twitterAccount "";
     .
 
 <kemuri_nekobuki> a vlueprint:VirtualBeing;
@@ -14313,7 +14196,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ぐっち【現役ナース兼冒険家】";
     vlueprint:youtubeChannelId "UC4JCfaEcoQzIduDqQ0D1y8g";
-    vlueprint:twitterAccount "";
     .
 
 <S-TRIBE_Channel> a vlueprint:VirtualBeing;
@@ -14334,7 +14216,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "パンチくん【格闘家Vtuber】";
     vlueprint:youtubeChannelId "UCE2QkIH3iaB8UFwr4rFk-wQ";
-    vlueprint:twitterAccount "";
     .
 
 <あまあまちゃんねる> a vlueprint:VirtualBeing;
@@ -14416,7 +14297,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "星空美夢";
     vlueprint:youtubeChannelId "UCbWpQEE37rHCBmT21JrtMkw";
-    vlueprint:twitterAccount "";
     .
 
 <Kanon_Ayasaki綾前_叶音> a vlueprint:VirtualBeing;
@@ -14509,14 +14389,12 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "AndyWalkerCHANNEL";
     vlueprint:youtubeChannelId "UCH_Y1aRnSiMc_IALuNMmvUg";
-    vlueprint:twitterAccount "";
     .
 
 <アリスことやぎ.> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "アリスことやぎ.";
     vlueprint:youtubeChannelId "UCtJB7MUi1JHT7NXLgWF61ew";
-    vlueprint:twitterAccount "";
     .
 
 <創好リナ> a vlueprint:VirtualBeing;
@@ -14578,7 +14456,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ひものげーむず -HimonoGames-";
     vlueprint:youtubeChannelId "UC6LurvIpgL9QbIiOM9mfwWA";
-    vlueprint:twitterAccount "";
     .
 
 <VTuberマチコ先生> a vlueprint:VirtualBeing;
@@ -14681,7 +14558,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Call";
     vlueprint:youtubeChannelId "UCZRGq-G7M5i5mg5EnLKpj-Q";
-    vlueprint:twitterAccount "";
     .
 
 <上野桃香> a vlueprint:VirtualBeing;
@@ -14884,7 +14760,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "仮想少女 - Virtual Idol -";
     vlueprint:youtubeChannelId "UCp2vrIYqr4_aZbFQNU1MuZQ";
-    vlueprint:twitterAccount "";
     .
 
 <みぼねこちゃんねる> a vlueprint:VirtualBeing;
@@ -14912,21 +14787,18 @@
 <S4U_バーチャル下水道> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "S4U バーチャル下水道";
-    vlueprint:twitterAccount "";
     .
 
 <Vtuber_infinity> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "Vtuber infinity";
     vlueprint:youtubeChannelId "UCZx8ON39VKOBxMMKd_QNwuw";
-    vlueprint:twitterAccount "";
     .
 
 <将士【将棋メダカ_amp_キャップ投げ】Vtuber_Roi> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "将士【将棋メダカ&amp;キャップ投げ】Vtuber Roi";
     vlueprint:youtubeChannelId "UCa4Bpa8cllNWxAKgP35CK3A";
-    vlueprint:twitterAccount "";
     .
 
 <すしまる_寿司王_> a vlueprint:VirtualBeing;
@@ -14940,7 +14812,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ライバーネット";
     vlueprint:youtubeChannelId "UCQIuXxs2rDKCdtnwtm-z5aQ";
-    vlueprint:twitterAccount "";
     .
 
 <やつは___yatsuha88> a vlueprint:VirtualBeing;
@@ -15018,7 +14889,6 @@
     rdfs:comment "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "ことはchannel";
     vlueprint:youtubeChannelId "UCPkrE2IPL_me9gMLTzkh4Hw";
-    vlueprint:twitterAccount "";
     .
 
 <数理Channel> a vlueprint:VirtualBeing;
@@ -15060,7 +14930,6 @@
 <そらちゃんねる_amp_まいくら実況【VTuber】> a vlueprint:VirtualBeing;
     rdfs:comment "[TODO]チャンネルIDが取得できなかったので「vlueprint:youtubeChannelId」は指定されていません", "[TODO]名前が取得できなかったので，URIは仮のものです";
     vlueprint:youtubeChannelName "そらちゃんねる&amp;まいくら実況【VTuber】";
-    vlueprint:twitterAccount "";
     .
 
 <深海暗子channel> a vlueprint:VirtualBeing;
@@ -15891,7 +15760,7 @@
 <芹桃めもり> a vlueprint:VirtualBeing;
     rdfs:label "芹桃めもり";
     rdfs:comment "[TODO]IME辞書に対応するVirtualBeingが見つからなかったため、「よみ」のみが登録されています";
-    vlueprint:yomi "せりももめもり", "めもり";
+    vlueprint:yomi "めもり", "せりももめもり";
     .
 
 <金田あひる> a vlueprint:VirtualBeing;

@@ -22,17 +22,17 @@
     rdfs:label "ゲーム部プロジェクト";
     vlueprint:youtubeChannelName "ゲーム部プロジェクト", "放課後ゲーム部";
     vlueprint:youtubeChannelId "UC2ZVDmnoZAOdLt7kI7Uaqog", "UCBX00PjvFhTVnnDAR848O3A";
+    vlueprint:yomi "げーむぶ";
     vlueprint:belongTo <Unlimited>;
     rdfs:comment "[TODO]Youtubeチャンネルが複数あるので対応が必要です";
-    vlueprint:yomi "げーむぶ";
     .
 
 <おめがシスターズ> a vlueprint:PerformingGroup;
     rdfs:label "おめがシスターズ";
     vlueprint:youtubeChannelName "おめがシスターズ [Ω Sisters]";
     vlueprint:youtubeChannelId "UCNjTjd2-PMC8Oo_-dCEss7A";
-    vlueprint:belongTo <upd8>, <Activ8>;
     vlueprint:yomi "おめしす";
+    vlueprint:belongTo <upd8>, <Activ8>;
     .
 
 <あおぎり高校> a vlueprint:PerformingGroup;
@@ -46,8 +46,8 @@
     rdfs:label "ルキロキ";
     vlueprint:youtubeChannelName "ルキロキチャンネル - Ruki Roki Channel -";
     vlueprint:youtubeChannelId "UCf3DHSmd2DhZcoq2gwYXCIA";
-    vlueprint:twitterAccount "RukiRoki_ch";
     vlueprint:yomi "るきろき";
+    vlueprint:twitterAccount "RukiRoki_ch";
     .
 
 <Project_A.I.D> a vlueprint:PerformingGroup;
@@ -61,8 +61,8 @@
     rdfs:label "MonsterZ MATE";
     vlueprint:youtubeChannelName "MonsterZ MATE";
     vlueprint:youtubeChannelId "UCDG8K9g6qo8gX4jCjsqUVzA";
-    vlueprint:belongTo <Balus>;
     vlueprint:yomi "ｍｚｍ", "もんすたーずめいと";
+    vlueprint:belongTo <Balus>;
     vlueprint:twitterAccount "monsterzmate";
     .
 
@@ -70,8 +70,8 @@
     rdfs:label "ココツキ";
     vlueprint:youtubeChannelName "ココツキCocoTsuki Project";
     vlueprint:youtubeChannelId "UCH1B9AR8sfWJVf9zcu9rbGg";
-    vlueprint:belongTo <upd8>, <Activ8>;
     vlueprint:yomi "ここつき";
+    vlueprint:belongTo <upd8>, <Activ8>;
     .
 
 <カナメとハルキー> a vlueprint:PerformingGroup;
@@ -99,10 +99,10 @@
     rdfs:label "えのぐ";
     vlueprint:youtubeChannelName "【VRアイドル】えのぐチャンネル";
     vlueprint:youtubeChannelId "UCFI81W9F49a7GvimKF905eQ";
+    vlueprint:yomi "えのぐ";
     vlueprint:belongTo <岩本町芸能社>;
     rdfs:comment "[TODO]ニコニコ動画のアカウントもあります";
     vlueprint:twitterAccount "rbc_geino";
-    vlueprint:yomi "えのぐ";
     .
 
 <まじかるどーる> a vlueprint:PerformingGroup;
@@ -117,8 +117,8 @@
     rdfs:label "Marpril";
     vlueprint:youtubeChannelName "Marprilチャンネル";
     vlueprint:youtubeChannelId "UCWhv732tk4DAQ7X32qHKrfA";
-    vlueprint:belongTo <岩本町芸能社>;
     vlueprint:yomi "まーぷる";
+    vlueprint:belongTo <岩本町芸能社>;
     .
 
 <小山内めい_小山内いちか> a vlueprint:PerformingGroup;
@@ -344,8 +344,8 @@
     rdfs:label "バチャカリ";
     vlueprint:youtubeChannelName "バチャカリ 【 大鳥一姫、前田花奈、風見舞子 】";
     vlueprint:youtubeChannelId "UCJlPcoY1_JdtbAFyydp5Y-w";
-    vlueprint:belongTo <cluster>;
     vlueprint:yomi "ばちゃかり";
+    vlueprint:belongTo <cluster>;
     .
 
 <でじみる*ショコラ> a vlueprint:PerformingGroup;
@@ -372,8 +372,8 @@
     rdfs:label "あすかな";
     vlueprint:youtubeChannelName "バーチャルジャニーズプロジェクト公式";
     vlueprint:youtubeChannelId "UC8v7P8Bs1QPmfF8Cp5HqQhw";
-    vlueprint:twitterAccount "vjpofficial";
     vlueprint:yomi "ばーちゃるじゃにーず";
+    vlueprint:twitterAccount "vjpofficial";
     .
 
 <ともえとエルゼ> a vlueprint:PerformingGroup;

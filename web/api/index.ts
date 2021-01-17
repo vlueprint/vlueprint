@@ -38,6 +38,25 @@ router.get("/samples", async (req, res) => {
   res.json(queries)
 })
 
+// 絶対悪用されるこれ。早めに潰しておこう。仮措置。
+router.get("/icon", async (req, res) =>{
+  if(!process.env.TWITTER_TOKEN || !req.query.screen_name){
+    res.json({
+      url: "https://pbs.twimg.com/profile_images/1277295660123820032/hPOt5ZpY_400x400.jpg"
+    })
+    return
+  }
+  const response = await axios.get( 
+    `https://api.twitter.com/1.1/users/show.json?screen_name=${req.query.screen_name}`,
+    {
+      headers: { Authorization: `Bearer ${process.env.TWITTER_TOKEN}` }
+    }
+  )
+  res.json({
+    url: response.data.profile_image_url_https.replace("_normal.jpg", "_400x400.jpg")
+  })
+})
+
 const app = express()
 app.set('json spaces', 2)
 app.use("/", router)

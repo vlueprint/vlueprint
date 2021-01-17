@@ -8,6 +8,7 @@
       <div class="concept-details">
         <p>Vlueprint は Virtual 世界の人やモノに関するオープンデータプラットフォームです．</p>
         <p>様々なデータを共通のスキーマにして管理，提供することが目的です．</p>
+        <p><a href="https://takanakahiko.hatenablog.com/entry/2020/12/30/091654" target="_blank">詳しくはこちらの記事に</a></p>
       </div>
     </section>
     <section class="points content">

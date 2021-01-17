@@ -1,10 +1,13 @@
 <template>
   <section class="main-content section">
-    <div class="container">
+    <div v-if="!isVirtualBeing" class="container is-max-desktop">
       <h1 class="title is-1">
         About: {{ label }}
       </h1>
       <p>{{ subjectUrl }}</p>
+    </div>
+    <VirtualBeingInfo v-if="isVirtualBeing" :response="response" :subjectUrl="subjectUrl" />
+    <div class="container is-max-desktop">
       <sparql-response-table :response="response" />
     </div>
   </section>
@@ -13,11 +16,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
+import VirtualBeingInfo from '~/components/page/VirtualBeingInfo.vue'
 
 import { SparqlResponse } from '~/types/SparqlResponse'
 
 export default Vue.extend({
-  components: { SparqlResponseTable },
+  components: { SparqlResponseTable, VirtualBeingInfo },
   head () {
     return {
       title: `${(this as any).label} - vlueprint`,
@@ -26,15 +30,28 @@ export default Vue.extend({
       ]
     }
   },
+  data() {
+    return {
+      response: null as SparqlResponse | null,
+      subjectUrl: ""
+    }
+  },
   computed: {
-    label (): string {
-      let ret = ''
-      // @ts-ignore
-      this.response.results.bindings.forEach((binding) => {
-        const labelUri = 'http://www.w3.org/2000/01/rdf-schema#label'
-        if (binding.Property.value === labelUri) { ret = binding.Value.value }
-      })
-      return ret
+    label(): string {
+      if(!this.response) return ""
+      for (const binding of this.response.results.bindings) {
+        if (binding.Property.value === 'http://www.w3.org/2000/01/rdf-schema#label')
+          return binding.Value.value
+      }
+      return ""
+    },
+    isVirtualBeing(): boolean {
+      if(!this.response) return false
+      for (const binding of this.response.results.bindings) {
+        if (binding.Property.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
+          return binding.Value.value === "https://vlueprint.org/schema/VirtualBeing"
+      }
+      return false
     }
   },
   async asyncData ({ $axios, params, error }) {

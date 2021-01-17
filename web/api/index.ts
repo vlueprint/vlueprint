@@ -42,7 +42,7 @@ router.get("/samples", async (req, res) => {
 router.get("/icon", async (req, res) =>{
   if(!process.env.TWITTER_TOKEN || !req.query.screen_name){
     res.json({
-      url: "https://pbs.twimg.com/profile_images/1277295660123820032/hPOt5ZpY_400x400.jpg"
+      url: "https://space.pikopikopla.net/sparql/"
     })
     return
   }

@@ -45,7 +45,6 @@ export default Vue.extend({
         },
         headers: { 'Content-Type': 'application/sparql-query+json' }
       })
-      console.log(JSON.stringify(response, null, 2));
       if (response.results.bindings.length) {
         return { response }
       } else {

@@ -36,7 +36,7 @@ jobs:
         run: gcloud auth configure-docker --quiet
 
       - if: matrix.SERVICE_NAME == 'web'
-        run: echo "BUILD_ARGS=--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }}" >> $GITHUB_ENV
+        run: echo "BUILD_ARGS=--build-arg SPARQL_ENDPOINT_URL=${{ secrets.SPARQL_ENDPOINT_URL }} --build-arg TWITTER_TOKEN=${{ secrets.TWITTER_TOKEN }}" >> $GITHUB_ENV
 
       - if: matrix.SERVICE_NAME == 'sparql-endpoint'
         run: echo "BUILD_ARGS=--build-arg DBA_PASSWORD=${{ secrets.DBA_PASSWORD }}" >> $GITHUB_ENV

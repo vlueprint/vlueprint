@@ -32,7 +32,7 @@
         <span v-if="virtualBeingData.belongTo.length > 0">
           {{ virtualBeingData.belongTo.join(" 、 ") }} に所属している。
         </span>
-        <span v-if="virtualBeingData.belongTo.length > 0">
+        <span v-if="virtualBeingData.youtubeChannelName.length > 0">
           {{ virtualBeingData.youtubeChannelName.join(" 、 ") }} というYoutubeチャンネルで活動を行っている。
         </span>
         <span v-if="virtualBeingData.twitterAccount.length > 0">
@@ -45,6 +45,8 @@
 
 <script lang="ts">
 import Vue, { PropType } from 'vue'
+import axios from 'axios'
+
 import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
 import { SparqlResponse } from '~/types/SparqlResponse'
 
@@ -80,7 +82,7 @@ export default Vue.extend({
     }
   },
   async mounted() {
-    const response = await this.$axios.get(`/api/icon?screen_name=${this.virtualBeingData.twitterAccount}`)
+    const response = await axios.get(`/api/icon?screen_name=${this.virtualBeingData.twitterAccount}`)
     this.icon = response.data.url
   },
   computed: {

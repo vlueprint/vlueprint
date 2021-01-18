@@ -15,14 +15,14 @@
         class="mr-1"
         :href="`https://twitter.com/${screen_name}`"
         target="_blank">
-          <gb-social-button network="twitter" size="small" rounded="true" />
+          <gb-social-button network="twitter" size="small" :rounded="true" />
         </a><a
         v-for="channelId in virtualBeingData.youtubeChannelId"
         :key="channelId"
         class="mr-1"
         :href="`https://www.youtube.com/channel/${channelId}`"
         target="_blank">
-          <gb-social-button network="youtube" size="small" rounded="true" />
+          <gb-social-button network="youtube" size="small" :rounded="true" />
         </a>
       </div>
     </div>

@@ -42,7 +42,7 @@ router.get('/samples', async (_, res) => {
 router.get('/icon', async (req, res) => {
   if (!process.env.TWITTER_TOKEN || !req.query.screen_name) {
     res.json({
-      url: 'https://space.pikopikopla.net/sparql/'
+      url: 'https://placehold.jp/400x400.png'
     })
     return
   }
@@ -53,7 +53,7 @@ router.get('/icon', async (req, res) => {
     }
   )
   res.json({
-    url: response.data.profile_image_url_https.replace('_normal.jpg', '_400x400.jpg')
+    url: response.data.profile_image_url_https.replace('_normal', '_400x400')
   })
 })
 

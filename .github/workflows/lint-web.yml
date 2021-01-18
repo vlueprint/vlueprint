@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  lint-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: "lint"
+        working-directory: web
+        run: |
+          npm ci
+          npm run lint

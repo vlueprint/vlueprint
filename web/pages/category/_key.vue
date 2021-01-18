@@ -51,7 +51,6 @@ export default Vue.extend({
         error({ statusCode: 404, message: 'Data not found' + query })
       }
     } catch (e) {
-      console.log(e)
       error({ statusCode: 404, message: 'Data not found' })
     }
   }

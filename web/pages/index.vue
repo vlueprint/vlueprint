@@ -4,7 +4,9 @@
       <Logo />
     </section>
     <section class="content">
-      <p class="concept">「Virtual Worldに共通のスキーマを」</p>
+      <p class="concept">
+        「Virtual Worldに共通のスキーマを」
+      </p>
       <div class="concept-details">
         <p>Vlueprint は Virtual 世界の人やモノに関するオープンデータプラットフォームです．</p>
         <p>様々なデータを共通のスキーマにして管理，提供することが目的です．</p>
@@ -13,32 +15,42 @@
     </section>
     <section class="points content">
       <div class="point">
-        <p class="point-title">つながりを可視化する</p>
-        <img class="point-img" src="~/assets/hubspot.svg" />
+        <p class="point-title">
+          つながりを可視化する
+        </p>
+        <img class="point-img" src="~/assets/hubspot.svg">
         <p>RDF 形式で管理した Linked Open Data を取り扱います</p>
         <p>今までバラバラだった情報を紐付けていくと新たな発見があるかもしれません．</p>
       </div>
       <div class="point">
-        <p class="point-title">皆で作る。皆で使う。</p>
-        <b-icon icon="account-group" size="is-large" class="point-img"></b-icon>
+        <p class="point-title">
+          皆で作る。皆で使う。
+        </p>
+        <b-icon icon="account-group" size="is-large" class="point-img" />
         <p>Vlueprint は GitHub 上で公開され，オープンに運営されています．</p>
         <p>また，GitHubアカウントを持っていればどなたでも編集や開発に参加することができます，</p>
       </div>
     </section>
     <section class="content">
-      <h2 class="title">データの取得例</h2>
+      <h2 class="title">
+        データの取得例
+      </h2>
       <p>Powered by <a href="https://space.pikopikopla.net/">☆ピコピコプラネット☆ SPACE</a></p>
       <div>
         <Samples />
       </div>
     </section>
     <section class="content usecase">
-      <h2 class="title">利用例(JavaScript)</h2>
+      <h2 class="title">
+        利用例(JavaScript)
+      </h2>
       <p>以下のソースコードをブラウザのJavaScriptコンソールで実行してみてください</p>
-      <pre>{{code}}</pre>
+      <pre>{{ code }}</pre>
     </section>
     <section class="lets-start content">
-      <h2 class="title">さあ，始めましょう</h2>
+      <h2 class="title">
+        さあ，始めましょう
+      </h2>
       <div class="links">
         <a href="#" target="_blank" class="button is-outlined is-primary">Document</a>
         <a href="https://github.com/vlueprint/vlueprint" target="_blank" class="button is-outlined is-dark">GitHub</a>
@@ -51,22 +63,15 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-import Samples from "~/components/Samples.vue";
+import Logo from '~/components/Logo.vue'
+import Samples from '~/components/Samples.vue'
 
 export default {
   components: {
     Logo,
     Samples
   },
-  head () {
-    return {
-      htmlAttrs: {
-        class: ""
-      }
-    }
-  },
-  data() {
+  data () {
     return {
       code: `
 const query = \`
@@ -89,9 +94,16 @@ const suddest = retJson.results.bindings[0]
   ? retJson.results.bindings[0].id.value
   : "";
 console.log(suddest); // 月ノ美兎の Youtube チャンネルの ID が表示される`
-    };
+    }
+  },
+  head () {
+    return {
+      htmlAttrs: {
+        class: ''
+      }
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

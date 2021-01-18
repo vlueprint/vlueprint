@@ -11,15 +11,14 @@
     </header>
     <div class="card-content">
       <div class="content">
-        <pre>{{sampleQuery.query}}</pre>
+        <pre>{{ sampleQuery.query }}</pre>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue, { PropType } from "vue"
-import axios from 'axios'
+import Vue, { PropType } from 'vue'
 import { SampleQuery } from '~/types/SampleQuery'
 export default Vue.extend({
   props: {
@@ -33,10 +32,10 @@ export default Vue.extend({
       const encodedCode = encodeURIComponent(this.sampleQuery.query)
       return `https://vlueprint.org/sparql?qtxt=${encodedCode}`
     },
-    simpleTitle(): string {
-      return this.sampleQuery.title.replace(/^(Vlueprint で)/,"");
+    simpleTitle (): string {
+      return this.sampleQuery.title.replace(/^(Vlueprint で)/, '')
     }
-  },
+  }
 })
 </script>
 

@@ -6,7 +6,7 @@
       </h1>
       <p>{{ subjectUrl }}</p>
     </div>
-    <VirtualBeingInfo v-if="isVirtualBeing" :response="response" :subjectUrl="subjectUrl" />
+    <VirtualBeingInfo v-if="isVirtualBeing" :response="response" :subject-url="subjectUrl" />
     <div class="container is-max-desktop">
       <sparql-response-table :response="response" />
     </div>
@@ -22,38 +22,6 @@ import { SparqlResponse } from '~/types/SparqlResponse'
 
 export default Vue.extend({
   components: { SparqlResponseTable, VirtualBeingInfo },
-  head () {
-    return {
-      title: `${(this as any).label} - vlueprint`,
-      meta: [
-        { hid: 'description', name: 'description', content: `vlueprint の「${(this as any).label}」のページです。` }
-      ]
-    }
-  },
-  data() {
-    return {
-      response: null as SparqlResponse | null,
-      subjectUrl: ""
-    }
-  },
-  computed: {
-    label(): string {
-      if(!this.response) return ""
-      for (const binding of this.response.results.bindings) {
-        if (binding.Property.value === 'http://www.w3.org/2000/01/rdf-schema#label')
-          return binding.Value.value
-      }
-      return ""
-    },
-    isVirtualBeing(): boolean {
-      if(!this.response) return false
-      for (const binding of this.response.results.bindings) {
-        if (binding.Property.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type')
-          return binding.Value.value === "https://vlueprint.org/schema/VirtualBeing"
-      }
-      return false
-    }
-  },
   async asyncData ({ $axios, params, error }) {
     const baseUrl = 'https://vlueprint.org'
     const namespace = (params.namespace === 'page') ? 'resource' : params.namespace
@@ -61,7 +29,7 @@ export default Vue.extend({
     const query = `SELECT ?Property ?Value WHERE { <${subjectUrl}> ?Property ?Value }`
     try {
       const response = await $axios.get<SparqlResponse>('/sparql', {
-        params: { query },
+        params: { query }
       })
       if (response.data.results.bindings.length) {
         return {
@@ -73,6 +41,36 @@ export default Vue.extend({
       }
     } catch (e) {
       error({ statusCode: 404, message: 'Data not found' })
+    }
+  },
+  data () {
+    return {
+      response: null as SparqlResponse | null,
+      subjectUrl: ''
+    }
+  },
+  head () {
+    return {
+      title: `${(this as any).label} - vlueprint`,
+      meta: [
+        { hid: 'description', name: 'description', content: `vlueprint の「${(this as any).label}」のページです。` }
+      ]
+    }
+  },
+  computed: {
+    label (): string {
+      if (!this.response) { return '' }
+      for (const binding of this.response.results.bindings) {
+        if (binding.Property.value === 'http://www.w3.org/2000/01/rdf-schema#label') { return binding.Value.value }
+      }
+      return ''
+    },
+    isVirtualBeing (): boolean {
+      if (!this.response) { return false }
+      for (const binding of this.response.results.bindings) {
+        if (binding.Property.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type') { return binding.Value.value === 'https://vlueprint.org/schema/VirtualBeing' }
+      }
+      return false
     }
   }
 })

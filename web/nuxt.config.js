@@ -1,11 +1,10 @@
-
 export default {
   /*
   ** Headers of the page
   */
   head: {
     htmlAttrs: {
-      class: "has-navbar-fixed-top"
+      class: 'has-navbar-fixed-top'
     },
     title: process.env.npm_package_name || '',
     meta: [
@@ -30,12 +29,13 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: "@/plugins/VueSocial.js" }
+    { src: '@/plugins/VueSocial.js' }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxt/typescript-build'
   ],
   /*
   ** Nuxt.js modules
@@ -44,7 +44,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/proxy',
-    'nuxt-buefy',
+    'nuxt-buefy'
   ],
   /*
   ** Axios module configuration
@@ -59,12 +59,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend (_config, _ctx) {
     }
   },
-  buildModules: ['@nuxt/typescript-build'],
   proxy: {
-    '/sparql': process.env.SPARQL_ENDPOINT_URL,
+    '/sparql': process.env.SPARQL_ENDPOINT_URL
   },
   serverMiddleware: [
     { path: '/api', handler: '~/api/index.ts' }

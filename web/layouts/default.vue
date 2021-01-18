@@ -21,14 +21,14 @@
               <a class="navbar-link" href="/category/">Data Category</a>
               <div class="navbar-dropdown is-boxed">
                 <template v-for="val in classes">
-                  <a class="navbar-item" :href="`/category/${val}/`" :key="val">{{val}}</a>
+                  <a :key="val" class="navbar-item" :href="`/category/${val}/`">{{ val }}</a>
                 </template>
               </div>
             </div>
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
-              <SearchList />              
+              <SearchList />
             </div>
             <div class="navbar-item">
               <a class="button is-info" href="/sparql/">Sparql Endpoint</a>
@@ -59,12 +59,7 @@ export default Vue.extend({
       this.menuActive = false
     }
   },
-  methods: {
-    menuToggle () {
-      this.menuActive = !this.menuActive
-    }
-  },
-  async mounted() {
+  async mounted () {
     const query = `
     prefix vlueprint: <https://vlueprint.org/schema/>
     prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -77,20 +72,25 @@ export default Vue.extend({
     `
     // /sparql にすると https://localhost:3000/sparql にアクセスしてしまう
     const response = await this.$axios.get<SparqlResponse>('https://vlueprint.org/sparql', {
-      params: { query },
+      params: { query }
     })
-    this.classes =  response.data.results.bindings.map(binding=>binding["label"].value)
+    this.classes = response.data.results.bindings.map(binding => binding.label.value)
 
     // 一定スクロールをすると navbar の背景を白にする
-    document.addEventListener("scroll", e => {
-      const nav = document.getElementById("nav")
-      if(!nav) return
-      if( window.scrollY < 400 ) {
-        nav.style.backgroundColor = "transparent"
-      }else {
-        nav.style.backgroundColor = "white"
+    document.addEventListener('scroll', () => {
+      const nav = document.getElementById('nav')
+      if (!nav) { return }
+      if (window.scrollY < 400) {
+        nav.style.backgroundColor = 'transparent'
+      } else {
+        nav.style.backgroundColor = 'white'
       }
     })
+  },
+  methods: {
+    menuToggle () {
+      this.menuActive = !this.menuActive
+    }
   }
 })
 </script>

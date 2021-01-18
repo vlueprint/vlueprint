@@ -1,15 +1,20 @@
 <template>
   <b-autocomplete
-    :rounded="true"
     v-model="keyword"
+    :rounded="true"
     :data="results"
     placeholder="キズナアイ"
     icon="magnify"
     clearable
     @typing="search"
-    @select="open">
-    <template #empty>No results found</template>
-    <template slot-scope="props">{{ props.option.label }}</template>
+    @select="open"
+  >
+    <template #empty>
+      No results found
+    </template>
+    <template slot-scope="props">
+      {{ props.option.label }}
+    </template>
   </b-autocomplete>
 </template>
 
@@ -24,15 +29,15 @@ interface Suggestion {
 }
 
 export default Vue.extend({
-  data() {
+  data () {
     return {
-      keyword: "",
+      keyword: '',
       results: [] as Suggestion[]
     }
   },
   methods: {
-    async search() {
-      if(this.keyword == "") {
+    async search () {
+      if (this.keyword === '') {
         this.results = []
         return
       }
@@ -50,18 +55,18 @@ export default Vue.extend({
         }GROUP BY ?uri ?label
         `
         const response = await axios.get<SparqlResponse>('/sparql', {
-          params: { query },
+          params: { query }
         })
-        this.results = response.data.results.bindings.map(binding=>({
-          uri: binding["uri"].value,
-          label: binding["label"].value
+        this.results = response.data.results.bindings.map(binding => ({
+          uri: binding.uri.value,
+          label: binding.label.value
         }))
       } catch (error) {
         this.results = []
       }
     },
-    open(selected: Suggestion) {
-      this.$router.push(selected.uri.replace("https://vlueprint.org", ""))
+    open (selected: Suggestion) {
+      this.$router.push(selected.uri.replace('https://vlueprint.org', ''))
     }
   }
 })

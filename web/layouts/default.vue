@@ -28,6 +28,9 @@
           </div>
           <div class="navbar-end">
             <div class="navbar-item">
+              <SearchList />              
+            </div>
+            <div class="navbar-item">
               <a class="button is-info" href="/sparql/">Sparql Endpoint</a>
             </div>
           </div>
@@ -41,8 +44,10 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import SearchList from '~/components/SearchList.vue'
 import { SparqlResponse } from '~/types/SparqlResponse'
 export default Vue.extend({
+  components: { SearchList },
   data () {
     return {
       menuActive: false,

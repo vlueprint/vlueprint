@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar has-background-transparent is-transparent is-fixed-top">
+    <nav id="nav" class="navbar is-fixed-top">
       <div class="container px-4">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
@@ -75,14 +75,21 @@ export default Vue.extend({
       params: { query },
     })
     this.classes =  response.data.results.bindings.map(binding=>binding["label"].value)
+
+    // 一定スクロールをすると navbar の背景を白にする
+    document.addEventListener("scroll", e => {
+      const nav = document.getElementById("nav")
+      if(!nav) return
+      if( window.scrollY < 400 ) {
+        nav.style.backgroundColor = "transparent"
+      }else {
+        nav.style.backgroundColor = "white"
+      }
+    })
   }
 })
 </script>
 
 <style lang='scss'>
 @import 'bulma/bulma.sass';
-
-.has-background-transparent {
-  background-color: transparent;
-}
 </style>

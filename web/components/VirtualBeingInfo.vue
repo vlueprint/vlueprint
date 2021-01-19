@@ -54,7 +54,7 @@
 import Vue, { PropType } from 'vue'
 import axios from 'axios'
 import { SparqlResponse } from '~/types/SparqlResponse'
-import BelongToTag from '~/components/page/BelongToTag.vue'
+import BelongToTag from '~/components/BelongToTag.vue'
 
 // この型が全く役に立っていないのでどう考えても実装が良くないがとりあえず動くのでヨシとしましょう
 interface VirtualBeingData {

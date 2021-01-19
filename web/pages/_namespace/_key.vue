@@ -16,7 +16,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
-import VirtualBeingInfo from '~/components/page/VirtualBeingInfo.vue'
+import VirtualBeingInfo from '~/components/VirtualBeingInfo.vue'
 
 import { SparqlResponse } from '~/types/SparqlResponse'
 

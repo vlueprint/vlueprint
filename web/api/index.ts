@@ -52,7 +52,7 @@ router.get('/icon', async (req, res) => {
     })
     return
   }
-  if( iconCache[`${req.query.screen_name}`] ){
+  if (iconCache[`${req.query.screen_name}`]) {
     res.json({
       url: iconCache[`${req.query.screen_name}`].url,
       cached: true
@@ -69,10 +69,10 @@ router.get('/icon', async (req, res) => {
     const url = response.data.profile_image_url_https.replace('_normal', '_400x400')
     iconCache[`${req.query.screen_name}`] = {
       updatedAt: Date.now(),
-      url: url
+      url
     }
     res.json({
-      url: url,
+      url,
       cached: false
     })
   } catch (error) {
@@ -80,7 +80,6 @@ router.get('/icon', async (req, res) => {
       url: 'https://placehold.jp/400x400.png',
       cached: false
     })
-    return
   }
 })
 

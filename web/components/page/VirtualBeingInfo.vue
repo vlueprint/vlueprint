@@ -45,7 +45,7 @@
       </p>
     </div>
     <div>
-      <BelongToTag v-for="uri in virtualBeingData.belongTo" :key="uri" :belongTo="uri" />
+      <BelongToTag v-for="uri in virtualBeingData.belongTo" :key="uri" :belong-to="uri" />
     </div>
   </div>
 </template>

@@ -34,7 +34,7 @@
       <p>
         <b>{{ virtualBeingData.label }}</b> はバーチャルな人物（あるいは存在）。
         <span v-if="virtualBeingData.belongTo.length > 0">
-          {{ virtualBeingData.belongTo.join(" 、 ") }} に所属している。
+          {{ virtualBeingData.belongTo.map(v => v.replace('https://vlueprint.org/resource/', '')).join(" 、 ") }} に所属している。
         </span>
         <span v-if="virtualBeingData.youtubeChannelName.length > 0">
           {{ virtualBeingData.youtubeChannelName.join(" 、 ") }} というYoutubeチャンネルで活動を行っている。
@@ -44,6 +44,11 @@
         </span>
       </p>
     </div>
+    <div>
+      <span v-for="uri in virtualBeingData.belongTo" :key="uri">
+        <BelongToTag :belongTo="uri" />
+      </span>
+    </div>
   </div>
 </template>
 
@@ -52,6 +57,8 @@ import Vue, { PropType } from 'vue'
 import axios from 'axios'
 
 import { SparqlResponse } from '~/types/SparqlResponse'
+
+import BelongToTag from '~/components/page/BelongToTag.vue'
 
 // この型が全く役に立っていないのでどう考えても実装が良くないがとりあえず動くのでヨシとしましょう
 interface VirtualBeingData {
@@ -66,6 +73,7 @@ interface VirtualBeingData {
 }
 
 export default Vue.extend({
+  components: { BelongToTag },
   props: {
     response: {
       type: Object as PropType<SparqlResponse>,
@@ -100,14 +108,14 @@ export default Vue.extend({
         if (binding.Property.value === 'https://vlueprint.org/schema/youtubeChannelName') { ret.youtubeChannelName.push(binding.Value.value) }
         if (binding.Property.value === 'https://vlueprint.org/schema/youtubeChannelId') { ret.youtubeChannelId.push(binding.Value.value) }
         if (binding.Property.value === 'https://vlueprint.org/schema/twitterAccount') { ret.twitterAccount.push(binding.Value.value) }
-        if (binding.Property.value === 'https://vlueprint.org/schema/belongTo') { ret.belongTo.push(binding.Value.value.replace('https://vlueprint.org/resource/', '')) }
+        if (binding.Property.value === 'https://vlueprint.org/schema/belongTo') { ret.belongTo.push(binding.Value.value) }
         if (binding.Property.value === 'https://vlueprint.org/schema/yomi') { ret.yomi.push(binding.Value.value) }
       }
       return ret
     }
   },
   async mounted () {
-    const response = await axios.get(`/api/icon?screen_name=${this.virtualBeingData.twitterAccount}`)
+    const response = await axios.get(`/api/icon?screen_name=${this.virtualBeingData.twitterAccount[0]}`)
     this.icon = response.data.url
   }
 })

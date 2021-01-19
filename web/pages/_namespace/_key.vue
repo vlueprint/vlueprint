@@ -16,7 +16,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import SparqlResponseTable from '~/components/SparqlResponseTable.vue'
-import VirtualBeingInfo from '~/components/page/VirtualBeingInfo.vue'
+import VirtualBeingInfo from '~/components/VirtualBeingInfo.vue'
 
 import { SparqlResponse } from '~/types/SparqlResponse'
 
@@ -61,14 +61,18 @@ export default Vue.extend({
     label (): string {
       if (!this.response) { return '' }
       for (const binding of this.response.results.bindings) {
-        if (binding.Property.value === 'http://www.w3.org/2000/01/rdf-schema#label') { return binding.Value.value }
+        if (binding.Property.value === 'http://www.w3.org/2000/01/rdf-schema#label') {
+          return binding.Value.value
+        }
       }
       return ''
     },
     isVirtualBeing (): boolean {
       if (!this.response) { return false }
       for (const binding of this.response.results.bindings) {
-        if (binding.Property.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type') { return binding.Value.value === 'https://vlueprint.org/schema/VirtualBeing' }
+        if (binding.Property.value === 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type') {
+          return binding.Value.value === 'https://vlueprint.org/schema/VirtualBeing'
+        }
       }
       return false
     }

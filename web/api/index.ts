@@ -38,23 +38,49 @@ router.get('/samples', async (_, res) => {
   res.json(queries)
 })
 
+// とりあえずローカルキャッシュしておく
+// なぜ→APIのレートに到達してしまうため
+// 本当はFIrestoreとかを使ったほうが良いと思うけど、急ぎでやるものでもない
+const iconCache = {} as { [key: string]: { url: string, updatedAt: number } }
+
 // 絶対悪用されるこれ。早めに潰しておこう。仮措置。
 router.get('/icon', async (req, res) => {
   if (!process.env.TWITTER_TOKEN || !req.query.screen_name) {
     res.json({
-      url: 'https://placehold.jp/400x400.png'
+      url: 'https://placehold.jp/400x400.png',
+      cached: false
     })
     return
   }
-  const response = await axios.get(
-    `https://api.twitter.com/1.1/users/show.json?screen_name=${req.query.screen_name}`,
-    {
-      headers: { Authorization: `Bearer ${process.env.TWITTER_TOKEN}` }
+  if (iconCache[`${req.query.screen_name}`]) {
+    res.json({
+      url: iconCache[`${req.query.screen_name}`].url,
+      cached: true
+    })
+    return
+  }
+  try {
+    const response = await axios.get(
+      `https://api.twitter.com/1.1/users/show.json?screen_name=${req.query.screen_name}`,
+      {
+        headers: { Authorization: `Bearer ${process.env.TWITTER_TOKEN}` }
+      }
+    )
+    const url = response.data.profile_image_url_https.replace('_normal', '_400x400')
+    iconCache[`${req.query.screen_name}`] = {
+      updatedAt: Date.now(),
+      url
     }
-  )
-  res.json({
-    url: response.data.profile_image_url_https.replace('_normal', '_400x400')
-  })
+    res.json({
+      url,
+      cached: false
+    })
+  } catch (error) {
+    res.json({
+      url: 'https://placehold.jp/400x400.png',
+      cached: false
+    })
+  }
 })
 
 const app = express()

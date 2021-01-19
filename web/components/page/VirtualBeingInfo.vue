@@ -45,9 +45,7 @@
       </p>
     </div>
     <div>
-      <span v-for="uri in virtualBeingData.belongTo" :key="uri">
-        <BelongToTag :belongTo="uri" />
-      </span>
+      <BelongToTag v-for="uri in virtualBeingData.belongTo" :key="uri" :belongTo="uri" />
     </div>
   </div>
 </template>
@@ -55,9 +53,7 @@
 <script lang="ts">
 import Vue, { PropType } from 'vue'
 import axios from 'axios'
-
 import { SparqlResponse } from '~/types/SparqlResponse'
-
 import BelongToTag from '~/components/page/BelongToTag.vue'
 
 // この型が全く役に立っていないのでどう考えても実装が良くないがとりあえず動くのでヨシとしましょう

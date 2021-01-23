@@ -2,8 +2,12 @@
   "private": true,
   "scripts": {
     "fetch": "ts-node fetch.ts",
+<<<<<<< HEAD
     "start": "ts-node index.ts",
     "add-by-channel": "ts-node add-by-channel.ts"
+=======
+    "start": "ts-node index.ts"
+>>>>>>> master
   },
   "dependencies": {
     "@types/n3": "^1.1.6",

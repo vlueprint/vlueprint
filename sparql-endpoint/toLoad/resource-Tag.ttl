@@ -19,3 +19,16 @@
 <にじさんじ(SEEDs出身)> a vlueprint:Tag;
     rdfs:label "にじさんじ(SEEDs出身)";
     .
+
+<転生組> a vlueprint:Organization;
+    rdfs:label "転生組";
+    .
+
+<元ENTUM> a vlueprint:Organization;
+    rdfs:label "元ENTUM";
+    .
+
+<バ美肉> a vlueprint:Organization;
+    rdfs:label "バ美肉";
+    vlueprint:yomi "ばびにく";
+    .

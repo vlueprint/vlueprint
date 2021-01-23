@@ -13,11 +13,6 @@
     vlueprint:belongTo <upd8>, <Activ8>;
     .
 
-<元ENTUM> a vlueprint:Organization;
-    rdfs:label "元ENTUM";
-    rdfs:comment "[TODO]時系列を考慮した対応が必要です";
-    .
-
 <.LIVE> a vlueprint:Organization;
     rdfs:label ".LIVE";
     vlueprint:yomi "どっとらいぶ";
@@ -65,11 +60,6 @@
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
-<転生組> a vlueprint:Organization;
-    rdfs:label "転生組";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
 <Re_AcT> a vlueprint:Organization;
     rdfs:label "Re:AcT";
     vlueprint:yomi "りあくと";
@@ -94,12 +84,6 @@
 <VEEMusic> a vlueprint:Organization;
     rdfs:label "VEEMusic";
     vlueprint:yomi "ｖｍ", "ヴぇえｍ", "ヴぇえみゅーじっく", "ヴぇーみゅーじっく";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<バ美肉> a vlueprint:Organization;
-    rdfs:label "バ美肉";
-    vlueprint:yomi "ばびにく";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 

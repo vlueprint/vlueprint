@@ -67,10 +67,13 @@ const main = async () => {
     "https://vlueprint.org/resource/にじさんじ(ゲーマーズ出身)",
     "https://vlueprint.org/resource/にじさんじ(統合後)",
     "https://vlueprint.org/resource/にじさんじ(SEEDs出身)",
+    "https://vlueprint.org/resource/転生組",
+    "https://vlueprint.org/resource/元ENTUM",
+    "https://vlueprint.org/resource/バ美肉"
   ]
   quads.forEach( q => {
     if( q.predicate.value == "https://vlueprint.org/schema/belongTo" && target.includes(q.object.value) ) {
-      store.addQuad(q.subject, namedNode("https://vlueprint.org/schema/belongTo"), namedNode("https://vlueprint.org/resource/にじさんじ"))
+      if(q.object.value.includes("にじさんじ")) store.addQuad(q.subject, namedNode("https://vlueprint.org/schema/belongTo"), namedNode("https://vlueprint.org/resource/にじさんじ"))
       store.addQuad(q.subject, namedNode("https://vlueprint.org/schema/tag"), q.object)
       store.removeQuad(q)
     }

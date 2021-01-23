@@ -1,0 +1,34 @@
+@base <https://vlueprint.org/resource/> .
+
+@prefix vlueprint: <https://vlueprint.org/schema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<にじさんじ(1・2期生)> a vlueprint:Tag;
+    rdfs:label "にじさんじ(1・2期生)";
+    .
+
+<にじさんじ(ゲーマーズ出身)> a vlueprint:Tag;
+    rdfs:label "にじさんじ(ゲーマーズ出身)";
+    .
+
+<にじさんじ(統合後)> a vlueprint:Tag;
+    rdfs:label "にじさんじ(統合後)";
+    .
+
+<にじさんじ(SEEDs出身)> a vlueprint:Tag;
+    rdfs:label "にじさんじ(SEEDs出身)";
+    .
+
+<転生組> a vlueprint:Organization;
+    rdfs:label "転生組";
+    .
+
+<元ENTUM> a vlueprint:Organization;
+    rdfs:label "元ENTUM";
+    .
+
+<バ美肉> a vlueprint:Organization;
+    rdfs:label "バ美肉";
+    vlueprint:yomi "ばびにく";
+    .

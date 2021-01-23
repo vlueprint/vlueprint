@@ -13,20 +13,10 @@
     vlueprint:belongTo <upd8>, <Activ8>;
     .
 
-<元ENTUM> a vlueprint:Organization;
-    rdfs:label "元ENTUM";
-    rdfs:comment "[TODO]時系列を考慮した対応が必要です";
-    .
-
 <.LIVE> a vlueprint:Organization;
     rdfs:label ".LIVE";
     vlueprint:yomi "どっとらいぶ";
     vlueprint:belongTo <App_Land>;
-    .
-
-<にじさんじ(1・2期生)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(1・2期生)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
 <ホロライブ> a vlueprint:Organization;
@@ -42,19 +32,9 @@
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
-<にじさんじ(ゲーマーズ出身)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(ゲーマーズ出身)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
 <Unlimited> a vlueprint:Organization;
     rdfs:label "Unlimited";
     vlueprint:yomi "あんりみ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<にじさんじ(統合後)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(統合後)";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
@@ -69,11 +49,6 @@
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
-<にじさんじ(SEEDs出身)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(SEEDs出身)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
 <サンリオ> a vlueprint:Organization;
     rdfs:label "サンリオ";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
@@ -82,11 +57,6 @@
 <ハニーストラップ> a vlueprint:Organization;
     rdfs:label "ハニーストラップ";
     vlueprint:yomi "はにすと";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<転生組> a vlueprint:Organization;
-    rdfs:label "転生組";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
@@ -114,12 +84,6 @@
 <VEEMusic> a vlueprint:Organization;
     rdfs:label "VEEMusic";
     vlueprint:yomi "ｖｍ", "ヴぇえｍ", "ヴぇえみゅーじっく", "ヴぇーみゅーじっく";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<バ美肉> a vlueprint:Organization;
-    rdfs:label "バ美肉";
-    vlueprint:yomi "ばびにく";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 

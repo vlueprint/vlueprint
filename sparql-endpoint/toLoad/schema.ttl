@@ -55,3 +55,15 @@ vlueprint:Keyword a rdfs:Class;
     rdfs:label "Keyword";
     rdfs:comment "IME辞書を取り込んだ際に含まれていたキーワードです";
     .
+
+vlueprint:Tag a rdfs:Class;
+    rdfs:label "Tag";
+    rdfs:comment "Virtual Being の属性を表すための Schema";
+    rdfs:comment "[Notice] 試験運用中であり、命名等が変更される可能性があります";
+    .
+
+vlueprint:tag a rdf:Property;
+    rdfs:label "タグ";
+    rdfs:comment "Tag を目的語に持つ Property";
+    rdfs:comment "[Notice] 試験運用中であり、命名等が変更される可能性があります";
+    .

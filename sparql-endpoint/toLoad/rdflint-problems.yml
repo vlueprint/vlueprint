@@ -1,0 +1,687 @@
+resource-VirtualBeing.ttl:
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '73'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 73, col: 5, node:
+        https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '110'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 110, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '148'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 148, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '202'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 202, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '220'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 220, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '238'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 238, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '257'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 257, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '267'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 267, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '277'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 277, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '296'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 296, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '306'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 306, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '317'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 317, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '336'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 336, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '389'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 389, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '424'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 424, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '468'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 468, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '487'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 487, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '497'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 497, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '507'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 507, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '535'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 535, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '570'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 570, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '613'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 613, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '632'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 632, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '700'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 700, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '728'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 728, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '738'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 738, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '757'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 757, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '768'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 768, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '787'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 787, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '797'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 797, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '807'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 807, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '817'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 817, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '827'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 827, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '837'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 837, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '856'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 856, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '873'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 873, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '899'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 899, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '950'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 950, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '976'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 976, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '995'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 995, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1012'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1012, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1030'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1030, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1078'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1078, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1097'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1097, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1107'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1107, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1117'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1117, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1189'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1189, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1223'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1223, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1233'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1233, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1243'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1243, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1265'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1265, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1275'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1275, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1345'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1345, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1355'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1355, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1365'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1365, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1374'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1374, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1393'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1393, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1420'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1420, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1438'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1438, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1448'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1448, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1458'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1458, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1511'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1511, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1529'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1529, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1548'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1548, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1575'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1575, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1585'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1585, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1595'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1595, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1654'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1654, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1760'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1760, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1792'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1792, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1802'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1802, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1821'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1821, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1840'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1840, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1874'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1874, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1900'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1900, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1942'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1942, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '1972'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 1972, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2038'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2038, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2095'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2095, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2167'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2167, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2176'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2176, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2186'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2186, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2205'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2205, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2268'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2268, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2285'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2285, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2304'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2304, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2321'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2321, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2386'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2386, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2404'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2404, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2445'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2445, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2540'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2540, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2633'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2633, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2673'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2673, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2683'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2683, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '2978'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 2978, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '3130'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 3130, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '3585'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 3585, col: 5,
+        node: https://vlueprint.org/schema/tag)'
+  - key: com.github.imas.rdflint.validator.impl.undefinedUri
+    level: WARN
+    line: '4762'
+    column: '5'
+    node: https://vlueprint.org/schema/tag
+    message: 'Undefined URI: https://vlueprint.org/schema/tag (line: 4762, col: 5,
+        node: https://vlueprint.org/schema/tag)'

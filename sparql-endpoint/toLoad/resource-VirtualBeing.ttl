@@ -2844,11 +2844,7 @@
     vlueprint:youtubeChannelId "UCR1vMiGggY5jSDL_eTkXJCA", "UCdBk7DYzgUCaIv1MeKcZQeg";
     vlueprint:twitterAccount "narukami_sabaki";
     vlueprint:yomi "さばき", "なるかみさばき";
-<<<<<<< HEAD
     vlueprint:userlocalID "501795EF8BD71922_5f2a4f", "CDCB0C800B8657CD_0a152d";
-=======
-    vlueprint:userlocalID "501795EF8BD71922_5f2a4f";
->>>>>>> master
     .
 
 <白雪みしろ> a vlueprint:VirtualBeing;
@@ -3153,11 +3149,7 @@
     vlueprint:twitterAccount "re2_takatsuki";
     vlueprint:belongTo <ぱりぷろ>;
     vlueprint:yomi "たかつきりつ", "りつ";
-<<<<<<< HEAD
     vlueprint:userlocalID "D9593084BF0FDB05_3953d8", "AAB7A94B75499A1F_5e8227";
-=======
-    vlueprint:userlocalID "D9593084BF0FDB05_3953d8";
->>>>>>> master
     .
 
 <柚木玲奈> a vlueprint:VirtualBeing;
@@ -3666,11 +3658,7 @@
     vlueprint:youtubeChannelName "みみたろうChannel", "夜の軽バズりみみたろうChannel";
     vlueprint:youtubeChannelId "UCxDWDV3jbTLSOVWYVjo1_Nw", "UC-RUuEMc44UpuEAnkBIm_5g";
     vlueprint:twitterAccount "mimitaro_vt";
-<<<<<<< HEAD
     vlueprint:userlocalID "6E1995629091D407_10ae69", "B4334DC16765D67D_272ceb";
-=======
-    vlueprint:userlocalID "6E1995629091D407_10ae69";
->>>>>>> master
     .
 
 <かめっち> a vlueprint:VirtualBeing;
@@ -3809,11 +3797,7 @@
     vlueprint:youtubeChannelName "はなつぐ / Hanatsugu", "はなつぐ";
     vlueprint:youtubeChannelId "";
     vlueprint:twitterAccount "hntg_xxx";
-<<<<<<< HEAD
     vlueprint:userlocalID "D8FFB5F2E353313E_009a12", "5E6798E2549131A3_636a9a";
-=======
-    vlueprint:userlocalID "D8FFB5F2E353313E_009a12";
->>>>>>> master
     .
 
 <しのぎチャンネルShinogi_Channel> a vlueprint:VirtualBeing;
@@ -4027,11 +4011,7 @@
     vlueprint:youtubeChannelName "Hakuno Imasaka", "今酒ハクノの二次会さぶちゃん";
     vlueprint:youtubeChannelId "UCuJpyIPTENcIMpdqGYCU6WA", "UCSBh0P9SRhhtfh8WiX40kiA";
     vlueprint:twitterAccount "hakuno_imasaka";
-<<<<<<< HEAD
     vlueprint:userlocalID "ED049EC033ABAEB2_f72236", "687B29DD61D9CDF2_4a1212";
-=======
-    vlueprint:userlocalID "ED049EC033ABAEB2_f72236";
->>>>>>> master
     .
 
 <まどろみもあ> a vlueprint:VirtualBeing;
@@ -4367,11 +4347,7 @@
     vlueprint:youtubeChannelId "UCJvCDGShDAxcqe-MdwUcJjA", "UCDtDfsTt6fmzwdf5Wl3XiMg";
     vlueprint:twitterAccount "syukusei_da", "syukusei_kana";
     vlueprint:yomi "しゅくせいばつまる", "ばつまる";
-<<<<<<< HEAD
     vlueprint:userlocalID "74F07E7AC8156F2D_793913", "E9BC25CBF05B4FCC_79a86c";
-=======
-    vlueprint:userlocalID "74F07E7AC8156F2D_793913";
->>>>>>> master
     .
 
 <風見くく> a vlueprint:VirtualBeing;

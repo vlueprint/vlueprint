@@ -24,11 +24,6 @@
     vlueprint:belongTo <App_Land>;
     .
 
-<にじさんじ(1・2期生)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(1・2期生)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
 <ホロライブ> a vlueprint:Organization;
     rdfs:label "ホロライブ";
     vlueprint:youtubeChannelName "hololive ホロライブ - VTuber Group";
@@ -42,19 +37,9 @@
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
-<にじさんじ(ゲーマーズ出身)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(ゲーマーズ出身)";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
 <Unlimited> a vlueprint:Organization;
     rdfs:label "Unlimited";
     vlueprint:yomi "あんりみ";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<にじさんじ(統合後)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(統合後)";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
@@ -66,11 +51,6 @@
 
 <Smarprise> a vlueprint:Organization;
     rdfs:label "Smarprise";
-    rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
-    .
-
-<にじさんじ(SEEDs出身)> a vlueprint:Organization;
-    rdfs:label "にじさんじ(SEEDs出身)";
     rdfs:comment "[TODO]運営会社が未定義です ( #48 )";
     .
 
